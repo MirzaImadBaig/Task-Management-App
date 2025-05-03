@@ -1,0 +1,24 @@
+2025-05-02 00:18:24.133 [http-nio-5003-exec-9] INFO  c.s.m.c.SubmissionController - [CONTROLLER] Method: getTaskSubmissionsByTaskId | Args: [2]
+2025-05-02 00:18:24.516 [http-nio-5003-exec-9] DEBUG c.s.m.c.SubmissionController - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 389 ms
+2025-05-02 00:18:24.525 [http-nio-5003-exec-10] INFO  c.s.m.c.SubmissionController - [CONTROLLER] Method: getTaskSubmissionsByTaskId | Args: [2]
+2025-05-02 00:18:24.530 [http-nio-5003-exec-10] DEBUG c.s.m.c.SubmissionController - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 5 ms
+2025-05-02 14:02:48.558 [http-nio-5003-exec-7] INFO  c.s.m.c.SubmissionController - [CONTROLLER] Method: getTaskSubmissionsByTaskId | Args: [2]
+2025-05-02 14:02:48.810 [http-nio-5003-exec-7] DEBUG c.s.m.c.SubmissionController - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 257 ms
+2025-05-02 14:02:53.104 [http-nio-5003-exec-1] INFO  c.s.m.c.SubmissionController - [CONTROLLER] Method: getTaskSubmissionsByTaskId | Args: [2]
+2025-05-02 14:02:53.113 [http-nio-5003-exec-1] DEBUG c.s.m.c.SubmissionController - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 9 ms
+2025-05-02 14:02:59.025 [http-nio-5003-exec-4] INFO  c.s.m.c.SubmissionController - [CONTROLLER] Method: getTaskSubmissionsByTaskId | Args: [1]
+2025-05-02 14:02:59.062 [http-nio-5003-exec-4] DEBUG c.s.m.c.SubmissionController - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 37 ms
+2025-05-02 14:07:09.525 [http-nio-5003-exec-4] INFO  c.s.m.c.SubmissionController - [CONTROLLER] Method: getTaskSubmissionsByTaskId | Args: [2]
+2025-05-02 14:07:09.535 [http-nio-5003-exec-4] DEBUG c.s.m.c.SubmissionController - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 10 ms
+2025-05-02 14:07:20.753 [http-nio-5003-exec-5] INFO  c.s.m.c.SubmissionController - [CONTROLLER] Method: getTaskSubmissionsByTaskId | Args: [2]
+2025-05-02 14:07:20.762 [http-nio-5003-exec-5] DEBUG c.s.m.c.SubmissionController - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 9 ms
+2025-05-02 22:07:31.319 [http-nio-5003-exec-3] INFO  c.s.m.c.SubmissionController - [CONTROLLER] Method: submitTask | Args: [com.submission.management.dtos.SubmissionRequest@28ab68f3, Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyMDM3MTksImV4cCI6MTc0NjI5MDExOSwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.pzH5DfxpTEVVBVF87HbFbCIL-4bKctzfiSZB1j2Org_EFGF_B-fHrMpS6HOEJqKY]
+2025-05-02 22:07:31.760 [http-nio-5003-exec-3] DEBUG c.s.m.c.SubmissionController - [PERFORMANCE] submitTask executed in 442 ms
+2025-05-02 22:14:13.020 [http-nio-5003-exec-4] INFO  c.s.m.c.SubmissionController - [CONTROLLER] Method: getTaskSubmissionById | Args: [2]
+2025-05-02 22:14:13.054 [http-nio-5003-exec-4] DEBUG c.s.m.c.SubmissionController - [PERFORMANCE] getTaskSubmissionById executed in 34 ms
+2025-05-02 22:15:16.043 [http-nio-5003-exec-7] INFO  c.s.m.c.SubmissionController - [CONTROLLER] Method: getAllTaskSubmissions | Args: []
+2025-05-02 22:15:16.113 [http-nio-5003-exec-7] DEBUG c.s.m.c.SubmissionController - [PERFORMANCE] getAllTaskSubmissions executed in 70 ms
+2025-05-02 22:16:02.716 [http-nio-5003-exec-5] INFO  c.s.m.c.SubmissionController - [CONTROLLER] Method: acceptOrDeclineTaskSubmission | Args: [2, ACCEPTED]
+2025-05-02 22:16:02.756 [http-nio-5003-exec-5] DEBUG c.s.m.c.SubmissionController - [PERFORMANCE] acceptOrDeclineTaskSubmission executed in 40 ms
+2025-05-02 22:16:51.736 [http-nio-5003-exec-6] INFO  c.s.m.c.SubmissionController - [CONTROLLER] Method: acceptOrDeclineTaskSubmission | Args: [1, ACCEPTED]
+2025-05-02 22:16:51.750 [http-nio-5003-exec-6] DEBUG c.s.m.c.SubmissionController - [PERFORMANCE] acceptOrDeclineTaskSubmission executed in 14 ms

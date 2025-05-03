@@ -1,0 +1,115 @@
+2025-04-30 21:12:14.632 | INFO  | restartedMain | c.t.TaskTaskSubmissionServiceApplication | Starting TaskTaskSubmissionServiceApplication using Java 21.0.6 with PID 20992 (C:\Task Management App New\Task-TaskSubmission-Service\target\classes started by mirza in C:\Task Management App New\Task-TaskSubmission-Service)
+2025-04-30 21:12:14.633 | INFO  | restartedMain | c.t.TaskTaskSubmissionServiceApplication | No active profile set, falling back to 1 default profile: "default"
+2025-04-30 21:12:14.895 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-30 21:12:14.905 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2025-04-30 21:12:15.002 | INFO  | restartedMain | o.s.cloud.context.scope.GenericScope | BeanFactory id=6e74cc0c-78d2-380c-95bd-6f7f47e4ea05
+2025-04-30 21:12:15.064 | INFO  | restartedMain | o.s.b.w.e.tomcat.TomcatWebServer | Tomcat initialized with port 5003 (http)
+2025-04-30 21:12:15.065 | INFO  | restartedMain | o.a.catalina.core.StandardService | Starting service [Tomcat]
+2025-04-30 21:12:15.065 | INFO  | restartedMain | o.a.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-30 21:12:15.102 | INFO  | restartedMain | o.a.c.c.C.[Tomcat].[localhost].[/] | Initializing Spring embedded WebApplicationContext
+2025-04-30 21:12:15.102 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext | Root WebApplicationContext: initialization completed in 467 ms
+2025-04-30 21:12:15.134 | INFO  | restartedMain | o.h.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-30 21:12:15.137 | INFO  | restartedMain | o.h.c.i.RegionFactoryInitiator | HHH000026: Second-level cache disabled
+2025-04-30 21:12:15.144 | INFO  | restartedMain | o.s.o.j.p.SpringPersistenceUnitInfo | No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-30 21:12:15.145 | INFO  | restartedMain | com.zaxxer.hikari.HikariDataSource | HikariPool-12 - Starting...
+2025-04-30 21:12:15.158 | INFO  | restartedMain | com.zaxxer.hikari.pool.HikariPool | HikariPool-12 - Added connection com.mysql.cj.jdbc.ConnectionImpl@805dc8a
+2025-04-30 21:12:15.158 | INFO  | restartedMain | com.zaxxer.hikari.HikariDataSource | HikariPool-12 - Start completed.
+2025-04-30 21:12:15.191 | INFO  | restartedMain | o.h.e.t.j.p.i.JtaPlatformInitiator | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-30 21:12:15.197 | INFO  | restartedMain | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-30 21:12:15.312 | WARN  | restartedMain | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-30 21:12:15.325 | WARN  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer | Unable to start LiveReload server
+2025-04-30 21:12:15.502 | INFO  | restartedMain | o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration | Eureka HTTP Client uses RestTemplate.
+2025-04-30 21:12:15.511 | WARN  | restartedMain | o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger | Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-04-30 21:12:15.533 | INFO  | restartedMain | o.s.c.n.eureka.InstanceInfoFactory | Setting initial instance status as: STARTING
+2025-04-30 21:12:15.535 | INFO  | restartedMain | c.netflix.discovery.DiscoveryClient | Initializing Eureka in region us-east-1
+2025-04-30 21:12:15.535 | INFO  | restartedMain | c.n.d.s.r.aws.ConfigClusterResolver | Resolving eureka endpoints via configuration
+2025-04-30 21:12:15.535 | INFO  | restartedMain | c.netflix.discovery.DiscoveryClient | Disable delta property : false
+2025-04-30 21:12:15.535 | INFO  | restartedMain | c.netflix.discovery.DiscoveryClient | Single vip registry refresh property : null
+2025-04-30 21:12:15.535 | INFO  | restartedMain | c.netflix.discovery.DiscoveryClient | Force full registry fetch : false
+2025-04-30 21:12:15.535 | INFO  | restartedMain | c.netflix.discovery.DiscoveryClient | Application is null : false
+2025-04-30 21:12:15.535 | INFO  | restartedMain | c.netflix.discovery.DiscoveryClient | Registered Applications size is zero : true
+2025-04-30 21:12:15.535 | INFO  | restartedMain | c.netflix.discovery.DiscoveryClient | Application version is -1: true
+2025-04-30 21:12:15.535 | INFO  | restartedMain | c.netflix.discovery.DiscoveryClient | Getting all instance registry info from the eureka server
+2025-04-30 21:12:15.565 | INFO  | restartedMain | c.netflix.discovery.DiscoveryClient | The response status is 200
+2025-04-30 21:12:15.565 | INFO  | restartedMain | c.netflix.discovery.DiscoveryClient | Starting heartbeat executor: renew interval is: 30
+2025-04-30 21:12:15.566 | INFO  | restartedMain | c.n.discovery.InstanceInfoReplicator | InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-04-30 21:12:15.566 | INFO  | restartedMain | c.netflix.discovery.DiscoveryClient | Discovery Client initialized at timestamp 1746027735566 with initial instances count: 4
+2025-04-30 21:12:15.568 | INFO  | restartedMain | o.s.c.n.e.s.EurekaServiceRegistry | Registering application SUBMISSION-SERVICE with eureka with status UP
+2025-04-30 21:12:15.569 | INFO  | restartedMain | c.netflix.discovery.DiscoveryClient | Saw local status change event StatusChangeEvent [timestamp=1746027735569, current=UP, previous=STARTING]
+2025-04-30 21:12:15.569 | INFO  | DiscoveryClient-InstanceInfoReplicator-%d | c.netflix.discovery.DiscoveryClient | DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-04-30 21:12:15.574 | INFO  | restartedMain | o.s.b.w.e.tomcat.TomcatWebServer | Tomcat started on port 5003 (http) with context path '/'
+2025-04-30 21:12:15.575 | INFO  | restartedMain | o.s.c.n.e.s.EurekaAutoServiceRegistration | Updating port to 5003
+2025-04-30 21:12:15.582 | INFO  | DiscoveryClient-InstanceInfoReplicator-%d | c.netflix.discovery.DiscoveryClient | DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-04-30 21:12:15.583 | INFO  | restartedMain | c.t.TaskTaskSubmissionServiceApplication | Started TaskTaskSubmissionServiceApplication in 1.139 seconds (process running for 6876.012)
+2025-04-30 21:12:15.585 | INFO  | restartedMain | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener | Condition evaluation unchanged
+2025-04-30 21:13:32.816 | INFO  | File Watcher | o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener | Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-30 21:13:32.817 | INFO  | Thread-71 | o.s.c.n.e.s.EurekaServiceRegistry | Unregistering application SUBMISSION-SERVICE with eureka with status DOWN
+2025-04-30 21:13:32.818 | INFO  | Thread-71 | c.netflix.discovery.DiscoveryClient | Saw local status change event StatusChangeEvent [timestamp=1746027812818, current=DOWN, previous=UP]
+2025-04-30 21:13:32.818 | INFO  | DiscoveryClient-InstanceInfoReplicator-%d | c.netflix.discovery.DiscoveryClient | DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-04-30 21:13:32.828 | INFO  | Thread-71 | o.s.o.j.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-30 21:13:32.829 | INFO  | Thread-71 | com.zaxxer.hikari.HikariDataSource | HikariPool-12 - Shutdown initiated...
+2025-04-30 21:13:32.832 | INFO  | DiscoveryClient-InstanceInfoReplicator-%d | c.netflix.discovery.DiscoveryClient | DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-04-30 21:13:32.834 | INFO  | Thread-71 | com.zaxxer.hikari.HikariDataSource | HikariPool-12 - Shutdown completed.
+2025-04-30 21:13:32.834 | INFO  | Thread-71 | c.netflix.discovery.DiscoveryClient | Shutting down DiscoveryClient ...
+2025-04-30 21:13:35.840 | INFO  | Thread-71 | c.netflix.discovery.DiscoveryClient | Unregistering ...
+2025-04-30 21:13:35.859 | INFO  | Thread-71 | c.netflix.discovery.DiscoveryClient | DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - deregister  status: 200
+2025-04-30 21:13:35.859 | INFO  | Thread-71 | c.netflix.discovery.DiscoveryClient | Completed shut down of DiscoveryClient
+2025-04-30 21:13:35.996 | INFO  | restartedMain | c.t.TaskTaskSubmissionServiceApplication | Starting TaskTaskSubmissionServiceApplication using Java 21.0.6 with PID 20992 (C:\Task Management App New\Task-TaskSubmission-Service\target\classes started by mirza in C:\Task Management App New\Task-TaskSubmission-Service)
+2025-04-30 21:13:35.996 | INFO  | restartedMain | c.t.TaskTaskSubmissionServiceApplication | The following 1 profile is active: "dev"
+2025-04-30 21:13:36.218 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-30 21:13:36.226 | INFO  | restartedMain | o.s.d.r.c.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2025-04-30 21:13:36.304 | INFO  | restartedMain | o.s.cloud.context.scope.GenericScope | BeanFactory id=6e74cc0c-78d2-380c-95bd-6f7f47e4ea05
+2025-04-30 21:13:36.365 | INFO  | restartedMain | o.s.b.w.e.tomcat.TomcatWebServer | Tomcat initialized with port 5003 (http)
+2025-04-30 21:13:36.365 | INFO  | restartedMain | o.a.catalina.core.StandardService | Starting service [Tomcat]
+2025-04-30 21:13:36.365 | INFO  | restartedMain | o.a.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-30 21:13:36.394 | INFO  | restartedMain | o.a.c.c.C.[Tomcat].[localhost].[/] | Initializing Spring embedded WebApplicationContext
+2025-04-30 21:13:36.394 | INFO  | restartedMain | o.s.b.w.s.c.ServletWebServerApplicationContext | Root WebApplicationContext: initialization completed in 396 ms
+2025-04-30 21:13:36.426 | INFO  | restartedMain | o.h.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-30 21:13:36.429 | INFO  | restartedMain | o.h.c.i.RegionFactoryInitiator | HHH000026: Second-level cache disabled
+2025-04-30 21:13:36.437 | INFO  | restartedMain | o.s.o.j.p.SpringPersistenceUnitInfo | No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-30 21:13:36.438 | INFO  | restartedMain | com.zaxxer.hikari.HikariDataSource | HikariPool-13 - Starting...
+2025-04-30 21:13:36.450 | INFO  | restartedMain | com.zaxxer.hikari.pool.HikariPool | HikariPool-13 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62c69498
+2025-04-30 21:13:36.450 | INFO  | restartedMain | com.zaxxer.hikari.HikariDataSource | HikariPool-13 - Start completed.
+2025-04-30 21:13:36.481 | INFO  | restartedMain | o.h.e.t.j.p.i.JtaPlatformInitiator | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-30 21:13:36.488 | INFO  | restartedMain | o.s.o.j.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-30 21:13:36.556 | WARN  | restartedMain | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-30 21:13:36.577 | WARN  | restartedMain | o.s.b.d.a.OptionalLiveReloadServer | Unable to start LiveReload server
+2025-04-30 21:13:36.757 | INFO  | restartedMain | o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration | Eureka HTTP Client uses RestTemplate.
+2025-04-30 21:13:36.766 | WARN  | restartedMain | o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger | Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-04-30 21:13:36.783 | INFO  | restartedMain | o.s.c.n.eureka.InstanceInfoFactory | Setting initial instance status as: STARTING
+2025-04-30 21:13:36.785 | INFO  | restartedMain | c.netflix.discovery.DiscoveryClient | Initializing Eureka in region us-east-1
+2025-04-30 21:13:36.785 | INFO  | restartedMain | c.n.d.s.r.aws.ConfigClusterResolver | Resolving eureka endpoints via configuration
+2025-04-30 21:13:36.785 | INFO  | restartedMain | c.netflix.discovery.DiscoveryClient | Disable delta property : false
+2025-04-30 21:13:36.785 | INFO  | restartedMain | c.netflix.discovery.DiscoveryClient | Single vip registry refresh property : null
+2025-04-30 21:13:36.785 | INFO  | restartedMain | c.netflix.discovery.DiscoveryClient | Force full registry fetch : false
+2025-04-30 21:13:36.785 | INFO  | restartedMain | c.netflix.discovery.DiscoveryClient | Application is null : false
+2025-04-30 21:13:36.785 | INFO  | restartedMain | c.netflix.discovery.DiscoveryClient | Registered Applications size is zero : true
+2025-04-30 21:13:36.785 | INFO  | restartedMain | c.netflix.discovery.DiscoveryClient | Application version is -1: true
+2025-04-30 21:13:36.785 | INFO  | restartedMain | c.netflix.discovery.DiscoveryClient | Getting all instance registry info from the eureka server
+2025-04-30 21:13:36.802 | INFO  | restartedMain | c.netflix.discovery.DiscoveryClient | The response status is 200
+2025-04-30 21:13:36.803 | INFO  | restartedMain | c.netflix.discovery.DiscoveryClient | Starting heartbeat executor: renew interval is: 30
+2025-04-30 21:13:36.803 | INFO  | restartedMain | c.n.discovery.InstanceInfoReplicator | InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-04-30 21:13:36.803 | INFO  | restartedMain | c.netflix.discovery.DiscoveryClient | Discovery Client initialized at timestamp 1746027816803 with initial instances count: 4
+2025-04-30 21:13:36.805 | INFO  | restartedMain | o.s.c.n.e.s.EurekaServiceRegistry | Registering application SUBMISSION-SERVICE with eureka with status UP
+2025-04-30 21:13:36.805 | INFO  | restartedMain | c.netflix.discovery.DiscoveryClient | Saw local status change event StatusChangeEvent [timestamp=1746027816805, current=UP, previous=STARTING]
+2025-04-30 21:13:36.805 | INFO  | DiscoveryClient-InstanceInfoReplicator-%d | c.netflix.discovery.DiscoveryClient | DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-04-30 21:13:36.809 | INFO  | restartedMain | o.s.b.w.e.tomcat.TomcatWebServer | Tomcat started on port 5003 (http) with context path '/'
+2025-04-30 21:13:36.809 | INFO  | restartedMain | o.s.c.n.e.s.EurekaAutoServiceRegistration | Updating port to 5003
+2025-04-30 21:13:36.817 | INFO  | DiscoveryClient-InstanceInfoReplicator-%d | c.netflix.discovery.DiscoveryClient | DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-04-30 21:13:36.819 | INFO  | restartedMain | c.t.TaskTaskSubmissionServiceApplication | Started TaskTaskSubmissionServiceApplication in 0.889 seconds (process running for 6957.248)
+2025-04-30 21:13:36.821 | INFO  | restartedMain | o.s.b.d.a.ConditionEvaluationDeltaLoggingListener | Condition evaluation unchanged
+2025-04-30 21:18:36.792 | INFO  | AsyncResolver-bootstrap-executor-%d | c.n.d.s.r.aws.ConfigClusterResolver | Resolving eureka endpoints via configuration
+2025-04-30 21:23:36.802 | INFO  | AsyncResolver-bootstrap-executor-%d | c.n.d.s.r.aws.ConfigClusterResolver | Resolving eureka endpoints via configuration
+2025-04-30 21:28:36.813 | INFO  | AsyncResolver-bootstrap-executor-%d | c.n.d.s.r.aws.ConfigClusterResolver | Resolving eureka endpoints via configuration
+2025-04-30 21:29:50.496 | INFO  | File Watcher | o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener | Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-30 21:29:50.497 | INFO  | Thread-80 | o.s.c.n.e.s.EurekaServiceRegistry | Unregistering application SUBMISSION-SERVICE with eureka with status DOWN
+2025-04-30 21:29:50.497 | INFO  | Thread-80 | c.netflix.discovery.DiscoveryClient | Saw local status change event StatusChangeEvent [timestamp=1746028790497, current=DOWN, previous=UP]
+2025-04-30 21:29:50.499 | INFO  | DiscoveryClient-InstanceInfoReplicator-%d | c.netflix.discovery.DiscoveryClient | DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-04-30 21:29:50.508 | INFO  | Thread-80 | o.s.o.j.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-30 21:29:50.508 | INFO  | Thread-80 | com.zaxxer.hikari.HikariDataSource | HikariPool-13 - Shutdown initiated...
+2025-04-30 21:29:50.512 | INFO  | Thread-80 | com.zaxxer.hikari.HikariDataSource | HikariPool-13 - Shutdown completed.
+2025-04-30 21:29:50.512 | INFO  | DiscoveryClient-InstanceInfoReplicator-%d | c.netflix.discovery.DiscoveryClient | DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-04-30 21:29:50.512 | INFO  | Thread-80 | c.netflix.discovery.DiscoveryClient | Shutting down DiscoveryClient ...
+2025-04-30 21:29:53.514 | INFO  | Thread-80 | c.netflix.discovery.DiscoveryClient | Unregistering ...
+2025-04-30 21:29:53.531 | INFO  | Thread-80 | c.netflix.discovery.DiscoveryClient | DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - deregister  status: 200
+2025-04-30 21:29:53.531 | INFO  | Thread-80 | c.netflix.discovery.DiscoveryClient | Completed shut down of DiscoveryClient

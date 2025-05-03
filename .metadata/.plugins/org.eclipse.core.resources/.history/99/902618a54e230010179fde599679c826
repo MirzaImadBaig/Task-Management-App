@@ -1,0 +1,128 @@
+package com.taskmgment.service;
+
+import java.util.Optional;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Service;
+
+import com.taskmgment.config.JwtProvider;
+import com.taskmgment.exception.UserException;
+import com.taskmgment.model.User;
+import com.taskmgment.repository.UserRepository;
+import com.taskmgment.response.AuthResponse;
+
+@Service // Marks this class as a Spring Service component
+public class UserServiceImplementation implements UserService {
+
+    @Autowired
+    private UserRepository userRepository;
+    
+    @Autowired
+    private PasswordEncoder passwordEncoder;
+    
+    @Autowired
+    private AuthenticationManager authenticationManager;
+
+    /**
+     * This method extracts the email from the JWT and returns the user's profile.
+     * Throws UserException if the user doesn't exist.
+     */
+    @Override
+    public User findUserProfileByJwt(String jwt) throws UserException {
+        // Extract email from token
+        String email = JwtProvider.getEmailFromJwtToken(jwt);
+
+        // Search user in DB by email
+        User user = userRepository.findByEmail(email);
+
+        if (user == null) {
+            throw new UserException("User does not exist with email: " + email);
+        }
+
+        return user;
+    }
+
+    /**
+     * Fetch user by their email (used during login or lookups).
+     */
+    @Override
+    public User findUserByEmail(String username) throws UserException {
+        User user = userRepository.findByEmail(username);
+
+        if (user != null) {
+            return user;
+        }
+
+        throw new UserException("User does not exist with username: " + username);
+    }
+
+    /**
+     * Fetch user by their unique ID.
+     */
+    @Override
+    public User findUserById(Long userId) throws UserException {
+        Optional<User> opt = userRepository.findById(userId);
+
+        if (opt.isEmpty()) {
+            throw new UserException("User not found with ID: " + userId);
+        }
+
+        return opt.get();
+    }
+
+    /**
+     * Return a list of all users in the system.
+     */
+    @Override
+    public List<User> findAllUsers() {
+        return userRepository.findAll();
+    }
+    
+    @Override
+    public void updatePassword(User user, String newPassword) {
+        user.setPassword(passwordEncoder.encode(newPassword));
+        userRepository.save(user);
+    }
+    
+
+    public AuthResponse registerUser(SignupRequest request) throws UserException {
+
+        String email = request.getEmail().trim().toLowerCase();
+
+        // Check if the email already exists
+        if (userRepository.findByEmail(email) != null) {
+            throw new UserException("Email is already used with another account");
+        }
+
+        // Create a new User object
+        User user = new User();
+        user.setFullName(request.getFullName());
+        user.setEmail(email);
+        user.setMobile(request.getMobile());
+        user.setRole(request.getRole());
+        user.setPassword(passwordEncoder.encode(request.getPassword())); // Encode password before saving
+
+        // Save the user to the database
+        userRepository.save(user);
+
+        // Authenticate the new user
+        Authentication authentication = authenticationManager.authenticate(
+                new UsernamePasswordAuthenticationToken(email, request.getPassword())
+        );
+
+        // Generate JWT token
+        String token = JwtProvider.generateToken(authentication);
+
+        // Build and return authentication response
+        AuthResponse authResponse = new AuthResponse();
+        authResponse.setJwt(token);
+        authResponse.setStatus(true);
+        authResponse.setMessage("Register Success");
+
+        return authResponse;
+    }
+
+}

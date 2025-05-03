@@ -1,0 +1,170 @@
+package com.taskmgment.controller;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.taskmgment.exception.UserException;
+import com.taskmgment.model.User;
+import com.taskmgment.request.PasswordResetRequest;
+import com.taskmgment.service.UserService;
+import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
+
+import static org.mockito.Mockito.*;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.http.MediaType;
+import org.springframework.test.web.servlet.MockMvc;
+
+import java.util.List;
+
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+
+import org.springframework.security.test.context.support.WithMockUser;
+
+
+@WebMvcTest(UserController.class)
+public class UserControllerTest {
+
+    @Autowired
+    private MockMvc mockMvc;
+
+    @MockBean
+    private UserService userService;
+
+    private final ObjectMapper objectMapper = new ObjectMapper();
+
+    private final String jwt = "Bearer test.jwt.token";
+
+    private User mockUser(Long id, String role) {
+        User u = new User();
+        u.setId(id);
+        u.setEmail("test@example.com");
+        u.setRole(role);
+        u.setPassword("secret");
+        return u;
+    }
+
+    @Test
+    @WithMockUser(roles = "USER")
+    void testGetUserProfileHandler() throws Exception {
+        User user = mockUser(1L, "USER");
+        when(userService.findUserProfileByJwt(jwt)).thenReturn(user);
+
+        mockMvc.perform(get("/api/users/profile")
+                        .header("Authorization", jwt))
+                .andExpect(status().isAccepted())
+                .andExpect(jsonPath("$.email").value("test@example.com"))
+                .andExpect(jsonPath("$.password").doesNotExist());
+    }
+
+    @Test
+    @WithMockUser(roles = "USER")
+    void testFindUserById_sameUser() throws Exception {
+        User requester = mockUser(1L, "USER");
+        User target = mockUser(1L, "USER");
+
+        when(userService.findUserProfileByJwt(jwt)).thenReturn(requester);
+        when(userService.findUserById(1L)).thenReturn(target);
+
+        mockMvc.perform(get("/api/users/1")
+                        .header("Authorization", jwt))
+                .andExpect(status().isAccepted())
+                .andExpect(jsonPath("$.email").value("test@example.com"));
+    }
+
+    @Test
+    @WithMockUser(roles = "ADMIN")
+    void testFindUserById_adminAccess() throws Exception {
+        User requester = mockUser(2L, "ADMIN");
+        User target = mockUser(1L, "USER");
+
+        when(userService.findUserProfileByJwt(jwt)).thenReturn(requester);
+        when(userService.findUserById(1L)).thenReturn(target);
+
+        mockMvc.perform(get("/api/users/1")
+                        .header("Authorization", jwt))
+                .andExpect(status().isAccepted());
+    }
+
+    @Test
+    @WithMockUser(roles = "USER")
+    void testFindUserById_accessDenied() throws Exception {
+        User requester = mockUser(2L, "USER");
+        User target = mockUser(1L, "USER");
+
+        when(userService.findUserProfileByJwt(jwt)).thenReturn(requester);
+        when(userService.findUserById(1L)).thenReturn(target);
+
+        mockMvc.perform(get("/api/users/1")
+                        .header("Authorization", jwt))
+                .andExpect(status().is4xxClientError());
+    }
+
+    @Test
+    @WithMockUser(roles = "ADMIN")
+    void testFindAllUsers_adminAccess() throws Exception {
+        User admin = mockUser(99L, "ADMIN");
+        User u1 = mockUser(1L, "USER");
+        User u2 = mockUser(2L, "USER");
+
+        when(userService.findUserProfileByJwt(jwt)).thenReturn(admin);
+        when(userService.findAllUsers()).thenReturn(List.of(u1, u2));
+
+        mockMvc.perform(get("/api/users")
+                        .header("Authorization", jwt))
+                .andExpect(status().isAccepted())
+                .andExpect(jsonPath("$.length()").value(2));
+    }
+
+    @Test
+    @WithMockUser(roles = "USER")
+    void testFindAllUsers_accessDenied() throws Exception {
+        User user = mockUser(1L, "USER");
+        when(userService.findUserProfileByJwt(jwt)).thenReturn(user);
+
+        mockMvc.perform(get("/api/users")
+                        .header("Authorization", jwt))
+                .andExpect(status().is4xxClientError());
+    }
+
+    @Test
+    @WithMockUser(roles = "ADMIN")
+    void testResetPassword_adminAccess() throws Exception {
+        User admin = mockUser(1L, "ADMIN");
+        User user = mockUser(2L, "USER");
+
+        PasswordResetRequest req = new PasswordResetRequest();
+        req.setEmail("target@example.com");
+        req.setNewPassword("newPassword123");
+
+        when(userService.findUserProfileByJwt(jwt)).thenReturn(admin);
+        when(userService.findUserByEmail(req.getEmail())).thenReturn(user);
+
+        mockMvc.perform(post("/api/admin/reset-password")
+                        .header("Authorization", jwt)
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(req)))
+                .andExpect(status().isOk())
+                .andExpect(content().string("Password reset successful."));
+    }
+
+    @Test
+    @WithMockUser(roles = "ADMIN")
+    void testResetPassword_passwordTooShort() throws Exception {
+        User admin = mockUser(1L, "ADMIN");
+
+        PasswordResetRequest req = new PasswordResetRequest();
+        req.setEmail("target@example.com");
+        req.setNewPassword("short");
+
+        when(userService.findUserProfileByJwt(jwt)).thenReturn(admin);
+
+        mockMvc.perform(post("/api/admin/reset-password")
+                        .header("Authorization", jwt)
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(req)))
+                .andExpect(status().is4xxClientError());
+    }
+}

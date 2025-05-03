@@ -1,0 +1,1068 @@
+2025-05-02 00:03:38.252 [http-nio-5003-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:03:38.287 [http-nio-5003-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:03:38.325 [http-nio-5003-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:03:38.348 [http-nio-5003-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:03:50.018 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 00:08:50.020 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 00:11:51.572 [http-nio-5003-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:11:51.609 [http-nio-5003-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:11:51.644 [http-nio-5003-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:11:51.693 [http-nio-5003-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:13:50.021 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 00:16:34.643 [http-nio-5003-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:16:34.666 [http-nio-5003-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:16:34.685 [http-nio-5003-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:16:34.709 [http-nio-5003-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:18:12.070 [http-nio-5003-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:18:12.090 [http-nio-5003-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:18:12.122 [http-nio-5003-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:18:12.147 [http-nio-5003-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:18:50.022 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 00:18:55.113 [http-nio-5003-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:18:55.128 [http-nio-5003-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:19:12.504 [http-nio-5003-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:19:12.529 [http-nio-5003-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:19:12.551 [http-nio-5003-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:19:12.565 [http-nio-5003-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:19:51.143 [http-nio-5003-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:19:51.169 [http-nio-5003-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:19:51.188 [http-nio-5003-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:19:51.212 [http-nio-5003-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:23:50.024 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 00:25:01.463 [http-nio-5003-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:25:01.484 [http-nio-5003-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:25:01.498 [http-nio-5003-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:25:01.513 [http-nio-5003-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:28:19.827 [http-nio-5003-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:28:19.852 [http-nio-5003-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:28:19.875 [http-nio-5003-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:28:19.878 [http-nio-5003-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:28:50.025 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 00:33:49.383 [http-nio-5003-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:33:49.404 [http-nio-5003-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:33:49.419 [http-nio-5003-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:33:49.444 [http-nio-5003-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:33:50.027 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 00:33:52.347 [http-nio-5003-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:33:52.365 [http-nio-5003-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:33:52.387 [http-nio-5003-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:33:52.402 [http-nio-5003-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:33:56.573 [http-nio-5003-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:33:56.592 [http-nio-5003-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:33:56.612 [http-nio-5003-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:33:56.635 [http-nio-5003-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:33:57.898 [http-nio-5003-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:33:57.915 [http-nio-5003-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:33:57.935 [http-nio-5003-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:33:57.953 [http-nio-5003-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:37:14.367 [http-nio-5003-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:37:14.382 [http-nio-5003-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:37:14.398 [http-nio-5003-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:37:14.416 [http-nio-5003-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:37:15.753 [http-nio-5003-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:37:15.781 [http-nio-5003-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:37:15.796 [http-nio-5003-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:37:15.816 [http-nio-5003-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:38:50.029 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 00:43:50.030 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 00:48:50.031 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 00:51:40.754 [http-nio-5003-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:51:40.776 [http-nio-5003-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:51:40.804 [http-nio-5003-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:51:40.838 [http-nio-5003-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 00:53:50.033 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 00:58:50.033 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 01:03:50.034 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 01:08:50.037 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 01:13:50.037 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 01:18:50.039 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 01:23:50.042 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 01:28:50.045 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 01:33:50.046 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 01:38:50.048 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 01:43:50.051 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 01:48:50.052 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 01:53:50.054 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 01:57:35.431 [http-nio-5003-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 01:57:35.515 [http-nio-5003-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 01:57:35.528 [http-nio-5003-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 01:57:35.541 [http-nio-5003-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 01:58:50.055 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 13:59:55.540 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Starting TaskTaskSubmissionServiceApplication using Java 21.0.6 with PID 6324 (C:\Task Management App New\Task-TaskSubmission-Service\target\classes started by mirza in C:\Task Management App New\Task-TaskSubmission-Service)
+2025-05-02 13:59:55.543 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - The following 1 profile is active: "dev"
+2025-05-02 13:59:55.598 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-02 13:59:55.599 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-02 13:59:56.520 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-02 13:59:56.683 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 154 ms. Found 1 JPA repository interface.
+2025-05-02 13:59:56.922 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9b0cec7-ffa0-3159-a1af-363c2b1836f0
+2025-05-02 13:59:57.776 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5003 (http)
+2025-05-02 13:59:57.790 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5003"]
+2025-05-02 13:59:57.792 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-02 13:59:57.793 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-02 13:59:57.849 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-02 13:59:57.849 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2249 ms
+2025-05-02 13:59:58.074 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-02 13:59:58.123 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-05-02 13:59:58.154 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-02 13:59:58.443 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-02 13:59:58.474 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-02 13:59:58.772 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@657a3b1f
+2025-05-02 13:59:58.775 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-02 13:59:59.625 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-02 13:59:59.682 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 14:00:00.488 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-02 14:00:00.633 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-05-02 14:00:01.850 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-05-02 14:00:01.906 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-05-02 14:00:01.973 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-05-02 14:00:02.007 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-05-02 14:00:02.012 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 14:00:02.021 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-05-02 14:00:02.021 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-05-02 14:00:02.022 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-05-02 14:00:02.022 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-05-02 14:00:02.022 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-05-02 14:00:02.022 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-05-02 14:00:02.022 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-05-02 14:00:02.384 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-05-02 14:00:02.387 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-05-02 14:00:02.390 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-05-02 14:00:02.392 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1746174602392 with initial instances count: 2
+2025-05-02 14:00:02.408 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application SUBMISSION-SERVICE with eureka with status UP
+2025-05-02 14:00:02.409 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1746174602409, current=UP, previous=STARTING]
+2025-05-02 14:00:02.411 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5003"]
+2025-05-02 14:00:02.412 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-05-02 14:00:02.434 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5003 (http) with context path '/'
+2025-05-02 14:00:02.435 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 5003
+2025-05-02 14:00:02.448 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Started TaskTaskSubmissionServiceApplication in 7.548 seconds (process running for 8.407)
+2025-05-02 14:00:02.463 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-05-02 14:01:42.413 [http-nio-5003-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-02 14:01:42.423 [http-nio-5003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-02 14:01:42.426 [http-nio-5003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-05-02 14:01:42.508 [http-nio-5003-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 14:01:42.566 [http-nio-5003-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 14:01:42.585 [http-nio-5003-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 14:01:42.604 [http-nio-5003-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 14:02:34.014 [http-nio-5003-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 14:02:34.033 [http-nio-5003-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 14:02:38.064 [http-nio-5003-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 14:02:38.082 [http-nio-5003-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 14:02:50.530 [http-nio-5003-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 14:02:53.857 [http-nio-5003-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 14:03:46.807 [http-nio-5003-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 14:03:50.634 [http-nio-5003-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 14:03:50.662 [http-nio-5003-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 14:05:02.024 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 14:06:48.199 [http-nio-5003-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 14:06:48.226 [http-nio-5003-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 14:06:56.156 [http-nio-5003-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 14:06:56.173 [http-nio-5003-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 14:07:07.241 [http-nio-5003-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 14:07:07.266 [http-nio-5003-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 14:07:10.739 [http-nio-5003-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 14:07:22.675 [http-nio-5003-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 14:10:02.026 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 14:15:02.028 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 14:19:23.685 [http-nio-5003-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 14:19:23.733 [http-nio-5003-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'taskId': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "null"]
+2025-05-02 14:20:02.030 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 14:25:02.032 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 14:30:02.034 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 14:35:02.035 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 14:40:02.038 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 14:45:02.040 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 14:50:02.041 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 14:55:02.043 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 15:00:02.046 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 15:05:02.054 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 15:10:02.075 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 15:15:02.085 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 15:20:02.090 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 15:25:02.101 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 15:30:02.115 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 15:35:02.118 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 15:40:02.130 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 15:45:02.136 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 15:50:02.145 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 15:55:02.160 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 16:00:02.162 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 16:05:02.171 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 16:10:02.186 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 16:15:02.196 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 16:20:02.208 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 16:25:02.219 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 16:30:02.234 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 16:35:02.247 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 16:40:02.254 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 16:45:02.257 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 16:50:02.268 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 16:55:02.282 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 17:00:02.290 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 17:05:02.304 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 17:10:02.311 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 17:15:02.318 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 17:20:02.321 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 17:25:02.325 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 17:30:02.331 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 17:35:02.332 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 17:40:02.341 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 17:45:02.356 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 17:50:02.362 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 17:55:02.369 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 18:00:02.370 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 18:05:02.371 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 18:10:02.381 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 18:15:02.384 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 18:20:02.398 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 18:25:02.401 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 18:30:02.410 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 18:35:02.423 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 18:40:02.430 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 18:45:02.432 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 18:50:02.439 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 19:01:07.316 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m59s677ms995µs600ns).
+2025-05-02 19:01:37.146 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 19:06:37.161 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 19:11:37.170 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 19:16:16.253 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-02 19:16:16.263 [Thread-1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application SUBMISSION-SERVICE with eureka with status DOWN
+2025-05-02 19:16:16.263 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1746193576263, current=DOWN, previous=UP]
+2025-05-02 19:16:16.263 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-05-02 19:16:16.275 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-05-02 19:16:16.275 [Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:16:16.299 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 19:16:16.316 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-02 19:16:16.324 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-02 19:16:16.325 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-05-02 19:16:19.333 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-05-02 19:16:19.351 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - deregister  status: 200
+2025-05-02 19:16:19.351 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-05-02 19:16:19.583 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Starting TaskTaskSubmissionServiceApplication using Java 21.0.6 with PID 6324 (C:\Task Management App New\Task-TaskSubmission-Service\target\classes started by mirza in C:\Task Management App New\Task-TaskSubmission-Service)
+2025-05-02 19:16:19.584 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - The following 1 profile is active: "dev"
+2025-05-02 19:16:20.033 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-02 19:16:20.046 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interface.
+2025-05-02 19:16:20.162 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9b0cec7-ffa0-3159-a1af-363c2b1836f0
+2025-05-02 19:16:20.508 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5003 (http)
+2025-05-02 19:16:20.510 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:16:20.510 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-02 19:16:20.511 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-02 19:16:20.548 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-02 19:16:20.548 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 962 ms
+2025-05-02 19:16:20.666 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-02 19:16:20.669 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-02 19:16:20.687 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-02 19:16:20.690 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-05-02 19:16:20.705 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f4a037e
+2025-05-02 19:16:20.705 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-05-02 19:16:20.763 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-02 19:16:20.775 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 19:16:21.268 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-02 19:16:21.402 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-05-02 19:16:22.291 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-05-02 19:16:22.331 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-05-02 19:16:22.370 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-05-02 19:16:22.375 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-05-02 19:16:22.375 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 19:16:22.375 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-05-02 19:16:22.376 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-05-02 19:16:22.376 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-05-02 19:16:22.376 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-05-02 19:16:22.376 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-05-02 19:16:22.376 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-05-02 19:16:22.376 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-05-02 19:16:22.444 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-05-02 19:16:22.445 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-05-02 19:16:22.445 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-05-02 19:16:22.446 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1746193582446 with initial instances count: 4
+2025-05-02 19:16:22.460 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application SUBMISSION-SERVICE with eureka with status UP
+2025-05-02 19:16:22.465 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1746193582465, current=UP, previous=STARTING]
+2025-05-02 19:16:22.465 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-05-02 19:16:22.466 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:16:22.469 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5003 (http) with context path '/'
+2025-05-02 19:16:22.470 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 5003
+2025-05-02 19:16:22.480 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-05-02 19:16:22.481 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Started TaskTaskSubmissionServiceApplication in 3.003 seconds (process running for 18988.679)
+2025-05-02 19:16:22.485 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-02 19:17:11.832 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-02 19:17:11.832 [Thread-7] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application SUBMISSION-SERVICE with eureka with status DOWN
+2025-05-02 19:17:11.833 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1746193631833, current=DOWN, previous=UP]
+2025-05-02 19:17:11.833 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-05-02 19:17:11.833 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:17:11.845 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 19:17:11.846 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-05-02 19:17:11.848 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-05-02 19:17:11.852 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-05-02 19:17:11.853 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-05-02 19:17:14.855 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-05-02 19:17:14.873 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - deregister  status: 200
+2025-05-02 19:17:14.873 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-05-02 19:17:14.985 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Starting TaskTaskSubmissionServiceApplication using Java 21.0.6 with PID 6324 (C:\Task Management App New\Task-TaskSubmission-Service\target\classes started by mirza in C:\Task Management App New\Task-TaskSubmission-Service)
+2025-05-02 19:17:14.985 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - The following 1 profile is active: "dev"
+2025-05-02 19:17:15.231 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-02 19:17:15.239 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+2025-05-02 19:17:15.314 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9b0cec7-ffa0-3159-a1af-363c2b1836f0
+2025-05-02 19:17:15.532 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5003 (http)
+2025-05-02 19:17:15.532 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:17:15.533 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-02 19:17:15.533 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-02 19:17:15.572 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-02 19:17:15.572 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 585 ms
+2025-05-02 19:17:15.676 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-02 19:17:15.678 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-02 19:17:15.687 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-02 19:17:15.688 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-05-02 19:17:15.700 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b7ba56e
+2025-05-02 19:17:15.701 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-05-02 19:17:15.734 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-02 19:17:15.744 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 19:17:16.153 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-02 19:17:16.278 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-05-02 19:17:17.137 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-05-02 19:17:17.173 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-05-02 19:17:17.204 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-05-02 19:17:17.208 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-05-02 19:17:17.208 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 19:17:17.209 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-05-02 19:17:17.209 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-05-02 19:17:17.209 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-05-02 19:17:17.209 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-05-02 19:17:17.209 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-05-02 19:17:17.209 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-05-02 19:17:17.209 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-05-02 19:17:17.245 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-05-02 19:17:17.246 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-05-02 19:17:17.246 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-05-02 19:17:17.246 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1746193637246 with initial instances count: 4
+2025-05-02 19:17:17.261 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application SUBMISSION-SERVICE with eureka with status UP
+2025-05-02 19:17:17.262 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1746193637262, current=UP, previous=STARTING]
+2025-05-02 19:17:17.262 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-05-02 19:17:17.263 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:17:17.267 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5003 (http) with context path '/'
+2025-05-02 19:17:17.268 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 5003
+2025-05-02 19:17:17.276 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-05-02 19:17:17.278 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Started TaskTaskSubmissionServiceApplication in 2.341 seconds (process running for 19043.476)
+2025-05-02 19:17:17.280 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-02 19:17:46.212 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-02 19:17:46.213 [Thread-13] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application SUBMISSION-SERVICE with eureka with status DOWN
+2025-05-02 19:17:46.213 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1746193666213, current=DOWN, previous=UP]
+2025-05-02 19:17:46.213 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-05-02 19:17:46.214 [Thread-13] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:17:46.228 [Thread-13] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 19:17:46.229 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2025-05-02 19:17:46.230 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-05-02 19:17:46.238 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2025-05-02 19:17:46.238 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-05-02 19:17:49.241 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-05-02 19:17:49.241 [DiscoveryClient-%d] WARN  c.n.discovery.TimedSupervisorTask - task supervisor shutting down, can't accept the task
+2025-05-02 19:17:49.245 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - deregister  status: 200
+2025-05-02 19:17:49.245 [Thread-13] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-05-02 19:17:49.347 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Starting TaskTaskSubmissionServiceApplication using Java 21.0.6 with PID 6324 (C:\Task Management App New\Task-TaskSubmission-Service\target\classes started by mirza in C:\Task Management App New\Task-TaskSubmission-Service)
+2025-05-02 19:17:49.347 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - The following 1 profile is active: "dev"
+2025-05-02 19:17:49.603 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-02 19:17:49.612 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2025-05-02 19:17:49.691 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9b0cec7-ffa0-3159-a1af-363c2b1836f0
+2025-05-02 19:17:49.915 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5003 (http)
+2025-05-02 19:17:49.916 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:17:49.916 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-02 19:17:49.916 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-02 19:17:49.946 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-02 19:17:49.946 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 597 ms
+2025-05-02 19:17:50.047 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-02 19:17:50.050 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-02 19:17:50.058 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-02 19:17:50.059 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2025-05-02 19:17:50.072 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29d03f9e
+2025-05-02 19:17:50.072 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2025-05-02 19:17:50.106 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-02 19:17:50.113 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 19:17:50.528 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-02 19:17:50.637 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-05-02 19:17:51.476 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-05-02 19:17:51.515 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-05-02 19:17:51.548 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-05-02 19:17:51.552 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-05-02 19:17:51.552 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 19:17:51.552 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-05-02 19:17:51.552 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-05-02 19:17:51.552 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-05-02 19:17:51.552 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-05-02 19:17:51.552 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-05-02 19:17:51.552 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-05-02 19:17:51.552 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-05-02 19:17:51.583 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-05-02 19:17:51.583 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-05-02 19:17:51.584 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-05-02 19:17:51.584 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1746193671584 with initial instances count: 4
+2025-05-02 19:17:51.599 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application SUBMISSION-SERVICE with eureka with status UP
+2025-05-02 19:17:51.599 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1746193671599, current=UP, previous=STARTING]
+2025-05-02 19:17:51.599 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-05-02 19:17:51.599 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:17:51.604 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5003 (http) with context path '/'
+2025-05-02 19:17:51.605 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 5003
+2025-05-02 19:17:51.612 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-05-02 19:17:51.613 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Started TaskTaskSubmissionServiceApplication in 2.319 seconds (process running for 19077.812)
+2025-05-02 19:17:51.615 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-02 19:18:51.299 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-02 19:18:51.301 [Thread-19] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application SUBMISSION-SERVICE with eureka with status DOWN
+2025-05-02 19:18:51.301 [Thread-19] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1746193731301, current=DOWN, previous=UP]
+2025-05-02 19:18:51.301 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-05-02 19:18:51.302 [Thread-19] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:18:51.315 [Thread-19] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 19:18:51.315 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-05-02 19:18:51.316 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2025-05-02 19:18:51.324 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2025-05-02 19:18:51.324 [Thread-19] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-05-02 19:18:54.332 [Thread-19] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-05-02 19:18:54.332 [DiscoveryClient-%d] WARN  c.n.discovery.TimedSupervisorTask - task supervisor shutting down, can't accept the task
+2025-05-02 19:18:54.351 [Thread-19] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - deregister  status: 200
+2025-05-02 19:18:54.351 [Thread-19] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-05-02 19:18:54.498 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Starting TaskTaskSubmissionServiceApplication using Java 21.0.6 with PID 6324 (C:\Task Management App New\Task-TaskSubmission-Service\target\classes started by mirza in C:\Task Management App New\Task-TaskSubmission-Service)
+2025-05-02 19:18:54.498 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - The following 1 profile is active: "dev"
+2025-05-02 19:18:54.878 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-02 19:18:54.892 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interface.
+2025-05-02 19:18:55.016 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9b0cec7-ffa0-3159-a1af-363c2b1836f0
+2025-05-02 19:18:55.306 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5003 (http)
+2025-05-02 19:18:55.327 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:18:55.328 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-02 19:18:55.328 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-02 19:18:55.378 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-02 19:18:55.378 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 876 ms
+2025-05-02 19:18:55.529 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-02 19:18:55.534 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-02 19:18:55.548 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-02 19:18:55.549 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2025-05-02 19:18:55.568 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60cf40bf
+2025-05-02 19:18:55.568 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2025-05-02 19:18:55.621 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-02 19:18:55.636 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 19:18:56.258 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-02 19:18:56.382 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-05-02 19:18:57.343 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-05-02 19:18:57.386 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-05-02 19:18:57.419 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-05-02 19:18:57.422 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-05-02 19:18:57.422 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 19:18:57.423 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-05-02 19:18:57.423 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-05-02 19:18:57.423 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-05-02 19:18:57.423 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-05-02 19:18:57.423 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-05-02 19:18:57.423 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-05-02 19:18:57.423 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-05-02 19:18:57.458 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-05-02 19:18:57.459 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-05-02 19:18:57.459 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-05-02 19:18:57.460 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1746193737460 with initial instances count: 4
+2025-05-02 19:18:57.476 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application SUBMISSION-SERVICE with eureka with status UP
+2025-05-02 19:18:57.476 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1746193737476, current=UP, previous=STARTING]
+2025-05-02 19:18:57.477 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-05-02 19:18:57.477 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:18:57.483 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5003 (http) with context path '/'
+2025-05-02 19:18:57.483 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 5003
+2025-05-02 19:18:57.488 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-05-02 19:18:57.493 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Started TaskTaskSubmissionServiceApplication in 3.06 seconds (process running for 19143.691)
+2025-05-02 19:18:57.495 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-02 19:18:58.715 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-02 19:18:58.716 [Thread-25] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application SUBMISSION-SERVICE with eureka with status DOWN
+2025-05-02 19:18:58.717 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1746193738717, current=DOWN, previous=UP]
+2025-05-02 19:18:58.717 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-05-02 19:18:58.718 [Thread-25] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:18:58.724 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-05-02 19:18:58.733 [Thread-25] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 19:18:58.734 [Thread-25] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2025-05-02 19:18:58.747 [Thread-25] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2025-05-02 19:18:58.749 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-05-02 19:19:01.761 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-05-02 19:19:01.779 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - deregister  status: 200
+2025-05-02 19:19:01.779 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-05-02 19:19:01.929 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Starting TaskTaskSubmissionServiceApplication using Java 21.0.6 with PID 6324 (C:\Task Management App New\Task-TaskSubmission-Service\target\classes started by mirza in C:\Task Management App New\Task-TaskSubmission-Service)
+2025-05-02 19:19:01.929 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - The following 1 profile is active: "dev"
+2025-05-02 19:19:02.291 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-02 19:19:02.303 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2025-05-02 19:19:02.413 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9b0cec7-ffa0-3159-a1af-363c2b1836f0
+2025-05-02 19:19:02.691 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5003 (http)
+2025-05-02 19:19:02.692 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:19:02.692 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-02 19:19:02.692 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-02 19:19:02.732 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-02 19:19:02.732 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 800 ms
+2025-05-02 19:19:02.858 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-02 19:19:02.861 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-02 19:19:02.872 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-02 19:19:02.873 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2025-05-02 19:19:02.888 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a3b80bc
+2025-05-02 19:19:02.889 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2025-05-02 19:19:02.929 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-02 19:19:02.939 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 19:19:03.429 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-02 19:19:03.562 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-05-02 19:19:04.508 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-05-02 19:19:04.546 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-05-02 19:19:04.577 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-05-02 19:19:04.581 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-05-02 19:19:04.581 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 19:19:04.582 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-05-02 19:19:04.582 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-05-02 19:19:04.582 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-05-02 19:19:04.582 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-05-02 19:19:04.582 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-05-02 19:19:04.582 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-05-02 19:19:04.582 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-05-02 19:19:04.611 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-05-02 19:19:04.612 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-05-02 19:19:04.612 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-05-02 19:19:04.612 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1746193744612 with initial instances count: 4
+2025-05-02 19:19:04.629 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application SUBMISSION-SERVICE with eureka with status UP
+2025-05-02 19:19:04.629 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1746193744629, current=UP, previous=STARTING]
+2025-05-02 19:19:04.629 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-05-02 19:19:04.629 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:19:04.634 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5003 (http) with context path '/'
+2025-05-02 19:19:04.634 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 5003
+2025-05-02 19:19:04.641 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-05-02 19:19:04.642 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Started TaskTaskSubmissionServiceApplication in 2.782 seconds (process running for 19150.841)
+2025-05-02 19:19:04.643 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-02 19:20:48.567 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-02 19:20:48.568 [Thread-31] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application SUBMISSION-SERVICE with eureka with status DOWN
+2025-05-02 19:20:48.568 [Thread-31] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1746193848568, current=DOWN, previous=UP]
+2025-05-02 19:20:48.568 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-05-02 19:20:48.570 [Thread-31] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:20:48.582 [Thread-31] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 19:20:48.583 [Thread-31] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2025-05-02 19:20:48.583 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-05-02 19:20:48.591 [Thread-31] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2025-05-02 19:20:48.592 [Thread-31] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-05-02 19:20:51.603 [Thread-31] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-05-02 19:20:51.621 [Thread-31] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - deregister  status: 200
+2025-05-02 19:20:51.621 [Thread-31] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-05-02 19:20:51.780 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Starting TaskTaskSubmissionServiceApplication using Java 21.0.6 with PID 6324 (C:\Task Management App New\Task-TaskSubmission-Service\target\classes started by mirza in C:\Task Management App New\Task-TaskSubmission-Service)
+2025-05-02 19:20:51.780 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - The following 1 profile is active: "dev"
+2025-05-02 19:20:52.214 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-02 19:20:52.229 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interface.
+2025-05-02 19:20:52.397 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9b0cec7-ffa0-3159-a1af-363c2b1836f0
+2025-05-02 19:20:52.802 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5003 (http)
+2025-05-02 19:20:52.803 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:20:52.803 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-02 19:20:52.803 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-02 19:20:52.852 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-02 19:20:52.853 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1068 ms
+2025-05-02 19:20:52.978 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-02 19:20:52.981 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-02 19:20:52.990 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-02 19:20:52.991 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2025-05-02 19:20:53.006 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69187c37
+2025-05-02 19:20:53.007 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2025-05-02 19:20:53.049 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-02 19:20:53.058 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 19:20:53.563 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-02 19:20:53.688 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-05-02 19:20:54.685 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-05-02 19:20:54.722 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-05-02 19:20:54.757 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-05-02 19:20:54.759 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-05-02 19:20:54.761 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 19:20:54.761 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-05-02 19:20:54.761 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-05-02 19:20:54.761 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-05-02 19:20:54.761 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-05-02 19:20:54.761 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-05-02 19:20:54.761 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-05-02 19:20:54.761 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-05-02 19:20:54.793 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-05-02 19:20:54.793 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-05-02 19:20:54.793 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-05-02 19:20:54.794 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1746193854794 with initial instances count: 4
+2025-05-02 19:20:54.812 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application SUBMISSION-SERVICE with eureka with status UP
+2025-05-02 19:20:54.812 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1746193854812, current=UP, previous=STARTING]
+2025-05-02 19:20:54.812 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-05-02 19:20:54.813 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:20:54.816 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5003 (http) with context path '/'
+2025-05-02 19:20:54.816 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 5003
+2025-05-02 19:20:54.822 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-05-02 19:20:54.825 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Started TaskTaskSubmissionServiceApplication in 3.123 seconds (process running for 19261.024)
+2025-05-02 19:20:54.827 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-02 19:21:25.846 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-02 19:21:25.848 [Thread-37] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application SUBMISSION-SERVICE with eureka with status DOWN
+2025-05-02 19:21:25.848 [Thread-37] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1746193885848, current=DOWN, previous=UP]
+2025-05-02 19:21:25.848 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-05-02 19:21:25.849 [Thread-37] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:21:25.853 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-05-02 19:21:25.862 [Thread-37] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 19:21:25.862 [Thread-37] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2025-05-02 19:21:25.872 [Thread-37] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2025-05-02 19:21:25.873 [Thread-37] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-05-02 19:21:28.885 [Thread-37] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-05-02 19:21:28.904 [Thread-37] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - deregister  status: 200
+2025-05-02 19:21:28.904 [Thread-37] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-05-02 19:21:29.052 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Starting TaskTaskSubmissionServiceApplication using Java 21.0.6 with PID 6324 (C:\Task Management App New\Task-TaskSubmission-Service\target\classes started by mirza in C:\Task Management App New\Task-TaskSubmission-Service)
+2025-05-02 19:21:29.053 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - The following 1 profile is active: "dev"
+2025-05-02 19:21:29.418 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-02 19:21:29.430 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2025-05-02 19:21:29.551 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9b0cec7-ffa0-3159-a1af-363c2b1836f0
+2025-05-02 19:21:29.854 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5003 (http)
+2025-05-02 19:21:29.855 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:21:29.856 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-02 19:21:29.856 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-02 19:21:29.927 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-02 19:21:29.927 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 871 ms
+2025-05-02 19:21:30.075 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-02 19:21:30.080 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-02 19:21:30.091 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-02 19:21:30.093 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+2025-05-02 19:21:30.111 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@268d6859
+2025-05-02 19:21:30.111 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+2025-05-02 19:21:30.158 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-02 19:21:30.180 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 19:21:30.733 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-02 19:21:30.873 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-05-02 19:21:31.797 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-05-02 19:21:31.834 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-05-02 19:21:31.865 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-05-02 19:21:31.868 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-05-02 19:21:31.868 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 19:21:31.868 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-05-02 19:21:31.868 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-05-02 19:21:31.868 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-05-02 19:21:31.868 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-05-02 19:21:31.868 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-05-02 19:21:31.868 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-05-02 19:21:31.868 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-05-02 19:21:31.904 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-05-02 19:21:31.905 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-05-02 19:21:31.905 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-05-02 19:21:31.905 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1746193891905 with initial instances count: 4
+2025-05-02 19:21:31.925 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application SUBMISSION-SERVICE with eureka with status UP
+2025-05-02 19:21:31.925 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1746193891925, current=UP, previous=STARTING]
+2025-05-02 19:21:31.925 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-05-02 19:21:31.926 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:21:31.930 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5003 (http) with context path '/'
+2025-05-02 19:21:31.931 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 5003
+2025-05-02 19:21:31.937 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-05-02 19:21:31.940 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Started TaskTaskSubmissionServiceApplication in 2.954 seconds (process running for 19298.138)
+2025-05-02 19:21:31.942 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-02 19:26:31.872 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 19:26:46.781 [http-nio-5003-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-02 19:26:46.781 [http-nio-5003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-02 19:26:46.783 [http-nio-5003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-05-02 19:26:46.803 [http-nio-5003-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'task_id' for method parameter type Long is not present]
+2025-05-02 19:27:45.387 [http-nio-5003-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'task_id' for method parameter type Long is not present]
+2025-05-02 19:28:32.930 [http-nio-5003-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'task_id' for method parameter type Long is not present]
+2025-05-02 19:31:31.881 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 19:31:32.305 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-02 19:31:32.306 [Thread-43] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application SUBMISSION-SERVICE with eureka with status DOWN
+2025-05-02 19:31:32.307 [Thread-43] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1746194492307, current=DOWN, previous=UP]
+2025-05-02 19:31:32.307 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-05-02 19:31:32.308 [Thread-43] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:31:32.319 [Thread-43] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 19:31:32.322 [Thread-43] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+2025-05-02 19:31:32.322 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-05-02 19:31:32.330 [Thread-43] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+2025-05-02 19:31:32.330 [Thread-43] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-05-02 19:31:35.340 [Thread-43] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-05-02 19:31:35.340 [DiscoveryClient-%d] WARN  c.n.discovery.TimedSupervisorTask - task supervisor shutting down, can't accept the task
+2025-05-02 19:31:35.359 [Thread-43] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - deregister  status: 200
+2025-05-02 19:31:35.359 [Thread-43] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-05-02 19:31:35.524 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Starting TaskTaskSubmissionServiceApplication using Java 21.0.6 with PID 6324 (C:\Task Management App New\Task-TaskSubmission-Service\target\classes started by mirza in C:\Task Management App New\Task-TaskSubmission-Service)
+2025-05-02 19:31:35.524 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - The following 1 profile is active: "dev"
+2025-05-02 19:31:35.917 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-02 19:31:35.930 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interface.
+2025-05-02 19:31:36.035 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9b0cec7-ffa0-3159-a1af-363c2b1836f0
+2025-05-02 19:31:36.349 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5003 (http)
+2025-05-02 19:31:36.382 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:31:36.383 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-02 19:31:36.383 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-02 19:31:36.424 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-02 19:31:36.425 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 895 ms
+2025-05-02 19:31:36.576 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-02 19:31:36.580 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-02 19:31:36.591 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-02 19:31:36.594 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+2025-05-02 19:31:36.612 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e6b5181
+2025-05-02 19:31:36.613 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+2025-05-02 19:31:36.661 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-02 19:31:36.677 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 19:31:36.725 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'submissionController': Lookup method resolution failed
+2025-05-02 19:31:36.726 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 19:31:36.726 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
+2025-05-02 19:31:36.728 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.
+2025-05-02 19:31:36.728 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-05-02 19:31:36.735 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-02 19:31:36.766 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'submissionController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:498)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:368)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1209)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.submission.management.TaskTaskSubmissionServiceApplication.main(TaskTaskSubmissionServiceApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.submission.management.controller.SubmissionController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2720b539]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:476)
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: SubmissionRequest
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2676)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 24 common frames omitted
+Caused by: java.lang.ClassNotFoundException: SubmissionRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:534)
+	at java.base/java.lang.Class.forName(Class.java:513)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 28 common frames omitted
+2025-05-02 19:31:52.670 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Starting TaskTaskSubmissionServiceApplication using Java 21.0.6 with PID 6324 (C:\Task Management App New\Task-TaskSubmission-Service\target\classes started by mirza in C:\Task Management App New\Task-TaskSubmission-Service)
+2025-05-02 19:31:52.670 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - The following 1 profile is active: "dev"
+2025-05-02 19:31:52.933 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-02 19:31:52.943 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+2025-05-02 19:31:53.068 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9b0cec7-ffa0-3159-a1af-363c2b1836f0
+2025-05-02 19:31:53.341 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5003 (http)
+2025-05-02 19:31:53.343 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:31:53.344 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-02 19:31:53.344 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-02 19:31:53.387 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-02 19:31:53.387 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 715 ms
+2025-05-02 19:31:53.517 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-02 19:31:53.520 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-02 19:31:53.530 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-02 19:31:53.531 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Starting...
+2025-05-02 19:31:53.545 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f5bd286
+2025-05-02 19:31:53.545 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Start completed.
+2025-05-02 19:31:53.590 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-02 19:31:53.605 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 19:31:53.676 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'submissionController': Lookup method resolution failed
+2025-05-02 19:31:53.676 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 19:31:53.676 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown initiated...
+2025-05-02 19:31:53.702 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown completed.
+2025-05-02 19:31:53.703 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-05-02 19:31:53.710 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-02 19:31:53.714 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'submissionController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:498)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:368)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1209)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.submission.management.TaskTaskSubmissionServiceApplication.main(TaskTaskSubmissionServiceApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.submission.management.controller.SubmissionController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@13021a65]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:476)
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: SubmissionRequest
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2676)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 24 common frames omitted
+Caused by: java.lang.ClassNotFoundException: SubmissionRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:534)
+	at java.base/java.lang.Class.forName(Class.java:513)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 28 common frames omitted
+2025-05-02 19:32:29.107 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Starting TaskTaskSubmissionServiceApplication using Java 21.0.6 with PID 6324 (C:\Task Management App New\Task-TaskSubmission-Service\target\classes started by mirza in C:\Task Management App New\Task-TaskSubmission-Service)
+2025-05-02 19:32:29.107 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - The following 1 profile is active: "dev"
+2025-05-02 19:32:29.370 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-02 19:32:29.378 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2025-05-02 19:32:29.458 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9b0cec7-ffa0-3159-a1af-363c2b1836f0
+2025-05-02 19:32:29.724 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5003 (http)
+2025-05-02 19:32:29.725 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5003"]
+2025-05-02 19:32:29.726 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-02 19:32:29.726 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-02 19:32:29.764 [restartedMain] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-02 19:32:29.764 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 655 ms
+2025-05-02 19:32:29.891 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-02 19:32:29.894 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-02 19:32:29.901 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-02 19:32:29.902 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Starting...
+2025-05-02 19:32:29.919 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74558dd6
+2025-05-02 19:32:29.919 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Start completed.
+2025-05-02 19:32:29.961 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-02 19:32:29.981 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 19:32:30.029 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'submissionController': Lookup method resolution failed
+2025-05-02 19:32:30.029 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 19:32:30.029 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown initiated...
+2025-05-02 19:32:30.070 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown completed.
+2025-05-02 19:32:30.071 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-05-02 19:32:30.076 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-02 19:32:30.079 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'submissionController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:498)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:368)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1209)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.submission.management.TaskTaskSubmissionServiceApplication.main(TaskTaskSubmissionServiceApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.submission.management.controller.SubmissionController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@77204736]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:476)
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: SubmissionRequest
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2676)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 24 common frames omitted
+Caused by: java.lang.ClassNotFoundException: SubmissionRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:534)
+	at java.base/java.lang.Class.forName(Class.java:513)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 28 common frames omitted
+2025-05-02 22:05:01.633 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Starting TaskTaskSubmissionServiceApplication using Java 21.0.6 with PID 7668 (C:\Task Management App New\Task-TaskSubmission-Service\target\classes started by mirza in C:\Task Management App New\Task-TaskSubmission-Service)
+2025-05-02 22:05:01.635 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - The following 1 profile is active: "dev"
+2025-05-02 22:05:01.686 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-02 22:05:01.687 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-02 22:05:02.573 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-02 22:05:02.715 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 135 ms. Found 1 JPA repository interface.
+2025-05-02 22:05:02.988 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9b0cec7-ffa0-3159-a1af-363c2b1836f0
+2025-05-02 22:05:03.915 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5003 (http)
+2025-05-02 22:05:03.932 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5003"]
+2025-05-02 22:05:03.934 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-02 22:05:03.935 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-02 22:05:04.007 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-02 22:05:04.007 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2320 ms
+2025-05-02 22:05:04.268 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-02 22:05:04.358 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-05-02 22:05:04.412 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-02 22:05:04.793 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-02 22:05:04.833 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-02 22:05:05.206 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@215ade3e
+2025-05-02 22:05:05.209 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-02 22:05:06.277 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-02 22:05:06.331 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 22:05:07.160 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-02 22:05:07.308 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-05-02 22:05:08.554 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-05-02 22:05:08.607 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-05-02 22:05:08.672 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-05-02 22:05:08.698 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-05-02 22:05:08.703 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 22:05:08.712 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-05-02 22:05:08.712 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-05-02 22:05:08.712 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-05-02 22:05:08.712 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-05-02 22:05:08.713 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-05-02 22:05:08.713 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-05-02 22:05:08.713 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-05-02 22:05:09.093 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-05-02 22:05:09.096 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-05-02 22:05:09.099 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-05-02 22:05:09.102 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1746203709100 with initial instances count: 3
+2025-05-02 22:05:09.118 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application SUBMISSION-SERVICE with eureka with status UP
+2025-05-02 22:05:09.119 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1746203709119, current=UP, previous=STARTING]
+2025-05-02 22:05:09.122 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5003"]
+2025-05-02 22:05:09.122 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-05-02 22:05:09.146 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5003 (http) with context path '/'
+2025-05-02 22:05:09.147 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 5003
+2025-05-02 22:05:09.160 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Started TaskTaskSubmissionServiceApplication in 8.194 seconds (process running for 14.541)
+2025-05-02 22:05:09.176 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-05-02 22:07:25.153 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 17 class path changes (0 additions, 0 deletions, 17 modifications)
+2025-05-02 22:07:25.155 [Thread-1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application SUBMISSION-SERVICE with eureka with status DOWN
+2025-05-02 22:07:25.155 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1746203845155, current=DOWN, previous=UP]
+2025-05-02 22:07:25.155 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-05-02 22:07:25.158 [Thread-1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-5003"]
+2025-05-02 22:07:25.169 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-05-02 22:07:25.171 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 22:07:25.175 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-02 22:07:25.186 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-02 22:07:25.186 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-05-02 22:07:28.193 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-05-02 22:07:28.218 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - deregister  status: 200
+2025-05-02 22:07:28.219 [Thread-1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-05-02 22:07:28.353 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Starting TaskTaskSubmissionServiceApplication using Java 21.0.6 with PID 7668 (C:\Task Management App New\Task-TaskSubmission-Service\target\classes started by mirza in C:\Task Management App New\Task-TaskSubmission-Service)
+2025-05-02 22:07:28.353 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - The following 1 profile is active: "dev"
+2025-05-02 22:07:28.610 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-02 22:07:28.621 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.
+2025-05-02 22:07:28.709 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9b0cec7-ffa0-3159-a1af-363c2b1836f0
+2025-05-02 22:07:28.947 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5003 (http)
+2025-05-02 22:07:28.949 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5003"]
+2025-05-02 22:07:28.950 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-02 22:07:28.950 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-02 22:07:28.979 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-02 22:07:28.979 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 624 ms
+2025-05-02 22:07:29.090 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-02 22:07:29.093 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-02 22:07:29.104 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-02 22:07:29.105 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-05-02 22:07:29.124 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77ec2ddb
+2025-05-02 22:07:29.125 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-05-02 22:07:29.169 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-02 22:07:29.178 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 22:07:29.631 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-02 22:07:29.737 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-05-02 22:07:30.566 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-05-02 22:07:30.601 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-05-02 22:07:30.633 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-05-02 22:07:30.636 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-05-02 22:07:30.636 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 22:07:30.637 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-05-02 22:07:30.637 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-05-02 22:07:30.637 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-05-02 22:07:30.637 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-05-02 22:07:30.637 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-05-02 22:07:30.637 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-05-02 22:07:30.637 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-05-02 22:07:30.687 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-05-02 22:07:30.688 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-05-02 22:07:30.688 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-05-02 22:07:30.688 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1746203850688 with initial instances count: 4
+2025-05-02 22:07:30.702 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application SUBMISSION-SERVICE with eureka with status UP
+2025-05-02 22:07:30.702 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1746203850702, current=UP, previous=STARTING]
+2025-05-02 22:07:30.702 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-05-02 22:07:30.702 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5003"]
+2025-05-02 22:07:30.706 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5003 (http) with context path '/'
+2025-05-02 22:07:30.707 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 5003
+2025-05-02 22:07:30.715 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-05-02 22:07:30.715 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Started TaskTaskSubmissionServiceApplication in 2.428 seconds (process running for 156.096)
+2025-05-02 22:07:30.719 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-02 22:07:31.267 [http-nio-5003-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-02 22:07:31.268 [http-nio-5003-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-02 22:07:31.269 [http-nio-5003-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-05-02 22:12:30.642 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 22:16:02.756 [http-nio-5003-exec-5] ERROR jdk.proxy5.$Proxy171 - [ERROR] Method completeTask failed: [400] during [PUT] to [http://localhost:5002/api/tasks/1/complete] [TaskService#completeTask(Long)]: [{"timestamp":"2025-05-02T16:46:02.744+00:00","status":400,"error":"Bad Request","trace":"org.springframework.web.bind.MissingRequestHeaderException: Required request header 'Authorization' for method ... (5522 bytes)]
+2025-05-02 22:16:51.749 [http-nio-5003-exec-6] ERROR jdk.proxy5.$Proxy171 - [ERROR] Method completeTask failed: [400] during [PUT] to [http://localhost:5002/api/tasks/1/complete] [TaskService#completeTask(Long)]: [{"timestamp":"2025-05-02T16:46:51.747+00:00","status":400,"error":"Bad Request","trace":"org.springframework.web.bind.MissingRequestHeaderException: Required request header 'Authorization' for method ... (5522 bytes)]
+2025-05-02 22:17:30.646 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 22:20:44.373 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-05-02 22:20:44.374 [Thread-7] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application SUBMISSION-SERVICE with eureka with status DOWN
+2025-05-02 22:20:44.374 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1746204644374, current=DOWN, previous=UP]
+2025-05-02 22:20:44.374 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-05-02 22:20:44.375 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-5003"]
+2025-05-02 22:20:44.384 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 22:20:44.385 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-05-02 22:20:44.389 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-05-02 22:20:44.395 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-05-02 22:20:44.395 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-05-02 22:20:47.399 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-05-02 22:20:47.417 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - deregister  status: 200
+2025-05-02 22:20:47.417 [Thread-7] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-05-02 22:20:47.534 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Starting TaskTaskSubmissionServiceApplication using Java 21.0.6 with PID 7668 (C:\Task Management App New\Task-TaskSubmission-Service\target\classes started by mirza in C:\Task Management App New\Task-TaskSubmission-Service)
+2025-05-02 22:20:47.534 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - The following 1 profile is active: "dev"
+2025-05-02 22:20:47.806 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-02 22:20:47.814 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2025-05-02 22:20:47.898 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a9b0cec7-ffa0-3159-a1af-363c2b1836f0
+2025-05-02 22:20:48.108 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5003 (http)
+2025-05-02 22:20:48.109 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5003"]
+2025-05-02 22:20:48.109 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-02 22:20:48.109 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-02 22:20:48.152 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-02 22:20:48.152 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 616 ms
+2025-05-02 22:20:48.255 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-02 22:20:48.259 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-02 22:20:48.266 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-02 22:20:48.268 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-05-02 22:20:48.285 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70cea3b5
+2025-05-02 22:20:48.285 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-05-02 22:20:48.319 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-02 22:20:48.329 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-02 22:20:48.783 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-02 22:20:48.889 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-05-02 22:20:49.678 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-05-02 22:20:49.719 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-05-02 22:20:49.755 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-05-02 22:20:49.759 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-05-02 22:20:49.759 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 22:20:49.759 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-05-02 22:20:49.760 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-05-02 22:20:49.760 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-05-02 22:20:49.760 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-05-02 22:20:49.760 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-05-02 22:20:49.760 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-05-02 22:20:49.760 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-05-02 22:20:49.801 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-05-02 22:20:49.801 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-05-02 22:20:49.802 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-05-02 22:20:49.802 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1746204649802 with initial instances count: 4
+2025-05-02 22:20:49.815 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application SUBMISSION-SERVICE with eureka with status UP
+2025-05-02 22:20:49.816 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1746204649816, current=UP, previous=STARTING]
+2025-05-02 22:20:49.816 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003: registering service...
+2025-05-02 22:20:49.816 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5003"]
+2025-05-02 22:20:49.821 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5003 (http) with context path '/'
+2025-05-02 22:20:49.822 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 5003
+2025-05-02 22:20:49.829 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_SUBMISSION-SERVICE/Mirza_Imad_B:SUBMISSION-SERVICE:5003 - registration status: 204
+2025-05-02 22:20:49.831 [restartedMain] INFO  c.s.m.TaskTaskSubmissionServiceApplication - Started TaskTaskSubmissionServiceApplication in 2.356 seconds (process running for 955.212)
+2025-05-02 22:20:49.833 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-02 22:25:49.769 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 22:30:49.779 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 22:35:49.787 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 22:40:49.800 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 22:45:49.802 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 22:50:49.814 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 22:55:49.826 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 23:00:49.840 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 23:05:49.854 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 23:10:49.863 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 23:15:49.866 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 23:20:49.879 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-02 23:25:49.881 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration

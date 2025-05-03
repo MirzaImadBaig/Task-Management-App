@@ -1,0 +1,158 @@
+package com.taskmgment.controller;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.taskmgment.dtos.UserDto;
+import com.taskmgment.enums.TaskStatus;
+import com.taskmgment.model.Task;
+import com.taskmgment.service.TaskService;
+import com.taskmgment.service.UserService;
+
+import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
+
+import org.springframework.http.MediaType;
+import org.springframework.test.web.servlet.MockMvc;
+
+import java.util.Arrays;
+import java.util.List;
+
+import static org.mockito.ArgumentMatchers.*;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+
+@WebMvcTest(TaskController.class)
+public class TaskControllerTest {
+
+    @Autowired
+    private MockMvc mockMvc;
+
+    @MockBean
+    private TaskService taskService;
+
+    @MockBean
+    private UserService userService;
+
+    @Autowired
+    private ObjectMapper objectMapper;
+
+    @Test
+    public void testCreateTask() throws Exception {
+        Task task = new Task();
+        task.setId(1L);
+        task.setTitle("Test Task");
+
+        UserDto userDto = new UserDto();
+        userDto.setRole("ADMIN");
+
+        Mockito.when(userService.getUserProfileHandler("jwt")).thenReturn(userDto);
+        Mockito.when(taskService.createTask(any(Task.class), eq("ADMIN"))).thenReturn(task);
+
+        mockMvc.perform(post("/api/tasks")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .header("Authorization", "jwt")
+                        .content(objectMapper.writeValueAsString(task)))
+                .andExpect(status().isCreated())
+                .andExpect(jsonPath("$.id").value(1));
+    }
+
+    @Test
+    public void testGetTaskById() throws Exception {
+        Task task = new Task();
+        task.setId(2L);
+
+        Mockito.when(taskService.getTaskById(2L)).thenReturn(task);
+
+        mockMvc.perform(get("/api/tasks/2")
+                        .header("Authorization", "jwt"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.id").value(2));
+    }
+
+    @Test
+    public void testGetAssignedUsersTask() throws Exception {
+        Task task = new Task();
+        task.setId(3L);
+
+        UserDto userDto = new UserDto();
+        userDto.setId(10L);
+
+        Mockito.when(userService.getUserProfileHandler("jwt")).thenReturn(userDto);
+        Mockito.when(taskService.assignedUsersTask(eq(10L), any(), any(), any()))
+                .thenReturn(List.of(task));
+
+        mockMvc.perform(get("/api/tasks/user")
+                        .header("Authorization", "jwt"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.length()").value(1));
+    }
+
+    @Test
+    public void testGetAllTasks() throws Exception {
+        Mockito.when(taskService.getAllTasks(any(), any(), any()))
+                .thenReturn(Arrays.asList(new Task(), new Task()));
+
+        mockMvc.perform(get("/api/tasks")
+                        .header("Authorization", "jwt"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.length()").value(2));
+    }
+
+    @Test
+    public void testAssignedTaskToUser() throws Exception {
+        Task task = new Task();
+        task.setId(4L);
+
+        UserDto userDto = new UserDto();
+        userDto.setId(5L);
+
+        Mockito.when(userService.getUserProfileHandler("jwt")).thenReturn(userDto);
+        Mockito.when(taskService.assignedToUser(6L, 4L)).thenReturn(task);
+
+        mockMvc.perform(put("/api/tasks/4/user/6/assigned")
+                        .header("Authorization", "jwt"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.id").value(4));
+    }
+
+    @Test
+    public void testUpdateTask() throws Exception {
+        Task task = new Task();
+        task.setId(7L);
+
+        UserDto userDto = new UserDto();
+        userDto.setId(10L);
+
+        Mockito.when(userService.getUserProfileHandler("jwt")).thenReturn(userDto);
+        Mockito.when(taskService.updateTask(eq(7L), any(Task.class), eq(10L))).thenReturn(task);
+
+        mockMvc.perform(put("/api/tasks/7")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .header("Authorization", "jwt")
+                        .content(objectMapper.writeValueAsString(task)))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.id").value(7));
+    }
+
+    @Test
+    public void testDeleteTask() throws Exception {
+        mockMvc.perform(delete("/api/tasks/99"))
+                .andExpect(status().isNoContent());
+
+        Mockito.verify(taskService).deleteTask(99L);
+    }
+
+    @Test
+    public void testCompleteTask() throws Exception {
+        Task task = new Task();
+        task.setId(8L);
+
+        Mockito.when(taskService.completeTask(8L)).thenReturn(task);
+
+        mockMvc.perform(put("/api/tasks/8/complete"))
+                .andExpect(status().isNoContent());
+    }
+}

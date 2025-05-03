@@ -1,0 +1,64 @@
+package com.taskmgment.controller;
+
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestHeader;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.user.management.exception.UserException;
+import com.user.management.model.User;
+import com.user.management.service.UserService;
+
+import java.util.List;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+@RestController
+public class UserController {
+	
+	private static final Logger logger = LoggerFactory.getLogger(UserController.class);
+	private UserService userService;
+
+	public UserController(UserService userService) {
+		this.userService = userService;
+	}
+
+	@GetMapping("/api/users/profile")
+	public ResponseEntity<User> getUserProfileHandler(
+			@RequestHeader("Authorization") String jwt) throws UserException {
+		logger.info("Fetching user profile with JWT: {}", jwt);
+		User user = userService.findUserProfileByJwt(jwt);
+		user.setPassword(null);
+		logger.info("User profile fetched successfully for: {}", user.getEmail());
+		return new ResponseEntity<>(user, HttpStatus.ACCEPTED);
+	}
+	
+	@GetMapping("/api/users/{userId}")
+	public ResponseEntity<User> findUserById(
+			@PathVariable Long userId,
+			@RequestHeader("Authorization") String jwt) throws UserException {
+		logger.info("Fetching user by ID: {}", userId);
+		User user = userService.findUserById(userId);
+		user.setPassword(null);
+		logger.info("User details fetched successfully for ID: {}", userId);
+		return new ResponseEntity<>(user, HttpStatus.ACCEPTED);
+	}
+
+	@GetMapping("/api/users")
+	public ResponseEntity<List<User>> findAllUsers(
+
+			@RequestHeader("Authorization") String jwt)  {
+		logger.info("Fetching all users...");
+		List<User> users = userService.findAllUsers();
+
+		logger.info("Total users fetched: {}", users.size());
+		return new ResponseEntity<>(users, HttpStatus.ACCEPTED);
+	}
+
+
+
+}

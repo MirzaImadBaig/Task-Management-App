@@ -1,0 +1,126 @@
+package com.taskmgment.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.authentication.BadCredentialsException;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.web.bind.annotation.*;
+
+import com.taskmgment.config.JwtProvider;
+import com.taskmgment.exception.UserException;
+import com.taskmgment.model.User;
+import com.taskmgment.repository.UserRepository;
+import com.taskmgment.request.LoginRequest;
+import com.taskmgment.response.AuthResponse;
+import com.taskmgment.service.CustomUserServiceImplementation;
+
+import jakarta.validation.Valid;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+@RestController
+@RequestMapping("/auth") // Base URL for all authentication-related endpoints
+public class AuthController {
+
+    private static final Logger logger = LoggerFactory.getLogger(AuthController.class); // Logger for debugging
+
+    @Autowired
+    private UserRepository userRepository; // Accesses the database to save/load/delete users
+
+    @Autowired
+    private PasswordEncoder passwordEncoder; // Ensures secure password storage/validation (BCrypt)
+
+    @Autowired
+    private CustomUserServiceImplementation customUserDetails; // Used to fetch UserDetails from DB for authentication
+
+    // Registers a new user
+    @PostMapping("/signup")
+    public ResponseEntity<AuthResponse> createUserHandler(@RequestBody User user) throws UserException {
+        String email = user.getEmail().trim().toLowerCase(); // Trim and normalize email
+        String password = user.getPassword();
+        String fullName = user.getFullName();
+        String mobile = user.getMobile();
+        String role = user.getRole();
+
+        // Check if a user with the given email already exists
+        User isEmailExist = userRepository.findByEmail(email);
+        if (isEmailExist != null) {
+            throw new UserException("Email is already used with another account");
+        }
+
+        // Create and save the new user with encoded password
+        User createdUser = new User();
+        createdUser.setEmail(email);
+        createdUser.setFullName(fullName);
+        createdUser.setMobile(mobile);
+        createdUser.setRole(role);
+        createdUser.setPassword(passwordEncoder.encode(password));
+
+        User savedUser = userRepository.save(createdUser); 
+
+        // Authenticate user using credentials and generate JWT token
+        Authentication authentication = authenticate(email, password);
+        
+        // sets the current security context, allowing Spring Security to recognize the user as authenticated for the rest of the request
+        SecurityContextHolder.getContext().setAuthentication(authentication);
+        String token = JwtProvider.generateToken(authentication);
+
+        // Build response with JWT token
+        AuthResponse authResponse = new AuthResponse();
+        authResponse.setJwt(token);
+        authResponse.setStatus(true);
+        authResponse.setMessage("Register Success");
+
+        return new ResponseEntity<>(authResponse, HttpStatus.OK);
+    }
+
+    // Logs in an existing user by verifying credentials
+    @PostMapping("/signin")
+    public ResponseEntity<AuthResponse> signin(@Valid @RequestBody LoginRequest loginRequest) {
+        String username = loginRequest.getEmail().trim().toLowerCase();
+        String password = loginRequest.getPassword();
+
+        logger.info("Attempting login for: {}", username);
+
+        // Authenticate credentials
+        Authentication authentication = authenticate(username, password);
+        SecurityContextHolder.getContext().setAuthentication(authentication);
+
+        // Generate JWT token
+        String token = JwtProvider.generateToken(authentication);
+
+        // Build and return response
+        AuthResponse authResponse = new AuthResponse();
+        authResponse.setMessage("Login Success");
+        authResponse.setStatus(true);
+        authResponse.setJwt(token);
+
+        return new ResponseEntity<>(authResponse, HttpStatus.OK);
+    }
+
+    // Helper method: Verifies if the provided email and password are correct
+    private Authentication authenticate(String username, String password) {
+        UserDetails userDetails = customUserDetails.loadUserByUsername(username);
+
+        if (userDetails == null) {
+            logger.warn("Authentication failed: User not found - {}", username);
+            throw new BadCredentialsException("Invalid username or password");
+        }
+
+        // Check if raw password matches the encoded password
+        if (!passwordEncoder.matches(password, userDetails.getPassword())) {
+            logger.warn("Authentication failed: Incorrect password for user - {}", username);
+            throw new BadCredentialsException("Invalid username or password");
+        }
+
+        logger.info("Authentication successful for user: {}", username);
+        return new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
+    }
+}
+

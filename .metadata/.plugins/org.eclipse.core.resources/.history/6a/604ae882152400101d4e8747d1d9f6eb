@@ -1,0 +1,11 @@
+package com.taskmgment.config;
+
+public class JwtConstant {
+	
+	//  Used for signing and verifying JWTs.
+	public static final String SECRET_KEY="wpembytrwcvnryxksdbqwjebruyGHyudqgwveytrtrCSnwifoesarjbwe";
+	
+	// The name of the HTTP header that contains the token ("Authorization").
+	public static final String JWT_HEADER="Authorization";
+
+}

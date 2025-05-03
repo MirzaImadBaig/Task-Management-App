@@ -1,0 +1,484 @@
+2025-05-01 12:24:55.366 [http-nio-5001-exec-1] INFO  c.u.m.controller.HomeController - Method: homeController - Args: []
+2025-05-01 12:24:55.366 [http-nio-5001-exec-1] INFO  c.u.m.controller.HomeController - Accessed home route '/'
+2025-05-01 12:24:55.367 [http-nio-5001-exec-1] DEBUG c.u.m.controller.HomeController - Method homeController executed in 2 ms
+2025-05-01 12:37:55.787 [http-nio-auto-1-exec-1] INFO  c.u.m.controller.HomeController - Method: userHomeController - Args: []
+2025-05-01 12:37:55.787 [http-nio-auto-1-exec-1] INFO  c.u.m.controller.HomeController - Accessed user home route '/users'
+2025-05-01 12:37:55.797 [http-nio-auto-1-exec-1] DEBUG c.u.m.controller.HomeController - Method userHomeController executed in 11 ms
+2025-05-01 12:37:55.902 [http-nio-auto-1-exec-2] INFO  c.u.m.controller.HomeController - Method: homeController - Args: []
+2025-05-01 12:37:55.902 [http-nio-auto-1-exec-2] INFO  c.u.m.controller.HomeController - Accessed home route '/'
+2025-05-01 12:37:55.902 [http-nio-auto-1-exec-2] DEBUG c.u.m.controller.HomeController - Method homeController executed in 0 ms
+2025-05-01 12:37:59.103 [main] INFO  c.u.m.controller.HomeControllerTest - Starting HomeControllerTest using Java 21.0.6 with PID 16172 (started by mirza in C:\Task Management App New\Task-User-Service)
+2025-05-01 12:37:59.104 [main] DEBUG c.u.m.controller.HomeControllerTest - Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-05-01 12:37:59.104 [main] INFO  c.u.m.controller.HomeControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 12:38:03.380 [main] INFO  c.u.m.controller.HomeControllerTest - Started HomeControllerTest in 4.484 seconds (process running for 21.446)
+2025-05-01 12:38:03.435 [main] INFO  c.u.m.controller.HomeController - Method: homeController - Args: []
+2025-05-01 12:38:03.435 [main] INFO  c.u.m.controller.HomeController - Accessed home route '/'
+2025-05-01 12:38:03.435 [main] DEBUG c.u.m.controller.HomeController - Method homeController executed in 0 ms
+2025-05-01 12:38:03.674 [main] INFO  c.u.m.controller.HomeController - Method: userHomeController - Args: []
+2025-05-01 12:38:03.674 [main] INFO  c.u.m.controller.HomeController - Accessed user home route '/users'
+2025-05-01 12:38:03.674 [main] DEBUG c.u.m.controller.HomeController - Method userHomeController executed in 0 ms
+2025-05-01 12:38:03.812 [main] INFO  c.u.m.controller.AuthControllerTest - Starting AuthControllerTest using Java 21.0.6 with PID 16172 (started by mirza in C:\Task Management App New\Task-User-Service)
+2025-05-01 12:38:03.812 [main] DEBUG c.u.m.controller.AuthControllerTest - Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-05-01 12:38:03.812 [main] INFO  c.u.m.controller.AuthControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 12:38:06.184 [main] INFO  c.u.m.controller.AuthControllerTest - Started AuthControllerTest in 2.472 seconds (process running for 24.25)
+2025-05-01 12:38:06.307 [main] INFO  c.u.m.controller.AuthController - Method: createUserHandler - Args: [com.user.management.model.User@330eb5af]
+2025-05-01 12:38:06.307 [main] INFO  c.u.m.controller.AuthController - Signup attempt for email: test@example.com
+2025-05-01 12:38:06.308 [main] INFO  c.u.m.controller.AuthController - User registered successfully with email: test@example.com
+2025-05-01 12:38:06.409 [main] INFO  c.u.m.controller.AuthController - JWT token generated for new user: test@example.com
+2025-05-01 12:38:06.411 [main] DEBUG c.u.m.controller.AuthController - Method createUserHandler executed in 104 ms
+2025-05-01 12:38:06.445 [main] INFO  c.u.m.controller.AuthController - Method: signin - Args: [com.user.management.request.LoginRequest@556c126f]
+2025-05-01 12:38:06.445 [main] INFO  c.u.m.controller.AuthController - Signin attempt for user: test@example.com
+2025-05-01 12:38:06.446 [main] INFO  c.u.m.controller.AuthController - Authenticating user: test@example.com
+2025-05-01 12:38:06.448 [main] INFO  c.u.m.controller.AuthController - Authentication successful for user: test@example.com
+2025-05-01 12:38:06.451 [main] INFO  c.u.m.controller.AuthController - JWT token generated for login: test@example.com
+2025-05-01 12:38:06.451 [main] DEBUG c.u.m.controller.AuthController - Method signin executed in 6 ms
+2025-05-01 12:38:06.588 [main] INFO  c.u.m.controller.UserControllerTest - Starting UserControllerTest using Java 21.0.6 with PID 16172 (started by mirza in C:\Task Management App New\Task-User-Service)
+2025-05-01 12:38:06.588 [main] DEBUG c.u.m.controller.UserControllerTest - Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-05-01 12:38:06.588 [main] INFO  c.u.m.controller.UserControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-01 12:38:07.042 [main] INFO  c.u.m.controller.UserControllerTest - Started UserControllerTest in 0.534 seconds (process running for 25.107)
+2025-05-01 12:38:07.078 [main] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 12:38:07.078 [main] INFO  c.u.m.controller.UserController - Total users fetched: 2
+2025-05-01 12:38:07.117 [main] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer token
+2025-05-01 12:38:07.117 [main] INFO  c.u.m.controller.UserController - User profile fetched successfully for: test@example.com
+2025-05-01 12:38:07.134 [main] INFO  c.u.m.controller.UserController - Fetching user by ID: 1
+2025-05-01 12:38:07.134 [main] INFO  c.u.m.controller.UserController - User details fetched successfully for ID: 1
+2025-05-01 21:17:43.828 [http-nio-5001-exec-3] INFO  c.u.m.controller.AuthController - Method: createUserHandler - Args: [com.user.management.model.User@628c2b54]
+2025-05-01 21:17:43.830 [http-nio-5001-exec-3] INFO  c.u.m.controller.AuthController - Signup attempt for email: imadmirza007@gmail.com
+2025-05-01 21:17:44.408 [http-nio-5001-exec-3] INFO  c.u.m.controller.AuthController - User registered successfully with email: imadmirza007@gmail.com
+2025-05-01 21:17:44.470 [http-nio-5001-exec-3] INFO  c.u.m.controller.AuthController - JWT token generated for new user: imadmirza007@gmail.com
+2025-05-01 21:17:44.470 [http-nio-5001-exec-3] DEBUG c.u.m.controller.AuthController - Method createUserHandler executed in 642 ms
+2025-05-01 21:17:44.893 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ0NjQsImV4cCI6MTc0NjIwMDg2NCwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.8woRklBreOgieGpwpWpFZXY-Ljaoe4b441opRbKbsK8PnJBziP6xgXIC5zruZqYF]
+2025-05-01 21:17:44.893 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ0NjQsImV4cCI6MTc0NjIwMDg2NCwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.8woRklBreOgieGpwpWpFZXY-Ljaoe4b441opRbKbsK8PnJBziP6xgXIC5zruZqYF
+2025-05-01 21:17:44.909 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:17:44.909 [http-nio-5001-exec-4] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 16 ms
+2025-05-01 21:17:45.208 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ0NjQsImV4cCI6MTc0NjIwMDg2NCwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.8woRklBreOgieGpwpWpFZXY-Ljaoe4b441opRbKbsK8PnJBziP6xgXIC5zruZqYF]
+2025-05-01 21:17:45.208 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ0NjQsImV4cCI6MTc0NjIwMDg2NCwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.8woRklBreOgieGpwpWpFZXY-Ljaoe4b441opRbKbsK8PnJBziP6xgXIC5zruZqYF
+2025-05-01 21:17:45.218 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:17:45.218 [http-nio-5001-exec-6] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 10 ms
+2025-05-01 21:18:42.096 [http-nio-5001-exec-7] INFO  c.u.m.controller.AuthController - Method: signin - Args: [com.user.management.request.LoginRequest@f2a30e5]
+2025-05-01 21:18:42.097 [http-nio-5001-exec-7] INFO  c.u.m.controller.AuthController - Signin attempt for user: imadmirza007@gmail.com
+2025-05-01 21:18:42.106 [http-nio-5001-exec-7] INFO  c.u.m.controller.AuthController - Authenticating user: imadmirza007@gmail.com
+2025-05-01 21:18:42.197 [http-nio-5001-exec-7] INFO  c.u.m.controller.AuthController - Authentication successful for user: imadmirza007@gmail.com
+2025-05-01 21:18:42.202 [http-nio-5001-exec-7] INFO  c.u.m.controller.AuthController - JWT token generated for login: imadmirza007@gmail.com
+2025-05-01 21:18:42.202 [http-nio-5001-exec-7] DEBUG c.u.m.controller.AuthController - Method signin executed in 106 ms
+2025-05-01 21:18:42.252 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:18:42.253 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh
+2025-05-01 21:18:42.261 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:18:42.262 [http-nio-5001-exec-8] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 10 ms
+2025-05-01 21:18:42.610 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:18:42.611 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 21:18:42.635 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Total users fetched: 7
+2025-05-01 21:18:42.636 [http-nio-5001-exec-9] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 26 ms
+2025-05-01 21:18:42.662 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:18:42.662 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 21:18:42.673 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Total users fetched: 7
+2025-05-01 21:18:42.673 [http-nio-5001-exec-10] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 11 ms
+2025-05-01 21:20:54.248 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:20:54.248 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh
+2025-05-01 21:20:54.260 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:20:54.260 [http-nio-5001-exec-3] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 12 ms
+2025-05-01 21:21:30.173 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:21:30.173 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh
+2025-05-01 21:21:30.179 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:21:30.179 [http-nio-5001-exec-4] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 6 ms
+2025-05-01 21:21:35.178 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:21:35.179 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh
+2025-05-01 21:21:35.183 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:21:35.184 [http-nio-5001-exec-6] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 6 ms
+2025-05-01 21:21:35.629 [http-nio-5001-exec-5] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:21:35.631 [http-nio-5001-exec-5] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh
+2025-05-01 21:21:35.637 [http-nio-5001-exec-5] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:21:35.637 [http-nio-5001-exec-5] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 8 ms
+2025-05-01 21:21:35.805 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:21:35.806 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh
+2025-05-01 21:21:35.813 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:21:35.813 [http-nio-5001-exec-7] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 8 ms
+2025-05-01 21:21:37.460 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:21:37.460 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh
+2025-05-01 21:21:37.468 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:21:37.468 [http-nio-5001-exec-8] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 8 ms
+2025-05-01 21:21:37.680 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:21:37.680 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh
+2025-05-01 21:21:37.687 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:21:37.687 [http-nio-5001-exec-9] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 7 ms
+2025-05-01 21:21:37.890 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:21:37.890 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh
+2025-05-01 21:21:37.896 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:21:37.896 [http-nio-5001-exec-10] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 6 ms
+2025-05-01 21:21:38.095 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:21:38.096 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh
+2025-05-01 21:21:38.102 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:21:38.102 [http-nio-5001-exec-1] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 7 ms
+2025-05-01 21:21:38.378 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:21:38.378 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh
+2025-05-01 21:21:38.384 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:21:38.384 [http-nio-5001-exec-2] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 6 ms
+2025-05-01 21:21:38.974 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:21:38.975 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh
+2025-05-01 21:21:38.981 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:21:38.981 [http-nio-5001-exec-3] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 7 ms
+2025-05-01 21:21:39.916 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:21:39.917 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh
+2025-05-01 21:21:39.926 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:21:39.926 [http-nio-5001-exec-4] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 10 ms
+2025-05-01 21:21:40.562 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:21:40.562 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh
+2025-05-01 21:21:40.571 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:21:40.571 [http-nio-5001-exec-6] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 9 ms
+2025-05-01 21:21:41.061 [http-nio-5001-exec-5] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:21:41.062 [http-nio-5001-exec-5] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh
+2025-05-01 21:21:41.068 [http-nio-5001-exec-5] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:21:41.068 [http-nio-5001-exec-5] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 7 ms
+2025-05-01 21:21:41.236 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:21:41.236 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh
+2025-05-01 21:21:41.243 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:21:41.243 [http-nio-5001-exec-7] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 7 ms
+2025-05-01 21:21:41.411 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:21:41.412 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh
+2025-05-01 21:21:41.418 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:21:41.418 [http-nio-5001-exec-8] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 7 ms
+2025-05-01 21:21:59.754 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:21:59.755 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 21:21:59.769 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Total users fetched: 7
+2025-05-01 21:21:59.769 [http-nio-5001-exec-9] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 15 ms
+2025-05-01 21:21:59.785 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:21:59.785 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 21:21:59.796 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Total users fetched: 7
+2025-05-01 21:21:59.796 [http-nio-5001-exec-10] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 11 ms
+2025-05-01 21:22:02.037 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:22:02.038 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 21:22:02.051 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - Total users fetched: 7
+2025-05-01 21:22:02.051 [http-nio-5001-exec-1] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 14 ms
+2025-05-01 21:22:02.073 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:22:02.074 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 21:22:02.083 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - Total users fetched: 7
+2025-05-01 21:22:02.083 [http-nio-5001-exec-2] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 10 ms
+2025-05-01 21:22:19.729 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:22:19.730 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 21:22:19.743 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Total users fetched: 7
+2025-05-01 21:22:19.743 [http-nio-5001-exec-3] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 14 ms
+2025-05-01 21:22:19.762 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ1MjIsImV4cCI6MTc0NjIwMDkyMiwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LUXamehpwoqoItzcGxU0KSxXlAY3kiJyVQAfNsYKydmXo1osEAGhmWDAzh1za9jh]
+2025-05-01 21:22:19.762 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 21:22:19.773 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - Total users fetched: 7
+2025-05-01 21:22:19.773 [http-nio-5001-exec-4] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 11 ms
+2025-05-01 21:23:18.781 [http-nio-5001-exec-5] INFO  c.u.m.controller.AuthController - Method: createUserHandler - Args: [com.user.management.model.User@7c2a7215]
+2025-05-01 21:23:18.781 [http-nio-5001-exec-5] INFO  c.u.m.controller.AuthController - Signup attempt for email: abcd@gmail.com
+2025-05-01 21:23:18.864 [http-nio-5001-exec-5] INFO  c.u.m.controller.AuthController - User registered successfully with email: abcd@gmail.com
+2025-05-01 21:23:18.869 [http-nio-5001-exec-5] INFO  c.u.m.controller.AuthController - JWT token generated for new user: abcd@gmail.com
+2025-05-01 21:23:18.869 [http-nio-5001-exec-5] DEBUG c.u.m.controller.AuthController - Method createUserHandler executed in 88 ms
+2025-05-01 21:23:19.001 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ3OTgsImV4cCI6MTc0NjIwMTE5OCwiZW1haWwiOiJhYmNkQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjoiIn0.8Yp2RV4fu-6esC0WnbE5CFrA2S39gXopzi3zHL2dYGY0_uiNevvfdPBbfac5gf0f]
+2025-05-01 21:23:19.001 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 21:23:19.014 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 21:23:19.014 [http-nio-5001-exec-7] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 13 ms
+2025-05-01 21:23:19.036 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ3OTgsImV4cCI6MTc0NjIwMTE5OCwiZW1haWwiOiJhYmNkQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjoiIn0.8Yp2RV4fu-6esC0WnbE5CFrA2S39gXopzi3zHL2dYGY0_uiNevvfdPBbfac5gf0f]
+2025-05-01 21:23:19.036 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 21:23:19.045 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ3OTgsImV4cCI6MTc0NjIwMTE5OCwiZW1haWwiOiJhYmNkQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjoiIn0.8Yp2RV4fu-6esC0WnbE5CFrA2S39gXopzi3zHL2dYGY0_uiNevvfdPBbfac5gf0f]
+2025-05-01 21:23:19.045 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ3OTgsImV4cCI6MTc0NjIwMTE5OCwiZW1haWwiOiJhYmNkQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjoiIn0.8Yp2RV4fu-6esC0WnbE5CFrA2S39gXopzi3zHL2dYGY0_uiNevvfdPBbfac5gf0f
+2025-05-01 21:23:19.055 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 21:23:19.055 [http-nio-5001-exec-8] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 19 ms
+2025-05-01 21:23:19.064 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - User profile fetched successfully for: abcd@gmail.com
+2025-05-01 21:23:19.064 [http-nio-5001-exec-9] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 20 ms
+2025-05-01 21:23:19.103 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ3OTgsImV4cCI6MTc0NjIwMTE5OCwiZW1haWwiOiJhYmNkQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjoiIn0.8Yp2RV4fu-6esC0WnbE5CFrA2S39gXopzi3zHL2dYGY0_uiNevvfdPBbfac5gf0f]
+2025-05-01 21:23:19.103 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ3OTgsImV4cCI6MTc0NjIwMTE5OCwiZW1haWwiOiJhYmNkQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjoiIn0.8Yp2RV4fu-6esC0WnbE5CFrA2S39gXopzi3zHL2dYGY0_uiNevvfdPBbfac5gf0f
+2025-05-01 21:23:19.111 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - User profile fetched successfully for: abcd@gmail.com
+2025-05-01 21:23:19.111 [http-nio-5001-exec-10] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 8 ms
+2025-05-01 21:23:33.032 [http-nio-5001-exec-1] INFO  c.u.m.controller.AuthController - Method: signin - Args: [com.user.management.request.LoginRequest@4ec1db8d]
+2025-05-01 21:23:33.032 [http-nio-5001-exec-1] INFO  c.u.m.controller.AuthController - Signin attempt for user: imadmirza007@gmail.com
+2025-05-01 21:23:33.038 [http-nio-5001-exec-1] INFO  c.u.m.controller.AuthController - Authenticating user: imadmirza007@gmail.com
+2025-05-01 21:23:33.122 [http-nio-5001-exec-1] INFO  c.u.m.controller.AuthController - Authentication successful for user: imadmirza007@gmail.com
+2025-05-01 21:23:33.123 [http-nio-5001-exec-1] INFO  c.u.m.controller.AuthController - JWT token generated for login: imadmirza007@gmail.com
+2025-05-01 21:23:33.123 [http-nio-5001-exec-1] DEBUG c.u.m.controller.AuthController - Method signin executed in 91 ms
+2025-05-01 21:23:33.167 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh]
+2025-05-01 21:23:33.167 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh
+2025-05-01 21:23:33.175 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:23:33.175 [http-nio-5001-exec-2] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 8 ms
+2025-05-01 21:23:33.321 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh]
+2025-05-01 21:23:33.323 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 21:23:33.339 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 21:23:33.339 [http-nio-5001-exec-3] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 18 ms
+2025-05-01 21:23:33.366 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh]
+2025-05-01 21:23:33.366 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 21:23:33.374 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 21:23:33.374 [http-nio-5001-exec-4] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 8 ms
+2025-05-01 21:23:41.485 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh]
+2025-05-01 21:23:41.485 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh
+2025-05-01 21:23:41.490 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:23:41.490 [http-nio-5001-exec-6] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 5 ms
+2025-05-01 21:23:43.369 [http-nio-5001-exec-5] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh]
+2025-05-01 21:23:43.369 [http-nio-5001-exec-5] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh
+2025-05-01 21:23:43.377 [http-nio-5001-exec-5] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:23:43.377 [http-nio-5001-exec-5] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 8 ms
+2025-05-01 21:23:43.987 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh]
+2025-05-01 21:23:43.987 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh
+2025-05-01 21:23:43.995 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:23:43.995 [http-nio-5001-exec-7] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 8 ms
+2025-05-01 21:23:44.378 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh]
+2025-05-01 21:23:44.378 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh
+2025-05-01 21:23:44.385 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:23:44.385 [http-nio-5001-exec-8] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 7 ms
+2025-05-01 21:23:44.865 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh]
+2025-05-01 21:23:44.865 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh
+2025-05-01 21:23:44.871 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:23:44.871 [http-nio-5001-exec-9] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 6 ms
+2025-05-01 21:23:45.043 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh]
+2025-05-01 21:23:45.043 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh
+2025-05-01 21:23:45.049 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:23:45.049 [http-nio-5001-exec-10] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 6 ms
+2025-05-01 21:23:45.208 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh]
+2025-05-01 21:23:45.208 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh
+2025-05-01 21:23:45.213 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:23:45.213 [http-nio-5001-exec-1] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 5 ms
+2025-05-01 21:23:45.675 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh]
+2025-05-01 21:23:45.675 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh
+2025-05-01 21:23:45.679 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:23:45.679 [http-nio-5001-exec-2] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 4 ms
+2025-05-01 21:23:45.865 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh]
+2025-05-01 21:23:45.865 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh
+2025-05-01 21:23:45.873 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:23:45.873 [http-nio-5001-exec-3] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 8 ms
+2025-05-01 21:23:46.434 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh]
+2025-05-01 21:23:46.434 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh
+2025-05-01 21:23:46.441 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:23:46.441 [http-nio-5001-exec-4] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 7 ms
+2025-05-01 21:23:46.599 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh]
+2025-05-01 21:23:46.599 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4MTMsImV4cCI6MTc0NjIwMTIxMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.hsp8KVs4Twy9qdbTG7p3qBKD_FnD8yuzsvjRfsTccLuQQd6KEkulhtx2Ll108EFh
+2025-05-01 21:23:46.606 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:23:46.606 [http-nio-5001-exec-6] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 7 ms
+2025-05-01 21:24:28.061 [http-nio-5001-exec-5] INFO  c.u.m.controller.AuthController - Method: signin - Args: [com.user.management.request.LoginRequest@73d8af92]
+2025-05-01 21:24:28.061 [http-nio-5001-exec-5] INFO  c.u.m.controller.AuthController - Signin attempt for user: abcd@gmail.com
+2025-05-01 21:24:28.065 [http-nio-5001-exec-5] INFO  c.u.m.controller.AuthController - Authenticating user: abcd@gmail.com
+2025-05-01 21:24:28.135 [http-nio-5001-exec-5] INFO  c.u.m.controller.AuthController - Authentication successful for user: abcd@gmail.com
+2025-05-01 21:24:28.136 [http-nio-5001-exec-5] INFO  c.u.m.controller.AuthController - JWT token generated for login: abcd@gmail.com
+2025-05-01 21:24:28.136 [http-nio-5001-exec-5] DEBUG c.u.m.controller.AuthController - Method signin executed in 75 ms
+2025-05-01 21:24:28.170 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4NjgsImV4cCI6MTc0NjIwMTI2OCwiZW1haWwiOiJhYmNkQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjoiIn0.C9LOp7jxi53SQe9o_fy8BI0DsJSRBDMbNuVAcXMpcQy2ndHasVpalPw1xAzXO29a]
+2025-05-01 21:24:28.170 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4NjgsImV4cCI6MTc0NjIwMTI2OCwiZW1haWwiOiJhYmNkQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjoiIn0.C9LOp7jxi53SQe9o_fy8BI0DsJSRBDMbNuVAcXMpcQy2ndHasVpalPw1xAzXO29a
+2025-05-01 21:24:28.176 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - User profile fetched successfully for: abcd@gmail.com
+2025-05-01 21:24:28.177 [http-nio-5001-exec-7] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 7 ms
+2025-05-01 21:24:28.310 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4NjgsImV4cCI6MTc0NjIwMTI2OCwiZW1haWwiOiJhYmNkQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjoiIn0.C9LOp7jxi53SQe9o_fy8BI0DsJSRBDMbNuVAcXMpcQy2ndHasVpalPw1xAzXO29a]
+2025-05-01 21:24:28.310 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 21:24:28.324 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4NjgsImV4cCI6MTc0NjIwMTI2OCwiZW1haWwiOiJhYmNkQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjoiIn0.C9LOp7jxi53SQe9o_fy8BI0DsJSRBDMbNuVAcXMpcQy2ndHasVpalPw1xAzXO29a]
+2025-05-01 21:24:28.324 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4NjgsImV4cCI6MTc0NjIwMTI2OCwiZW1haWwiOiJhYmNkQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjoiIn0.C9LOp7jxi53SQe9o_fy8BI0DsJSRBDMbNuVAcXMpcQy2ndHasVpalPw1xAzXO29a
+2025-05-01 21:24:28.327 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 21:24:28.327 [http-nio-5001-exec-8] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 17 ms
+2025-05-01 21:24:28.335 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - User profile fetched successfully for: abcd@gmail.com
+2025-05-01 21:24:28.335 [http-nio-5001-exec-9] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 11 ms
+2025-05-01 21:24:28.345 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4NjgsImV4cCI6MTc0NjIwMTI2OCwiZW1haWwiOiJhYmNkQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjoiIn0.C9LOp7jxi53SQe9o_fy8BI0DsJSRBDMbNuVAcXMpcQy2ndHasVpalPw1xAzXO29a]
+2025-05-01 21:24:28.345 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 21:24:28.356 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 21:24:28.356 [http-nio-5001-exec-10] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 11 ms
+2025-05-01 21:24:28.362 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4NjgsImV4cCI6MTc0NjIwMTI2OCwiZW1haWwiOiJhYmNkQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjoiIn0.C9LOp7jxi53SQe9o_fy8BI0DsJSRBDMbNuVAcXMpcQy2ndHasVpalPw1xAzXO29a]
+2025-05-01 21:24:28.363 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4NjgsImV4cCI6MTc0NjIwMTI2OCwiZW1haWwiOiJhYmNkQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjoiIn0.C9LOp7jxi53SQe9o_fy8BI0DsJSRBDMbNuVAcXMpcQy2ndHasVpalPw1xAzXO29a
+2025-05-01 21:24:28.381 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - User profile fetched successfully for: abcd@gmail.com
+2025-05-01 21:24:28.381 [http-nio-5001-exec-1] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 19 ms
+2025-05-01 21:24:50.700 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4NjgsImV4cCI6MTc0NjIwMTI2OCwiZW1haWwiOiJhYmNkQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjoiIn0.C9LOp7jxi53SQe9o_fy8BI0DsJSRBDMbNuVAcXMpcQy2ndHasVpalPw1xAzXO29a]
+2025-05-01 21:24:50.700 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4NjgsImV4cCI6MTc0NjIwMTI2OCwiZW1haWwiOiJhYmNkQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjoiIn0.C9LOp7jxi53SQe9o_fy8BI0DsJSRBDMbNuVAcXMpcQy2ndHasVpalPw1xAzXO29a
+2025-05-01 21:24:50.709 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - User profile fetched successfully for: abcd@gmail.com
+2025-05-01 21:24:50.709 [http-nio-5001-exec-2] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 9 ms
+2025-05-01 21:24:55.497 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4NjgsImV4cCI6MTc0NjIwMTI2OCwiZW1haWwiOiJhYmNkQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjoiIn0.C9LOp7jxi53SQe9o_fy8BI0DsJSRBDMbNuVAcXMpcQy2ndHasVpalPw1xAzXO29a]
+2025-05-01 21:24:55.497 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4NjgsImV4cCI6MTc0NjIwMTI2OCwiZW1haWwiOiJhYmNkQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjoiIn0.C9LOp7jxi53SQe9o_fy8BI0DsJSRBDMbNuVAcXMpcQy2ndHasVpalPw1xAzXO29a
+2025-05-01 21:24:55.509 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - User profile fetched successfully for: abcd@gmail.com
+2025-05-01 21:24:55.509 [http-nio-5001-exec-3] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 12 ms
+2025-05-01 21:24:57.331 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4NjgsImV4cCI6MTc0NjIwMTI2OCwiZW1haWwiOiJhYmNkQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjoiIn0.C9LOp7jxi53SQe9o_fy8BI0DsJSRBDMbNuVAcXMpcQy2ndHasVpalPw1xAzXO29a]
+2025-05-01 21:24:57.331 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4NjgsImV4cCI6MTc0NjIwMTI2OCwiZW1haWwiOiJhYmNkQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjoiIn0.C9LOp7jxi53SQe9o_fy8BI0DsJSRBDMbNuVAcXMpcQy2ndHasVpalPw1xAzXO29a
+2025-05-01 21:24:57.342 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - User profile fetched successfully for: abcd@gmail.com
+2025-05-01 21:24:57.342 [http-nio-5001-exec-4] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 11 ms
+2025-05-01 21:24:57.449 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4NjgsImV4cCI6MTc0NjIwMTI2OCwiZW1haWwiOiJhYmNkQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjoiIn0.C9LOp7jxi53SQe9o_fy8BI0DsJSRBDMbNuVAcXMpcQy2ndHasVpalPw1xAzXO29a]
+2025-05-01 21:24:57.449 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 21:24:57.465 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 21:24:57.465 [http-nio-5001-exec-6] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 16 ms
+2025-05-01 21:24:57.484 [http-nio-5001-exec-5] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4NjgsImV4cCI6MTc0NjIwMTI2OCwiZW1haWwiOiJhYmNkQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjoiIn0.C9LOp7jxi53SQe9o_fy8BI0DsJSRBDMbNuVAcXMpcQy2ndHasVpalPw1xAzXO29a]
+2025-05-01 21:24:57.484 [http-nio-5001-exec-5] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 21:24:57.496 [http-nio-5001-exec-5] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 21:24:57.496 [http-nio-5001-exec-5] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 12 ms
+2025-05-01 21:25:03.495 [http-nio-5001-exec-7] INFO  c.u.m.controller.AuthController - Method: signin - Args: [com.user.management.request.LoginRequest@1aede261]
+2025-05-01 21:25:03.495 [http-nio-5001-exec-7] INFO  c.u.m.controller.AuthController - Signin attempt for user: imadmirza007@gmail.com
+2025-05-01 21:25:03.499 [http-nio-5001-exec-7] INFO  c.u.m.controller.AuthController - Authenticating user: imadmirza007@gmail.com
+2025-05-01 21:25:03.570 [http-nio-5001-exec-7] INFO  c.u.m.controller.AuthController - Authentication successful for user: imadmirza007@gmail.com
+2025-05-01 21:25:03.571 [http-nio-5001-exec-7] INFO  c.u.m.controller.AuthController - JWT token generated for login: imadmirza007@gmail.com
+2025-05-01 21:25:03.571 [http-nio-5001-exec-7] DEBUG c.u.m.controller.AuthController - Method signin executed in 76 ms
+2025-05-01 21:25:03.603 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76]
+2025-05-01 21:25:03.603 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76
+2025-05-01 21:25:03.607 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:25:03.607 [http-nio-5001-exec-8] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 4 ms
+2025-05-01 21:25:03.712 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76]
+2025-05-01 21:25:03.712 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 21:25:03.723 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 21:25:03.723 [http-nio-5001-exec-9] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 11 ms
+2025-05-01 21:25:03.751 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76]
+2025-05-01 21:25:03.751 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 21:25:03.761 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 21:25:03.761 [http-nio-5001-exec-10] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 10 ms
+2025-05-01 21:25:24.089 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76]
+2025-05-01 21:25:24.089 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 21:25:24.105 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 21:25:24.105 [http-nio-5001-exec-1] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 16 ms
+2025-05-01 21:25:24.120 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76]
+2025-05-01 21:25:24.120 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 21:25:24.129 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 21:25:24.129 [http-nio-5001-exec-2] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 10 ms
+2025-05-01 21:28:37.570 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76]
+2025-05-01 21:28:37.570 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76
+2025-05-01 21:28:37.578 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:28:37.578 [http-nio-5001-exec-6] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 8 ms
+2025-05-01 21:28:37.591 [http-nio-5001-exec-5] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76]
+2025-05-01 21:28:37.591 [http-nio-5001-exec-5] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76
+2025-05-01 21:28:37.604 [http-nio-5001-exec-5] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:28:37.604 [http-nio-5001-exec-5] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 13 ms
+2025-05-01 21:29:12.506 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76]
+2025-05-01 21:29:12.506 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76
+2025-05-01 21:29:12.515 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:29:12.515 [http-nio-5001-exec-7] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 9 ms
+2025-05-01 21:29:12.527 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76]
+2025-05-01 21:29:12.527 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76
+2025-05-01 21:29:12.536 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:29:12.536 [http-nio-5001-exec-8] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 9 ms
+2025-05-01 21:29:13.085 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76]
+2025-05-01 21:29:13.086 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 21:29:13.097 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 21:29:13.097 [http-nio-5001-exec-9] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 12 ms
+2025-05-01 21:29:13.122 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76]
+2025-05-01 21:29:13.122 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 21:29:13.129 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 21:29:13.129 [http-nio-5001-exec-10] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 8 ms
+2025-05-01 21:30:13.983 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76]
+2025-05-01 21:30:13.983 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76
+2025-05-01 21:30:13.994 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:30:13.994 [http-nio-5001-exec-2] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 11 ms
+2025-05-01 21:30:14.006 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76]
+2025-05-01 21:30:14.007 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76
+2025-05-01 21:30:14.016 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:30:14.016 [http-nio-5001-exec-3] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 10 ms
+2025-05-01 21:33:13.585 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76]
+2025-05-01 21:33:13.585 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76
+2025-05-01 21:33:13.599 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:33:13.599 [http-nio-5001-exec-6] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 14 ms
+2025-05-01 21:33:13.609 [http-nio-5001-exec-5] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76]
+2025-05-01 21:33:13.609 [http-nio-5001-exec-5] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76
+2025-05-01 21:33:13.618 [http-nio-5001-exec-5] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:33:13.618 [http-nio-5001-exec-5] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 9 ms
+2025-05-01 21:34:45.337 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76]
+2025-05-01 21:34:45.338 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76
+2025-05-01 21:34:45.345 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:34:45.345 [http-nio-5001-exec-9] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 8 ms
+2025-05-01 21:34:45.354 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76]
+2025-05-01 21:34:45.354 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ5MDMsImV4cCI6MTc0NjIwMTMwMywiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.J9CjS4dAxFB6Xk6Emg7CZzMcHX2ivl0Eb9syAwQLG2TMX8que9Z09QO3hoNKBP76
+2025-05-01 21:34:45.365 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 21:34:45.366 [http-nio-5001-exec-10] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 12 ms
+2025-05-01 23:30:08.943 [http-nio-5001-exec-9] INFO  c.u.m.controller.AuthController - Method: signin - Args: [com.user.management.request.LoginRequest@30292d23]
+2025-05-01 23:30:08.943 [http-nio-5001-exec-9] INFO  c.u.m.controller.AuthController - Signin attempt for user: imadmirza007@gmail.com
+2025-05-01 23:30:08.966 [http-nio-5001-exec-9] INFO  c.u.m.controller.AuthController - Authenticating user: imadmirza007@gmail.com
+2025-05-01 23:30:09.048 [http-nio-5001-exec-9] INFO  c.u.m.controller.AuthController - Authentication successful for user: imadmirza007@gmail.com
+2025-05-01 23:30:09.050 [http-nio-5001-exec-9] INFO  c.u.m.controller.AuthController - JWT token generated for login: imadmirza007@gmail.com
+2025-05-01 23:30:09.050 [http-nio-5001-exec-9] DEBUG c.u.m.controller.AuthController - Method signin executed in 107 ms
+2025-05-01 23:30:09.090 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:30:09.090 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX
+2025-05-01 23:30:09.095 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 23:30:09.095 [http-nio-5001-exec-10] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 5 ms
+2025-05-01 23:30:09.425 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:30:09.426 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 23:30:09.442 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 23:30:09.442 [http-nio-5001-exec-1] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 17 ms
+2025-05-01 23:30:09.470 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:30:09.470 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 23:30:09.480 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 23:30:09.480 [http-nio-5001-exec-2] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 10 ms
+2025-05-01 23:30:49.223 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:30:49.223 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX
+2025-05-01 23:30:49.235 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 23:30:49.235 [http-nio-5001-exec-3] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 12 ms
+2025-05-01 23:30:49.253 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:30:49.253 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX
+2025-05-01 23:30:49.266 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 23:30:49.266 [http-nio-5001-exec-4] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 13 ms
+2025-05-01 23:30:49.558 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:30:49.559 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 23:30:49.571 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 23:30:49.571 [http-nio-5001-exec-6] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 13 ms
+2025-05-01 23:30:49.591 [http-nio-5001-exec-5] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:30:49.591 [http-nio-5001-exec-5] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 23:30:49.604 [http-nio-5001-exec-5] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 23:30:49.604 [http-nio-5001-exec-5] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 13 ms
+2025-05-01 23:33:11.589 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:33:11.589 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX
+2025-05-01 23:33:11.599 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 23:33:11.599 [http-nio-5001-exec-8] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 10 ms
+2025-05-01 23:33:11.617 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:33:11.617 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX
+2025-05-01 23:33:11.630 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 23:33:11.630 [http-nio-5001-exec-9] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 13 ms
+2025-05-01 23:33:11.885 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:33:11.886 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 23:33:11.895 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 23:33:11.895 [http-nio-5001-exec-10] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 10 ms
+2025-05-01 23:33:11.928 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:33:11.928 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 23:33:11.944 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 23:33:11.944 [http-nio-5001-exec-1] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 16 ms
+2025-05-01 23:34:17.989 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:34:17.989 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX
+2025-05-01 23:34:17.998 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 23:34:17.998 [http-nio-5001-exec-3] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 9 ms
+2025-05-01 23:34:26.699 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:34:26.699 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX
+2025-05-01 23:34:26.709 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 23:34:26.709 [http-nio-5001-exec-4] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 10 ms
+2025-05-01 23:34:26.733 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:34:26.733 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX
+2025-05-01 23:34:26.745 [http-nio-5001-exec-6] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 23:34:26.745 [http-nio-5001-exec-6] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 12 ms
+2025-05-01 23:34:27.169 [http-nio-5001-exec-5] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:34:27.169 [http-nio-5001-exec-5] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 23:34:27.180 [http-nio-5001-exec-5] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 23:34:27.180 [http-nio-5001-exec-5] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 11 ms
+2025-05-01 23:34:27.197 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:34:27.197 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 23:34:27.204 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 23:34:27.204 [http-nio-5001-exec-7] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 7 ms
+2025-05-01 23:34:36.702 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:34:36.702 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 23:34:36.714 [http-nio-5001-exec-8] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 23:34:36.714 [http-nio-5001-exec-8] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 12 ms
+2025-05-01 23:34:36.744 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:34:36.744 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 23:34:36.751 [http-nio-5001-exec-9] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 23:34:36.751 [http-nio-5001-exec-9] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 7 ms
+2025-05-01 23:34:38.366 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:34:38.366 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX
+2025-05-01 23:34:38.377 [http-nio-5001-exec-10] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 23:34:38.377 [http-nio-5001-exec-10] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 11 ms
+2025-05-01 23:34:38.398 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:34:38.398 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX
+2025-05-01 23:34:38.412 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 23:34:38.412 [http-nio-5001-exec-1] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 14 ms
+2025-05-01 23:34:38.591 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:34:38.591 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 23:34:38.605 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 23:34:38.605 [http-nio-5001-exec-2] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 14 ms
+2025-05-01 23:34:38.630 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:34:38.630 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 23:34:38.643 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 23:34:38.643 [http-nio-5001-exec-3] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 13 ms
+2025-05-01 23:37:01.325 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:37:01.325 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX
+2025-05-01 23:37:01.333 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 23:37:01.333 [http-nio-5001-exec-7] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 8 ms
+2025-05-01 23:43:22.598 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:43:22.599 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX
+2025-05-01 23:43:22.873 [http-nio-5001-exec-3] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 23:43:22.874 [http-nio-5001-exec-3] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 276 ms
+2025-05-01 23:43:22.952 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:43:22.952 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX
+2025-05-01 23:43:22.962 [http-nio-5001-exec-2] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 23:43:22.962 [http-nio-5001-exec-2] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 10 ms
+2025-05-01 23:43:23.628 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:43:23.628 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 23:43:23.685 [http-nio-5001-exec-4] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 23:43:23.685 [http-nio-5001-exec-4] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 57 ms
+2025-05-01 23:43:23.709 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - Method: findAllUsers - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:43:23.710 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - Fetching all users...
+2025-05-01 23:43:23.724 [http-nio-5001-exec-1] INFO  c.u.m.controller.UserController - Total users fetched: 8
+2025-05-01 23:43:23.724 [http-nio-5001-exec-1] DEBUG c.u.m.controller.UserController - Method findAllUsers executed in 15 ms
+2025-05-01 23:44:53.438 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - Method: getUserProfileHandler - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
+2025-05-01 23:44:53.440 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - Fetching user profile with JWT: Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX
+2025-05-01 23:44:53.451 [http-nio-5001-exec-7] INFO  c.u.m.controller.UserController - User profile fetched successfully for: imadmirza007@gmail.com
+2025-05-01 23:44:53.451 [http-nio-5001-exec-7] DEBUG c.u.m.controller.UserController - Method getUserProfileHandler executed in 13 ms

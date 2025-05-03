@@ -1,0 +1,102 @@
+package com.user.management.controller;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.user.management.model.User;
+import com.user.management.repository.UserRepository;
+import com.user.management.request.LoginRequest;
+import com.user.management.service.CustomeUserServiceImplementation;
+import com.user.management.service.UserService;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.http.MediaType;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.test.context.support.WithMockUser;
+import org.springframework.test.web.servlet.MockMvc;
+
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.Mockito.when;
+import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.csrf;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+
+@SpringBootTest
+@AutoConfigureMockMvc
+@WithMockUser
+public class AuthControllerTest {
+
+    @Autowired
+    private MockMvc mockMvc;
+
+    @MockBean
+    private UserRepository userRepository;
+
+    @MockBean
+    private PasswordEncoder passwordEncoder;
+
+    @MockBean
+    private CustomeUserServiceImplementation customeUserServiceImplementation;
+
+    @MockBean
+    private UserService userService;
+
+    private ObjectMapper objectMapper;
+    private User user;
+
+    @BeforeEach
+    public void setUp() {
+        objectMapper = new ObjectMapper();
+
+        user = new User();
+        user.setFullName("Test User");
+        user.setEmail("test@example.com");
+        user.setPassword("password");
+        user.setMobile("1234567890");
+        user.setRole("USER");
+    }
+
+    @Test
+    public void testSignupSuccess() throws Exception {
+        when(userRepository.findByEmail(user.getEmail())).thenReturn(null);
+        when(passwordEncoder.encode(user.getPassword())).thenReturn("encodedPassword");
+        when(userRepository.save(any(User.class))).thenReturn(user);
+
+        mockMvc.perform(post("/auth/signup")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(user))
+                        .with(csrf()))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.message").value("Register Success"))
+                .andExpect(jsonPath("$.status").value(true));
+    }
+
+    @Test
+    public void testSigninSuccess() throws Exception {
+        LoginRequest loginRequest = new LoginRequest();
+        loginRequest.setEmail("test@example.com");
+        loginRequest.setPassword("password");
+
+        UserDetails mockUserDetails = org.springframework.security.core.userdetails.User
+                .withUsername("test@example.com")
+                .password("encodedPassword")
+                .roles("USER")
+                .build();
+
+        when(customeUserServiceImplementation.loadUserByUsername("test@example.com")).thenReturn(mockUserDetails);
+        when(passwordEncoder.matches("password", "encodedPassword")).thenReturn(true);
+
+        mockMvc.perform(post("/auth/signin")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(loginRequest))
+                        .with(csrf()))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.message").value("Login Success"))
+                .andExpect(jsonPath("$.status").value(true));
+    }
+}

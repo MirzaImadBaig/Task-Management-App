@@ -1,0 +1,83 @@
+package com.submission.management.controller;
+
+import com.submission.management.dtos.SubmissionRequest;
+import com.submission.management.dtos.UserDto;
+import com.submission.management.model.Submission;
+import com.submission.management.service.SubmissionService;
+import com.submission.management.service.TaskService;
+import com.submission.management.service.UserService;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+/**
+ * Handles endpoints related to task submissions.
+ */
+@RestController
+@RequestMapping("/api/submissions")
+public class SubmissionController {
+
+    @Autowired
+    private SubmissionService submissionService;
+
+    @Autowired
+    private UserService userService;
+
+    @Autowired
+    private TaskService taskService;
+
+    /**
+     * Submit a task with GitHub link and taskId.
+     */
+    @PostMapping()
+    public ResponseEntity<Submission> submitTask(
+            @RequestBody SubmissionRequest submissionRequest,
+            @RequestHeader("Authorization") String jwt) throws Exception {
+
+        UserDto user = userService.getUserProfileHandler(jwt);
+        Submission submission = submissionService.submitTask(
+            submissionRequest.getTask_id(),
+            submissionRequest.getGithub_link(),
+            user.getId(),
+            jwt
+        );
+
+        return new ResponseEntity<>(submission, HttpStatus.CREATED);
+    }
+
+    /**
+     * Get a specific submission by its ID.
+     */
+    @GetMapping("/{submissionId}")
+    public ResponseEntity<?> getTaskSubmissionById(@PathVariable Long submissionId) {
+        try {
+            Submission submission = submissionService.getTaskSubmissionById(submissionId);
+            return new ResponseEntity<>(submission, HttpStatus.OK);
+        } catch (Exception e) {
+            return new ResponseEntity<>("Submission not found", HttpStatus.NOT_FOUND);
+        }
+    }
+
+    /**
+     * Get all submissions.
+     */
+    @GetMapping
+    public ResponseEntity<List<Submission>> getAllTaskSubmissions() {
+        List<Submission> submissions = submissionService.getAllTaskSubmissions();
+        return new ResponseEntity<>(submissions, HttpStatus.OK);
+    }
+
+    /**
+     * Get all submissions for a specific task.
+     */
+    @GetMapping("/task/{taskId}")
+    public ResponseEntity<List<Submission>> getTaskSubmissionsByTaskId(@PathVariable Long taskId) {
+        List<Submission> submissions = submissionService.getTaskSubmissionsByTaskId(taskId);
+        return new ResponseEntity<>(submissions, HttpStatus.OK);
+    }
+
+}

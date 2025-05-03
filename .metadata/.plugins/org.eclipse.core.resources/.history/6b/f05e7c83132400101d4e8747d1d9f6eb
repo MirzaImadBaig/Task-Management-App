@@ -1,0 +1,39 @@
+package com.taskmgment.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.http.SessionCreationPolicy;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.authentication.www.BasicAuthenticationFilter;
+
+@Configuration
+public class AppConfig {
+	
+	    @Bean
+	    SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+		 
+	    	// No HTTP session is stored server-side.
+	    	// Every request must carry its own authentication token (JWT).
+	        http.sessionManagement(management -> management.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+	                .authorizeHttpRequests(Authorize -> Authorize
+	                		        .requestMatchers("/api/admin/**").hasRole("ADMIN")
+	                                .requestMatchers("/api/**").authenticated()   
+	                                .anyRequest().permitAll()
+	                )
+	                // This is a custom filter that checks the validity of JWTs on each request and authenticates the user.
+	                .addFilterBefore(new JwtTokenValidator(), BasicAuthenticationFilter.class)
+	                // CSRF is disabled because we are using JWT for stateless authentication, and there's no session to protect.
+	                .csrf(csrf -> csrf.disable());
+			return http.build();
+		}
+
+
+	    @Bean
+	    PasswordEncoder passwordEncoder() {
+	    	// Defines a PasswordEncoder bean that uses BCrypt — a secure hashing algorithm to store user passwords safely in your database.
+			return new BCryptPasswordEncoder();
+		}
+}

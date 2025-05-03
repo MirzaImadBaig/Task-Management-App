@@ -1,0 +1,38 @@
+server:
+  port: 5001
+
+spring:
+  application:
+    name: USER-SERVICE
+  datasource:
+    url: jdbc:mysql://localhost:3306/task_user_service
+    username: root
+    password: mirza12345
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+# AOP and Logging Configuration
+logging:
+  file:
+    name: logs/user-service.log  # Relative path to log file
+    max-size: 10MB               # Max size before rotation
+    max-history: 7               # Keep 7 days of logs
+  level:
+    root: INFO
+    com.taskmgment: DEBUG        # Your package
+    org.springframework.web: INFO
+    org.hibernate: WARN
+  pattern:
+    file: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+    console: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka/

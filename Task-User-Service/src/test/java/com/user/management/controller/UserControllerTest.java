@@ -1,0 +1,93 @@
+package com.user.management.controller;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.user.management.controller.UserController;
+import com.user.management.model.User;
+import com.user.management.service.UserService;
+
+import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
+
+import org.springframework.http.MediaType;
+
+import org.springframework.security.test.context.support.WithMockUser;
+import org.springframework.test.web.servlet.MockMvc;
+
+import java.util.Arrays;
+import java.util.List;
+
+import static org.mockito.ArgumentMatchers.anyLong;
+import static org.mockito.Mockito.when;
+
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+
+@WebMvcTest(UserController.class)
+public class UserControllerTest {
+
+    @Autowired
+    private MockMvc mockMvc;
+
+    @MockBean
+    private UserService userService;
+
+    @Autowired
+    private ObjectMapper objectMapper;
+
+    @Test
+    @WithMockUser(username = "test@example.com", roles = {"USER"})
+    public void testGetUserProfileHandler() throws Exception {
+        User user = new User();
+        user.setId(1L);
+        user.setEmail("test@example.com");
+        user.setFullName("Test User");
+
+        when(userService.findUserProfileByJwt(Mockito.anyString())).thenReturn(user);
+
+        mockMvc.perform(get("/api/users/profile")
+                        .header("Authorization", "Bearer token"))
+                .andExpect(status().isAccepted())
+                .andExpect(jsonPath("$.email").value("test@example.com"));
+    }
+
+    @Test
+    @WithMockUser(username = "test@example.com", roles = {"USER"})
+    public void testFindUserById() throws Exception {
+        User user = new User();
+        user.setId(1L);
+        user.setEmail("test@example.com");
+        user.setFullName("Test User");
+
+        when(userService.findUserById(anyLong())).thenReturn(user);
+
+        mockMvc.perform(get("/api/users/1")
+                        .header("Authorization", "Bearer token"))
+                .andExpect(status().isAccepted())
+                .andExpect(jsonPath("$.email").value("test@example.com"));
+    }
+
+    @Test
+    @WithMockUser(username = "test@example.com", roles = {"USER"})
+    public void testFindAllUsers() throws Exception {
+        User user1 = new User();
+        user1.setId(1L);
+        user1.setEmail("test1@example.com");
+
+        User user2 = new User();
+        user2.setId(2L);
+        user2.setEmail("test2@example.com");
+
+        List<User> userList = Arrays.asList(user1, user2);
+        when(userService.findAllUsers()).thenReturn(userList);
+
+        mockMvc.perform(get("/api/users")
+                        .header("Authorization", "Bearer token"))
+                .andExpect(status().isAccepted())
+                .andExpect(jsonPath("$.length()").value(2));
+    }
+}

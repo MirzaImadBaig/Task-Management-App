@@ -1,0 +1,124 @@
+package com.submission.management.controller;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.submission.management.controller.SubmissionController;
+import com.submission.management.dtos.UserDto;
+import com.submission.management.model.Submission;
+import com.submission.management.service.SubmissionService;
+import com.submission.management.service.TaskService;
+import com.submission.management.service.UserService;
+
+import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
+
+import org.springframework.http.MediaType;
+import org.springframework.test.web.servlet.MockMvc;
+
+import java.util.Arrays;
+import java.util.List;
+
+import static org.mockito.ArgumentMatchers.*;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+
+@WebMvcTest(SubmissionController.class)
+public class SubmissionControllerTest {
+
+    @Autowired
+    private MockMvc mockMvc;
+
+    @MockBean
+    private SubmissionService submissionService;
+
+    @MockBean
+    private UserService userService;
+
+    @MockBean
+    private TaskService taskService;
+
+    @Autowired
+    private ObjectMapper objectMapper;
+
+    @Test
+    public void testSubmitTask() throws Exception {
+        UserDto userDto = new UserDto();
+        userDto.setId(1L);
+
+        Submission submission = new Submission();
+        submission.setId(100L);
+        submission.setGithubLink("https://github.com/user/repo");
+
+        Mockito.when(userService.getUserProfileHandler(anyString())).thenReturn(userDto);
+        Mockito.when(submissionService.submitTask(anyLong(), anyString(), anyLong(), anyString()))
+               .thenReturn(submission);
+
+        mockMvc.perform(post("/api/submissions")
+                .param("task_id", "1")
+                .param("github_link", "https://github.com/user/repo")
+                .header("Authorization", "Bearer token"))
+                .andExpect(status().isCreated())
+                .andExpect(jsonPath("$.id").value(100));
+    }
+
+    @Test
+    public void testGetTaskSubmissionById() throws Exception {
+        Submission submission = new Submission();
+        submission.setId(1L);
+
+        Mockito.when(submissionService.getTaskSubmissionById(1L)).thenReturn(submission);
+
+        mockMvc.perform(get("/api/submissions/1"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.id").value(1));
+    }
+
+    @Test
+    public void testGetAllTaskSubmissions() throws Exception {
+        Submission submission1 = new Submission();
+        submission1.setId(1L);
+        Submission submission2 = new Submission();
+        submission2.setId(2L);
+
+        List<Submission> submissions = Arrays.asList(submission1, submission2);
+        Mockito.when(submissionService.getAllTaskSubmissions()).thenReturn(submissions);
+
+        mockMvc.perform(get("/api/submissions"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.length()").value(2));
+    }
+
+    @Test
+    public void testGetTaskSubmissionsByTaskId() throws Exception {
+        Submission submission = new Submission();
+        submission.setTaskId(1L);
+
+        Mockito.when(submissionService.getTaskSubmissionsByTaskId(1L))
+               .thenReturn(List.of(submission));
+
+        mockMvc.perform(get("/api/submissions/task/1"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$[0].taskId").value(1));
+    }
+
+    @Test
+    public void testAcceptOrDeclineTaskSubmission() throws Exception {
+        Submission submission = new Submission();
+        submission.setId(1L);
+        submission.setStatus("COMPLETE");
+        submission.setTaskId(5L);
+
+        Mockito.when(submissionService.acceptDeclineSubmission(1L, "COMPLETE"))
+               .thenReturn(submission);
+
+        mockMvc.perform(put("/api/submissions/1")
+                .param("status", "COMPLETE"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.status").value("COMPLETE"));
+
+        Mockito.verify(taskService).completeTask(5L);
+    }
+}

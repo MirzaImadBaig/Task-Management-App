@@ -1,0 +1,96 @@
+package com.taskmgment.controller;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.taskmgment.model.User;
+import com.taskmgment.request.PasswordResetRequest;
+import com.taskmgment.service.UserService;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.http.MediaType;
+import org.springframework.test.web.servlet.MockMvc;
+
+import java.util.Collections;
+import java.util.List;
+
+import static org.mockito.ArgumentMatchers.*;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+
+@WebMvcTest(UserController.class)
+public class UserControllerTest {
+
+    @Autowired
+    private MockMvc mockMvc;
+
+    @MockBean
+    private UserService userService;
+
+    private User sampleUser;
+
+    @BeforeEach
+    public void setup() {
+        sampleUser = new User();
+        sampleUser.setId(1L);
+        sampleUser.setEmail("test@example.com");
+        sampleUser.setFullName("Test User");
+        sampleUser.setPassword("password");
+        sampleUser.setRole("CUSTOMER");
+    }
+
+    @Test
+    public void testGetUserProfileHandler() throws Exception {
+        Mockito.when(userService.findUserProfileByJwt(anyString()))
+                .thenReturn(sampleUser);
+
+        mockMvc.perform(get("/api/users/profile")
+                        .header("Authorization", "Bearer dummy"))
+                .andExpect(status().isAccepted())
+                .andExpect(jsonPath("$.email").value("test@example.com"));
+    }
+
+    @Test
+    public void testFindUserById_AsSelf() throws Exception {
+        Mockito.when(userService.findUserProfileByJwt(anyString()))
+                .thenReturn(sampleUser);
+        Mockito.when(userService.findUserById(1L))
+                .thenReturn(sampleUser);
+
+        mockMvc.perform(get("/api/users/1")
+                        .header("Authorization", "Bearer dummy"))
+                .andExpect(status().isAccepted())
+                .andExpect(jsonPath("$.id").value(1));
+    }
+
+    @Test
+    public void testFindAllUsers() throws Exception {
+        Mockito.when(userService.findAllUsers())
+                .thenReturn(List.of(sampleUser));
+
+        mockMvc.perform(get("/api/users")
+                        .header("Authorization", "Bearer dummy"))
+                .andExpect(status().isAccepted())
+                .andExpect(jsonPath("$[0].email").value("test@example.com"));
+    }
+
+    // Add this test only if PasswordResetRequest class is available
+    @Test
+    public void testResetPassword() throws Exception {
+        PasswordResetRequest request = new PasswordResetRequest("test@example.com", "newPassword");
+
+        Mockito.when(userService.findUserByEmail(anyString()))
+                .thenReturn(sampleUser);
+
+        ObjectMapper objectMapper = new ObjectMapper();
+
+        mockMvc.perform(post("/api/admin/reset-password")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(request)))
+                .andExpect(status().isOk())
+                .andExpect(content().string("Password reset successful."));
+    }
+}
+

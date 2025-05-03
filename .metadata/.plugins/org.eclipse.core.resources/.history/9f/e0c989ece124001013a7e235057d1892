@@ -1,0 +1,129 @@
+package com.taskmgment.controller;
+
+import com.taskmgment.exception.UserException;
+import com.taskmgment.model.User;
+import com.taskmgment.service.UserService;
+import com.taskmgment.request.PasswordResetRequest;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+import static org.mockito.Mockito.*;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+
+@ExtendWith(MockitoExtension.class)
+public class UserControllerTest {
+
+    @Mock
+    private UserService userService;
+
+    @InjectMocks
+    private UserController userController;
+
+    private MockMvc mockMvc;
+
+    private User testUser;
+
+    @BeforeEach
+    public void setUp() {
+        mockMvc = MockMvcBuilders.standaloneSetup(userController).build();
+        testUser = new User();
+        testUser.setId(1L);
+        testUser.setFullName("John Doe");
+        testUser.setEmail("john.doe@example.com");
+        testUser.setRole("CUSTOMER");
+    }
+
+    @Test
+    public void testGetUserProfileHandler_Success() throws Exception {
+        String jwt = "Bearer valid-jwt-token";
+
+        when(userService.findUserProfileByJwt(jwt)).thenReturn(testUser);
+
+        mockMvc.perform(get("/api/users/profile")
+                        .header("Authorization", jwt))
+                .andExpect(status().isAccepted())
+                .andExpect(jsonPath("$.fullName").value("John Doe"))
+                .andExpect(jsonPath("$.email").value("john.doe@example.com"))
+                .andExpect(jsonPath("$.password").doesNotExist());
+
+        verify(userService, times(1)).findUserProfileByJwt(jwt);
+    }
+
+    @Test
+    public void testFindUserById_Success() throws Exception {
+        Long userId = 1L;
+        String jwt = "Bearer valid-jwt-token";
+
+        when(userService.findUserProfileByJwt(jwt)).thenReturn(testUser);
+        when(userService.findUserById(userId)).thenReturn(testUser);
+
+        mockMvc.perform(get("/api/users/{userId}", userId)
+                        .header("Authorization", jwt))
+                .andExpect(status().isAccepted())
+                .andExpect(jsonPath("$.fullName").value("John Doe"))
+                .andExpect(jsonPath("$.email").value("john.doe@example.com"))
+                .andExpect(jsonPath("$.password").doesNotExist());
+
+        verify(userService, times(1)).findUserProfileByJwt(jwt);
+        verify(userService, times(1)).findUserById(userId);
+    }
+
+    @Test
+    public void testFindAllUsers_Forbidden() throws Exception {
+        String jwt = "Bearer non-admin-jwt";
+
+        when(userService.findUserProfileByJwt(jwt)).thenReturn(testUser);
+
+        mockMvc.perform(get("/api/users")
+                        .header("Authorization", jwt))
+                .andExpect(status().isForbidden());
+
+        verify(userService, times(1)).findUserProfileByJwt(jwt);
+    }
+
+    @Test
+    public void testResetPassword_Success() throws Exception {
+        String jwt = "Bearer admin-jwt";
+        PasswordResetRequest request = new PasswordResetRequest("john.doe@example.com", "newPassword123");
+
+        when(userService.findUserProfileByJwt(jwt)).thenReturn(testUser);
+        when(userService.findUserByEmail(request.getEmail())).thenReturn(testUser);
+
+        mockMvc.perform(post("/api/admin/reset-password")
+                        .header("Authorization", jwt)
+                        .contentType("application/json")
+                        .content("{ \"email\": \"john.doe@example.com\", \"newPassword\": \"newPassword123\" }"))
+                .andExpect(status().isOk())
+                .andExpect(content().string("Password reset successful."));
+
+        verify(userService, times(1)).findUserProfileByJwt(jwt);
+        verify(userService, times(1)).findUserByEmail(request.getEmail());
+    }
+
+    @Test
+    public void testResetPassword_Failure() throws Exception {
+        String jwt = "Bearer non-admin-jwt";
+        PasswordResetRequest request = new PasswordResetRequest("john.doe@example.com", "newPassword123");
+
+        when(userService.findUserProfileByJwt(jwt)).thenReturn(testUser);
+
+        mockMvc.perform(post("/api/admin/reset-password")
+                        .header("Authorization", jwt)
+                        .contentType("application/json")
+                        .content("{ \"email\": \"john.doe@example.com\", \"newPassword\": \"newPassword123\" }"))
+                .andExpect(status().isForbidden())
+                .andExpect(content().string("Access denied: Only admins can reset passwords."));
+
+        verify(userService, times(1)).findUserProfileByJwt(jwt);
+    }
+}

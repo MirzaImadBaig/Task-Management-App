@@ -1,0 +1,23 @@
+server:
+  port: 5001
+
+spring:
+  application:
+    name: USER-SERVICE
+  datasource:
+    url: jdbc:mysql://mysql-db:3306/task_user_service
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://eureka-server:8070/eureka/

@@ -1,0 +1,181 @@
+11:04:47.623 [restartedMain] INFO  com.taskmgment.config.AppConfig - Initializing BCryptPasswordEncoder...
+11:04:47.744 [restartedMain] INFO  com.taskmgment.config.AppConfig - Initializing SecurityFilterChain...
+11:04:47.859 [restartedMain] INFO  com.taskmgment.config.AppConfig - Setting up CORS configuration...
+11:04:47.859 [restartedMain] INFO  com.taskmgment.config.AppConfig - SecurityFilterChain successfully configured.
+11:14:53.644 [http-nio-5001-exec-1] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+11:14:53.644 [http-nio-5001-exec-2] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+11:14:53.679 [http-nio-5001-exec-3] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+11:14:53.796 [http-nio-5001-exec-3] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: mahant@gmail.com
+11:14:53.930 [http-nio-5001-exec-3] INFO  com.taskmgment.config.JwtProvider - Extracting email from JWT token
+11:14:54.330 [http-nio-5001-exec-5] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+11:14:54.331 [http-nio-5001-exec-5] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: mahant@gmail.com
+11:14:54.333 [http-nio-5001-exec-5] INFO  com.taskmgment.config.JwtProvider - Extracting email from JWT token
+11:14:54.352 [http-nio-5001-exec-7] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+11:14:54.352 [http-nio-5001-exec-6] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+11:14:54.358 [http-nio-5001-exec-8] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+11:14:54.359 [http-nio-5001-exec-8] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: mahant@gmail.com
+11:14:54.387 [http-nio-5001-exec-9] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+11:14:54.390 [http-nio-5001-exec-9] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: mahant@gmail.com
+14:28:59.709 [http-nio-5001-exec-10] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:28:59.778 [http-nio-5001-exec-2] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:29:00.351 [http-nio-5001-exec-2] INFO  com.taskmgment.config.JwtProvider - Generating JWT token for user: Kunal@gmail.com
+14:29:00.517 [http-nio-5001-exec-1] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:29:00.522 [http-nio-5001-exec-4] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:29:00.529 [http-nio-5001-exec-4] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:29:00.541 [http-nio-5001-exec-4] INFO  com.taskmgment.config.JwtProvider - Extracting email from JWT token
+14:29:00.587 [http-nio-5001-exec-3] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:29:00.587 [http-nio-5001-exec-5] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:29:00.606 [http-nio-5001-exec-6] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:29:00.611 [http-nio-5001-exec-6] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:29:00.670 [http-nio-5001-exec-7] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:29:00.675 [http-nio-5001-exec-7] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:29:07.619 [http-nio-5001-exec-8] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:29:07.635 [http-nio-5001-exec-9] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:29:07.641 [http-nio-5001-exec-9] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:29:08.943 [http-nio-5001-exec-10] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:29:08.949 [http-nio-5001-exec-2] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:29:08.951 [http-nio-5001-exec-2] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:29:10.040 [http-nio-5001-exec-1] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:29:10.045 [http-nio-5001-exec-4] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:29:10.053 [http-nio-5001-exec-4] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:29:11.070 [http-nio-5001-exec-5] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:29:11.075 [http-nio-5001-exec-5] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:35:04.665 [http-nio-5001-exec-3] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:35:04.803 [http-nio-5001-exec-3] INFO  com.taskmgment.config.JwtProvider - Generating JWT token for user: madan@gmail.com
+14:35:04.836 [http-nio-5001-exec-6] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:35:04.838 [http-nio-5001-exec-6] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: madan@gmail.com
+14:35:04.841 [http-nio-5001-exec-6] INFO  com.taskmgment.config.JwtProvider - Extracting email from JWT token
+14:35:04.872 [http-nio-5001-exec-7] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:35:04.876 [http-nio-5001-exec-8] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:35:04.880 [http-nio-5001-exec-9] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:35:04.886 [http-nio-5001-exec-9] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: madan@gmail.com
+14:35:04.933 [http-nio-5001-exec-10] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:35:04.939 [http-nio-5001-exec-10] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: madan@gmail.com
+14:35:19.471 [http-nio-5001-exec-2] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:35:19.475 [http-nio-5001-exec-1] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:35:19.484 [http-nio-5001-exec-1] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: madan@gmail.com
+14:35:20.556 [http-nio-5001-exec-4] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:35:20.561 [http-nio-5001-exec-5] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:35:20.566 [http-nio-5001-exec-5] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: madan@gmail.com
+14:35:36.268 [http-nio-5001-exec-3] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:35:36.394 [http-nio-5001-exec-3] INFO  com.taskmgment.config.JwtProvider - Generating JWT token for user: Kunal@gmail.com
+14:35:36.423 [http-nio-5001-exec-6] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:35:36.427 [http-nio-5001-exec-6] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:35:36.427 [http-nio-5001-exec-6] INFO  com.taskmgment.config.JwtProvider - Extracting email from JWT token
+14:35:36.454 [http-nio-5001-exec-7] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:35:36.457 [http-nio-5001-exec-8] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:35:36.461 [http-nio-5001-exec-9] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:35:36.466 [http-nio-5001-exec-9] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:35:36.484 [http-nio-5001-exec-10] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:35:36.488 [http-nio-5001-exec-10] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:42:29.317 [http-nio-5001-exec-2] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:42:29.447 [http-nio-5001-exec-2] INFO  com.taskmgment.config.JwtProvider - Generating JWT token for user: Kunal@gmail.com
+14:42:29.480 [http-nio-5001-exec-1] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:42:29.484 [http-nio-5001-exec-1] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:42:29.485 [http-nio-5001-exec-1] INFO  com.taskmgment.config.JwtProvider - Extracting email from JWT token
+14:42:29.515 [http-nio-5001-exec-4] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:42:29.521 [http-nio-5001-exec-4] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:42:29.538 [http-nio-5001-exec-5] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:42:29.543 [http-nio-5001-exec-5] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:42:33.637 [http-nio-5001-exec-3] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:42:33.645 [http-nio-5001-exec-3] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:42:35.466 [http-nio-5001-exec-6] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:42:35.471 [http-nio-5001-exec-6] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:42:36.777 [http-nio-5001-exec-7] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:42:36.780 [http-nio-5001-exec-7] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:44:11.033 [http-nio-5001-exec-8] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:44:11.039 [http-nio-5001-exec-9] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:44:11.043 [http-nio-5001-exec-9] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:44:14.811 [http-nio-5001-exec-10] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:44:14.814 [http-nio-5001-exec-10] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:44:16.649 [http-nio-5001-exec-2] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:44:16.651 [http-nio-5001-exec-2] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:44:17.758 [http-nio-5001-exec-1] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:44:17.762 [http-nio-5001-exec-1] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:44:18.947 [http-nio-5001-exec-4] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:44:18.949 [http-nio-5001-exec-4] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:44:28.790 [http-nio-5001-exec-5] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:44:28.792 [http-nio-5001-exec-5] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:44:31.988 [http-nio-5001-exec-3] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:44:31.995 [http-nio-5001-exec-3] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:44:31.998 [http-nio-5001-exec-3] INFO  com.taskmgment.config.JwtProvider - Extracting email from JWT token
+14:44:32.028 [http-nio-5001-exec-6] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:44:32.033 [http-nio-5001-exec-6] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:44:32.035 [http-nio-5001-exec-6] INFO  com.taskmgment.config.JwtProvider - Extracting email from JWT token
+14:44:32.077 [http-nio-5001-exec-7] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:44:32.083 [http-nio-5001-exec-7] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:44:32.092 [http-nio-5001-exec-8] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:44:32.098 [http-nio-5001-exec-8] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:45:04.521 [http-nio-5001-exec-9] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:45:04.526 [http-nio-5001-exec-9] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:45:13.490 [http-nio-5001-exec-10] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:45:13.493 [http-nio-5001-exec-10] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:45:15.597 [http-nio-5001-exec-2] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:45:15.602 [http-nio-5001-exec-2] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:45:16.615 [http-nio-5001-exec-1] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:45:16.630 [http-nio-5001-exec-1] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:45:17.643 [http-nio-5001-exec-4] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:45:17.648 [http-nio-5001-exec-4] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:45:19.070 [http-nio-5001-exec-5] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:45:19.073 [http-nio-5001-exec-5] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:45:24.163 [http-nio-5001-exec-3] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:45:24.165 [http-nio-5001-exec-3] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:45:45.588 [http-nio-5001-exec-6] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:45:45.593 [http-nio-5001-exec-6] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:45:50.614 [http-nio-5001-exec-7] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:45:50.619 [http-nio-5001-exec-7] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:45:53.105 [http-nio-5001-exec-8] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:45:53.111 [http-nio-5001-exec-8] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:46:19.754 [http-nio-5001-exec-9] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:46:19.757 [http-nio-5001-exec-9] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:46:19.760 [http-nio-5001-exec-9] INFO  com.taskmgment.config.JwtProvider - Extracting email from JWT token
+14:46:19.780 [http-nio-5001-exec-10] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:46:19.784 [http-nio-5001-exec-10] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:46:19.789 [http-nio-5001-exec-10] INFO  com.taskmgment.config.JwtProvider - Extracting email from JWT token
+14:46:19.831 [http-nio-5001-exec-2] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:46:19.834 [http-nio-5001-exec-2] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:46:19.847 [http-nio-5001-exec-1] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:46:19.852 [http-nio-5001-exec-1] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:46:34.868 [http-nio-5001-exec-4] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:46:34.999 [http-nio-5001-exec-4] INFO  com.taskmgment.config.JwtProvider - Generating JWT token for user: Kunal@gmail.com
+14:46:35.030 [http-nio-5001-exec-5] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:46:35.032 [http-nio-5001-exec-5] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:46:35.034 [http-nio-5001-exec-5] INFO  com.taskmgment.config.JwtProvider - Extracting email from JWT token
+14:46:35.068 [http-nio-5001-exec-3] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:46:35.072 [http-nio-5001-exec-3] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+14:46:35.083 [http-nio-5001-exec-6] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: 0:0:0:0:0:0:0:1
+14:46:35.088 [http-nio-5001-exec-6] INFO  c.t.config.JwtTokenValidator - JWT Token validated for user: Kunal@gmail.com
+15:03:03.151 [main] INFO  com.taskmgment.config.AppConfig - Initializing SecurityFilterChain...
+15:03:03.353 [main] INFO  com.taskmgment.config.AppConfig - Setting up CORS configuration...
+15:03:03.354 [main] INFO  com.taskmgment.config.AppConfig - SecurityFilterChain successfully configured.
+15:03:06.384 [main] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: localhost
+15:03:06.457 [main] INFO  com.taskmgment.config.JwtProvider - Generating JWT token for user: test@example.com
+15:03:06.561 [main] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: localhost
+15:03:06.563 [main] INFO  com.taskmgment.config.JwtProvider - Generating JWT token for user: test@example.com
+15:03:18.813 [main] INFO  com.taskmgment.config.AppConfig - Initializing BCryptPasswordEncoder...
+15:03:18.970 [main] INFO  com.taskmgment.config.AppConfig - Initializing SecurityFilterChain...
+15:03:19.168 [main] INFO  com.taskmgment.config.AppConfig - Setting up CORS configuration...
+15:03:19.168 [main] INFO  com.taskmgment.config.AppConfig - SecurityFilterChain successfully configured.
+15:03:22.436 [main] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: localhost
+15:03:22.502 [main] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: localhost
+15:33:09.209 [restartedMain] INFO  com.taskmgment.config.AppConfig - Initializing BCryptPasswordEncoder...
+15:33:09.268 [restartedMain] INFO  com.taskmgment.config.AppConfig - Initializing SecurityFilterChain...
+15:33:09.326 [restartedMain] INFO  com.taskmgment.config.AppConfig - Setting up CORS configuration...
+15:33:09.327 [restartedMain] INFO  com.taskmgment.config.AppConfig - SecurityFilterChain successfully configured.
+16:22:21.185 [restartedMain] INFO  com.taskmgment.config.AppConfig - Initializing BCryptPasswordEncoder...
+16:22:21.356 [restartedMain] INFO  com.taskmgment.config.AppConfig - Initializing SecurityFilterChain...
+16:22:21.526 [restartedMain] INFO  com.taskmgment.config.AppConfig - Setting up CORS configuration...
+16:22:21.526 [restartedMain] INFO  com.taskmgment.config.AppConfig - SecurityFilterChain successfully configured.
+16:23:58.266 [main] INFO  com.taskmgment.config.AppConfig - Initializing BCryptPasswordEncoder...
+16:23:58.538 [main] INFO  com.taskmgment.config.AppConfig - Initializing SecurityFilterChain...
+16:23:58.928 [main] INFO  com.taskmgment.config.AppConfig - Setting up CORS configuration...
+16:23:58.930 [main] INFO  com.taskmgment.config.AppConfig - SecurityFilterChain successfully configured.
+16:24:00.882 [main] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: localhost
+16:24:00.972 [main] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: localhost
+16:24:25.495 [main] INFO  com.taskmgment.config.AppConfig - Initializing SecurityFilterChain...
+16:24:25.925 [main] INFO  com.taskmgment.config.AppConfig - Setting up CORS configuration...
+16:24:25.926 [main] INFO  com.taskmgment.config.AppConfig - SecurityFilterChain successfully configured.
+16:24:27.470 [main] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: localhost
+16:24:27.589 [main] INFO  com.taskmgment.config.JwtProvider - Generating JWT token for user: test@example.com
+16:24:27.708 [main] INFO  com.taskmgment.config.AppConfig - CORS configuration applied for request from: localhost
+16:24:27.711 [main] INFO  com.taskmgment.config.JwtProvider - Generating JWT token for user: test@example.com

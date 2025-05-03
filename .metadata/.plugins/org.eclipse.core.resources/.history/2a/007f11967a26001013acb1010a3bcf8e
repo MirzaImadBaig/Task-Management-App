@@ -1,0 +1,5 @@
+package com.task.management.aop;
+
+public class LoggingAspect {
+
+}

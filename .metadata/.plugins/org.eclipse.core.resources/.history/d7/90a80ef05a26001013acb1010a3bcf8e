@@ -1,0 +1,44 @@
+package com.user.management.aop; // Match the aspect's package
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.system.CapturedOutput;
+import org.springframework.boot.test.system.OutputCaptureExtension;
+import org.springframework.boot.test.web.client.TestRestTemplate;
+import org.springframework.boot.test.web.server.LocalServerPort;
+import static org.assertj.core.api.Assertions.assertThat;
+
+@ExtendWith(OutputCaptureExtension.class)
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+public class LoggingAspectIntegrationTest {
+
+    @LocalServerPort
+    private int port;
+
+    @Autowired
+    private TestRestTemplate restTemplate;
+
+    @Test
+    void testHomeControllerLogging(CapturedOutput output) {
+        String url = "http://localhost:" + port + "/";
+        restTemplate.getForObject(url, String.class);
+
+        // Verify AOP logs for the homeController() method
+        assertThat(output.getOut())
+            .contains("Method: homeController - Args: []") // From @Before advice
+            .contains("Method homeController executed in"); // From @Around advice
+    }
+
+    @Test
+    void testUserHomeControllerLogging(CapturedOutput output) {
+        String url = "http://localhost:" + port + "/users";
+        restTemplate.getForObject(url, String.class);
+
+        // Verify AOP logs for the userHomeController() method
+        assertThat(output.getOut())
+            .contains("Method: userHomeController - Args: []") // From @Before advice
+            .contains("Method userHomeController executed in"); // From @Around advice
+    }
+}

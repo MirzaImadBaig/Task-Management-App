@@ -1,0 +1,53 @@
+package com.user.management.controller;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestHeader;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.user.management.exception.UserException;
+import com.user.management.model.User;
+import com.user.management.service.UserService;
+import org.springframework.security.access.prepost.PreAuthorize;
+
+import java.util.List;
+
+@RestController
+public class UserController {
+	
+	private UserService userService;
+
+	// Constructor injection of UserService
+	public UserController(UserService userService) {
+		this.userService = userService;
+	}
+
+	// Endpoint to fetch user profile
+	@GetMapping("/api/users/profile")
+	public ResponseEntity<User> getUserProfileHandler(
+			@RequestHeader("Authorization") String jwt) throws UserException {
+		User user = userService.findUserProfileByJwt(jwt);
+		user.setPassword(null); // Remove password before returning
+		return new ResponseEntity<>(user, HttpStatus.ACCEPTED); // 202 Accepted
+	}
+	
+	// Endpoint to fetch user details by user ID
+	@GetMapping("/api/users/{userId}")
+	public ResponseEntity<User> findUserById(
+			@PathVariable Long userId,
+			@RequestHeader("Authorization") String jwt) throws UserException {
+		User user = userService.findUserById(userId);
+		user.setPassword(null); // Remove password before returning
+		return new ResponseEntity<>(user, HttpStatus.ACCEPTED); // 202 Accepted
+	}
+
+	// Endpoint to fetch all users
+	@PreAuthorize("hasRole('ROLE_ADMIN')")   // Spring auto-adds "ROLE_" to "ADMIN"
+	@GetMapping("/api/users")
+	public ResponseEntity<List<User>> findAllUsers(@RequestHeader("Authorization") String jwt) {
+		List<User> users = userService.findAllUsers();
+		return new ResponseEntity<>(users, HttpStatus.ACCEPTED); // 202 Accepted
+	}
+}

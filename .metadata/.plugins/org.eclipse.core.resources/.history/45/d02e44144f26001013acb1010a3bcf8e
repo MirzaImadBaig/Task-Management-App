@@ -1,0 +1,2 @@
+2025-04-30 21:26:16.686 [http-nio-auto-1-exec-2] INFO  c.t.controller.HomeController - Accessed user home route '/users'
+2025-04-30 21:27:36.256 [http-nio-auto-1-exec-1] INFO  c.t.controller.HomeController - Accessed user home route '/users'

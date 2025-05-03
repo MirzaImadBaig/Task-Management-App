@@ -1,0 +1,98 @@
+package com.taskmgment.service;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.cloud.contract.wiremock.AutoConfigureWireMock;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
+
+import com.github.tomakehurst.wiremock.WireMockServer;
+import com.github.tomakehurst.wiremock.client.WireMock;
+import com.taskmgment.dtos.UserDto;
+
+/**
+ * Unit tests for the UserService Feign client
+ */
+@ExtendWith(SpringExtension.class)
+@SpringBootTest(properties = {
+    "user-service.ribbon.listOfServers=localhost:${wiremock.server.port}",
+    "USER-SERVICE.url=http://localhost:${wiremock.server.port}"
+})
+@AutoConfigureWireMock(port = 0)
+public class UserServiceTest {
+
+    @Autowired
+    private UserService userService;
+    
+    @Autowired
+    private WireMockServer wireMockServer;
+    
+    private final String JWT_TOKEN = "Bearer test-jwt-token";
+    
+    @BeforeEach
+    public void setup() {
+        // Reset WireMock before each test
+        wireMockServer.resetAll();
+    }
+    
+    @Test
+    public void testGetUserProfileHandler_Success() {
+        // Arrange
+        String userId = "user123";
+        String username = "testuser";
+        String email = "test@example.com";
+        
+        // Mock the API response from USER-SERVICE
+        wireMockServer.stubFor(WireMock.get(WireMock.urlEqualTo("/api/users/profile"))
+            .withHeader("Authorization", WireMock.equalTo(JWT_TOKEN))
+            .willReturn(WireMock.aResponse()
+                .withStatus(200)
+                .withHeader("Content-Type", "application/json")
+                .withBody("{"
+                    + "\"id\":\"" + userId + "\","
+                    + "\"username\":\"" + username + "\","
+                    + "\"email\":\"" + email + "\""
+                    + "}")
+            ));
+        
+        // Act
+        UserDto userDto = userService.getUserProfileHandler(JWT_TOKEN);
+        
+        // Assert
+        assertNotNull(userDto, "UserDto should not be null");
+        assertEquals(userId, userDto.getId(), "User ID should match");
+        assertEquals(username, userDto.getUsername(), "Username should match");
+        assertEquals(email, userDto.getEmail(), "Email should match");
+        
+        // Verify the request was made exactly once
+        wireMockServer.verify(1, WireMock.getRequestedFor(WireMock.urlEqualTo("/api/users/profile"))
+                .withHeader("Authorization", WireMock.equalTo(JWT_TOKEN)));
+    }
+    
+    @Test
+    public void testGetUserProfileHandler_Unauthorized() {
+        // Arrange - Mock 401 unauthorized response
+        wireMockServer.stubFor(WireMock.get(WireMock.urlEqualTo("/api/users/profile"))
+            .withHeader("Authorization", WireMock.equalTo("Bearer invalid-token"))
+            .willReturn(WireMock.aResponse()
+                .withStatus(401)
+                .withHeader("Content-Type", "application/json")
+                .withBody("{\"message\":\"Unauthorized access\"}")
+            ));
+        
+        // Act & Assert - Expect an exception
+        try {
+            userService.getUserProfileHandler("Bearer invalid-token");
+            // If no exception is thrown, fail the test
+            org.junit.jupiter.api.Assertions.fail("Should have thrown an exception for unauthorized access");
+        } catch (Exception e) {
+            // Expected exception
+            // You might want to check specific exception type if you know what Feign throws
+        }
+    }
+}

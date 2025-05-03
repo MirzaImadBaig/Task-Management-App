@@ -1,0 +1,5 @@
+package com.taskmgment.aop;
+
+public class LoggingAspectIntegrationTest {
+
+}

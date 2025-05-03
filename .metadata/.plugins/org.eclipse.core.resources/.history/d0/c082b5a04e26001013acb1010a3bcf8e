@@ -1,0 +1,44 @@
+2025-04-30 20:56:07.826 [restartedMain] DEBUG com.taskmgment.aop.LoggingAspect - Method passwordEncoder executed in 0 ms
+2025-04-30 20:56:08.249 [restartedMain] DEBUG com.taskmgment.aop.LoggingAspect - Method securityFilterChain executed in 276 ms
+2025-04-30 21:09:35.494 [restartedMain] DEBUG com.taskmgment.aop.LoggingAspect - Method passwordEncoder executed in 1 ms
+2025-04-30 21:09:35.922 [restartedMain] DEBUG com.taskmgment.aop.LoggingAspect - Method securityFilterChain executed in 283 ms
+2025-04-30 21:22:59.122 [main] INFO  c.t.aop.LoggingAspectIntegrationTest - Starting LoggingAspectIntegrationTest using Java 21.0.6 with PID 9176 (started by mirza in C:\Task Management App New\Task-User-Service)
+2025-04-30 21:22:59.124 [main] DEBUG c.t.aop.LoggingAspectIntegrationTest - Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-30 21:22:59.125 [main] INFO  c.t.aop.LoggingAspectIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2025-04-30 21:23:06.602 [main] DEBUG com.taskmgment.aop.LoggingAspect - Method passwordEncoder executed in 3 ms
+2025-04-30 21:23:07.966 [main] DEBUG com.taskmgment.aop.LoggingAspect - Method securityFilterChain executed in 843 ms
+2025-04-30 21:23:09.749 [main] INFO  c.t.aop.LoggingAspectIntegrationTest - Started LoggingAspectIntegrationTest in 11.447 seconds (process running for 12.87)
+2025-04-30 21:23:29.756 [main] INFO  c.t.aop.LoggingAspectIntegrationTest - Starting LoggingAspectIntegrationTest using Java 21.0.6 with PID 22096 (started by mirza in C:\Task Management App New\Task-User-Service)
+2025-04-30 21:23:29.757 [main] DEBUG c.t.aop.LoggingAspectIntegrationTest - Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-30 21:23:29.759 [main] INFO  c.t.aop.LoggingAspectIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2025-04-30 21:23:36.911 [main] DEBUG com.taskmgment.aop.LoggingAspect - Method passwordEncoder executed in 4 ms
+2025-04-30 21:23:38.166 [main] DEBUG com.taskmgment.aop.LoggingAspect - Method securityFilterChain executed in 788 ms
+2025-04-30 21:23:39.794 [main] INFO  c.t.aop.LoggingAspectIntegrationTest - Started LoggingAspectIntegrationTest in 10.804 seconds (process running for 12.142)
+2025-04-30 21:24:37.516 [main] INFO  c.t.aop.LoggingAspectIntegrationTest - Starting LoggingAspectIntegrationTest using Java 21.0.6 with PID 13024 (started by mirza in C:\Task Management App New\Task-User-Service)
+2025-04-30 21:24:37.518 [main] DEBUG c.t.aop.LoggingAspectIntegrationTest - Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-30 21:24:37.519 [main] INFO  c.t.aop.LoggingAspectIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2025-04-30 21:24:44.403 [main] DEBUG com.taskmgment.aop.LoggingAspect - Method passwordEncoder executed in 4 ms
+2025-04-30 21:24:45.619 [main] DEBUG com.taskmgment.aop.LoggingAspect - Method securityFilterChain executed in 740 ms
+2025-04-30 21:24:47.483 [main] INFO  c.t.aop.LoggingAspectIntegrationTest - Started LoggingAspectIntegrationTest in 10.71 seconds (process running for 12.051)
+2025-04-30 21:25:32.594 [main] INFO  c.t.aop.LoggingAspectIntegrationTest - Starting LoggingAspectIntegrationTest using Java 21.0.6 with PID 24144 (started by mirza in C:\Task Management App New\Task-User-Service)
+2025-04-30 21:25:32.595 [main] DEBUG c.t.aop.LoggingAspectIntegrationTest - Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-30 21:25:32.596 [main] INFO  c.t.aop.LoggingAspectIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2025-04-30 21:25:39.575 [main] DEBUG com.taskmgment.aop.LoggingAspect - Method passwordEncoder executed in 4 ms
+2025-04-30 21:25:40.803 [main] DEBUG com.taskmgment.aop.LoggingAspect - Method securityFilterChain executed in 723 ms
+2025-04-30 21:25:42.368 [main] INFO  c.t.aop.LoggingAspectIntegrationTest - Started LoggingAspectIntegrationTest in 10.527 seconds (process running for 11.862)
+2025-04-30 21:26:06.351 [main] INFO  c.t.aop.LoggingAspectIntegrationTest - Starting LoggingAspectIntegrationTest using Java 21.0.6 with PID 26824 (started by mirza in C:\Task Management App New\Task-User-Service)
+2025-04-30 21:26:06.353 [main] DEBUG c.t.aop.LoggingAspectIntegrationTest - Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-30 21:26:06.354 [main] INFO  c.t.aop.LoggingAspectIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2025-04-30 21:26:13.376 [main] DEBUG com.taskmgment.aop.LoggingAspect - Method passwordEncoder executed in 5 ms
+2025-04-30 21:26:14.569 [main] DEBUG com.taskmgment.aop.LoggingAspect - Method securityFilterChain executed in 732 ms
+2025-04-30 21:26:15.997 [main] INFO  c.t.aop.LoggingAspectIntegrationTest - Started LoggingAspectIntegrationTest in 10.429 seconds (process running for 11.811)
+2025-04-30 21:26:16.685 [http-nio-auto-1-exec-2] INFO  com.taskmgment.aop.LoggingAspect - Controller Method: userHomeController - Args: []
+2025-04-30 21:26:16.686 [http-nio-auto-1-exec-2] DEBUG com.taskmgment.aop.LoggingAspect - Method userHomeController executed in 1 ms
+2025-04-30 21:27:25.187 [main] INFO  c.t.aop.LoggingAspectIntegrationTest - Starting LoggingAspectIntegrationTest using Java 21.0.6 with PID 13632 (started by mirza in C:\Task Management App New\Task-User-Service)
+2025-04-30 21:27:25.189 [main] DEBUG c.t.aop.LoggingAspectIntegrationTest - Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-30 21:27:25.190 [main] INFO  c.t.aop.LoggingAspectIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2025-04-30 21:27:32.300 [main] DEBUG com.taskmgment.aop.LoggingAspect - Method passwordEncoder executed in 4 ms
+2025-04-30 21:27:33.620 [main] DEBUG com.taskmgment.aop.LoggingAspect - Method securityFilterChain executed in 809 ms
+2025-04-30 21:27:35.547 [main] INFO  c.t.aop.LoggingAspectIntegrationTest - Started LoggingAspectIntegrationTest in 11.112 seconds (process running for 12.461)
+2025-04-30 21:27:36.256 [http-nio-auto-1-exec-1] INFO  com.taskmgment.aop.LoggingAspect - Controller Method: userHomeController - Args: []
+2025-04-30 21:27:36.257 [http-nio-auto-1-exec-1] DEBUG com.taskmgment.aop.LoggingAspect - Method userHomeController executed in 1 ms

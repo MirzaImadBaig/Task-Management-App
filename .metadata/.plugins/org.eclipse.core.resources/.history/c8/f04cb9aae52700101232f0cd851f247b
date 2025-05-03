@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  mysql-db:
+    image: mysql:8.0
+    container_name: mysql-db
+    environment:
+      MYSQL_ROOT_PASSWORD: mirza12345
+      MYSQL_DATABASE: task_user_service
+    volumes:
+      - mysql-data:/var/lib/mysql
+    networks:
+      - app-network
+    ports:
+      - "3306:3306"
+
+  eureka-server:
+    build: ./eureka-server
+    ports:
+      - "8070:8070"
+    networks:
+      - app-network
+
+  user-service:
+    build: ./task-user-service
+    environment:
+      DB_USERNAME: root
+      DB_PASSWORD: mirza12345
+    depends_on:
+      - mysql-db
+      - eureka-server
+    networks:
+      - app-network
+
+  # Add other services (gateway, task-service, etc.) here...
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  mysql-data:

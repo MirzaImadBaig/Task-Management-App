@@ -1,0 +1,26 @@
+2025-05-01 16:17:22.620 [main] INFO  c.s.m.controller.HomeControllerTest - Starting HomeControllerTest using Java 21.0.6 with PID 3688 (started by mirza in C:\Task Management App New\Task-TaskSubmission-Service)
+2025-05-01 16:17:22.622 [main] DEBUG c.s.m.controller.HomeControllerTest - Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-05-01 16:17:22.623 [main] INFO  c.s.m.controller.HomeControllerTest - The following 1 profile is active: "dev"
+2025-05-01 16:17:24.483 [main] INFO  c.s.m.controller.HomeControllerTest - Started HomeControllerTest in 2.875 seconds (process running for 4.39)
+2025-05-01 16:17:49.291 [main] INFO  c.s.m.c.SubmissionControllerTest - Starting SubmissionControllerTest using Java 21.0.6 with PID 27380 (started by mirza in C:\Task Management App New\Task-TaskSubmission-Service)
+2025-05-01 16:17:49.293 [main] DEBUG c.s.m.c.SubmissionControllerTest - Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-05-01 16:17:49.294 [main] INFO  c.s.m.c.SubmissionControllerTest - The following 1 profile is active: "dev"
+2025-05-01 16:17:53.359 [main] INFO  c.s.m.c.SubmissionControllerTest - Started SubmissionControllerTest in 5.012 seconds (process running for 6.567)
+2025-05-01 21:19:16.432 [http-nio-5003-exec-4] INFO  c.s.m.c.SubmissionController - [CONTROLLER] Method: getTaskSubmissionsByTaskId | Args: [1]
+2025-05-01 21:19:16.841 [http-nio-5003-exec-4] DEBUG c.s.m.c.SubmissionController - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 431 ms
+2025-05-01 21:21:26.271 [http-nio-5003-exec-6] INFO  c.s.m.c.SubmissionController - [CONTROLLER] Method: getTaskSubmissionsByTaskId | Args: [1]
+2025-05-01 21:21:26.292 [http-nio-5003-exec-6] DEBUG c.s.m.c.SubmissionController - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 21 ms
+2025-05-01 21:22:05.450 [http-nio-5003-exec-2] INFO  c.s.m.c.SubmissionController - [CONTROLLER] Method: getTaskSubmissionsByTaskId | Args: [1]
+2025-05-01 21:22:05.467 [http-nio-5003-exec-2] DEBUG c.s.m.c.SubmissionController - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 17 ms
+2025-05-01 21:22:11.507 [http-nio-5003-exec-3] INFO  c.s.m.c.SubmissionController - [CONTROLLER] Method: getTaskSubmissionsByTaskId | Args: [1]
+2025-05-01 21:22:11.517 [http-nio-5003-exec-3] DEBUG c.s.m.c.SubmissionController - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 12 ms
+2025-05-01 21:23:38.909 [http-nio-5003-exec-2] INFO  c.s.m.c.SubmissionController - [CONTROLLER] Method: getTaskSubmissionsByTaskId | Args: [1]
+2025-05-01 21:23:38.923 [http-nio-5003-exec-2] DEBUG c.s.m.c.SubmissionController - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 14 ms
+2025-05-01 21:24:37.812 [http-nio-5003-exec-6] INFO  c.s.m.c.SubmissionController - [CONTROLLER] Method: getTaskSubmissionsByTaskId | Args: [1]
+2025-05-01 21:24:37.828 [http-nio-5003-exec-6] DEBUG c.s.m.c.SubmissionController - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 16 ms
+2025-05-01 21:24:50.663 [http-nio-5003-exec-7] INFO  c.s.m.c.SubmissionController - [CONTROLLER] Method: submitTask | Args: [1, https://chat.deepseek.com/a/chat/s/94f8fc08-cf71-4ed9-84bf-71e4846014b0, Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMTQ4NjgsImV4cCI6MTc0NjIwMTI2OCwiZW1haWwiOiJhYmNkQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjoiIn0.C9LOp7jxi53SQe9o_fy8BI0DsJSRBDMbNuVAcXMpcQy2ndHasVpalPw1xAzXO29a]
+2025-05-01 21:24:50.855 [http-nio-5003-exec-7] DEBUG c.s.m.c.SubmissionController - [PERFORMANCE] submitTask executed in 193 ms
+2025-05-01 21:25:07.815 [http-nio-5003-exec-4] INFO  c.s.m.c.SubmissionController - [CONTROLLER] Method: getTaskSubmissionsByTaskId | Args: [1]
+2025-05-01 21:25:07.839 [http-nio-5003-exec-4] DEBUG c.s.m.c.SubmissionController - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 25 ms
+2025-05-01 21:25:16.365 [http-nio-5003-exec-3] INFO  c.s.m.c.SubmissionController - [CONTROLLER] Method: acceptOrDeclineTaskSubmission | Args: [1, ACCEPTED]
+2025-05-01 21:25:16.432 [http-nio-5003-exec-3] DEBUG c.s.m.c.SubmissionController - [PERFORMANCE] acceptOrDeclineTaskSubmission executed in 68 ms

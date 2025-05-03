@@ -1,0 +1,53 @@
+package com.user.management.aop;
+
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Component;
+
+@Aspect
+@Component
+public class LoggingAspect {
+    
+    private final Logger logger = LoggerFactory.getLogger(this.getClass());
+
+    // Log controller layer
+    @Before("execution(* com.user.management.controller.*.*(..))")
+    public void logBeforeController(JoinPoint joinPoint) {
+        logger.info("Controller Method: {} - Args: {}", 
+            joinPoint.getSignature().getName(), 
+            joinPoint.getArgs());
+    }
+
+    // Log service layer
+    @Before("execution(* com.user.management.service.*.*(..))")
+    public void logBeforeService(JoinPoint joinPoint) {
+        logger.info("Service Method: {} - Args: {}", 
+            joinPoint.getSignature().getName(), 
+            joinPoint.getArgs());
+    }
+
+    // Log repository layer
+    @Before("execution(* com.user.management.repository.*.*(..))")
+    public void logBeforeRepository(JoinPoint joinPoint) {
+        logger.debug("Repository Method: {} - Args: {}", 
+            joinPoint.getSignature().getName(), 
+            joinPoint.getArgs());
+    }
+
+    // Log method execution time
+    @Around("execution(* com.user.management..*.*(..))")
+    public Object logExecutionTime(ProceedingJoinPoint joinPoint) throws Throwable {
+        long startTime = System.currentTimeMillis();
+        Object result = joinPoint.proceed();
+        long executionTime = System.currentTimeMillis() - startTime;
+        
+        logger.debug("Method {} executed in {} ms", 
+            joinPoint.getSignature().getName(), 
+            executionTime);
+            
+        return result;
+    }
+}

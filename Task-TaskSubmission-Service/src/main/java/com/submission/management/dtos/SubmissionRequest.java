@@ -1,0 +1,28 @@
+package com.submission.management.dtos;
+
+public class SubmissionRequest {
+    private Long task_id;
+    private String github_link;
+
+    // getters and setters
+    public Long getTask_id() {
+		return task_id;
+	}
+	public void setTask_id(Long task_id) {
+		this.task_id = task_id;
+	}
+	public String getGithub_link() {
+		return github_link;
+	}
+	public void setGithub_link(String github_link) {
+		this.github_link = github_link;
+	}
+	
+	// Constructors 
+    public SubmissionRequest() {}
+
+    public SubmissionRequest(Long task_id, String github_link) {
+        this.task_id = task_id;
+        this.github_link = github_link;
+    }
+}

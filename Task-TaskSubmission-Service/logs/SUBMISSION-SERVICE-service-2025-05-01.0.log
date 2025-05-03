@@ -1,0 +1,18 @@
+2025-05-01 21:19:16.434 [http-nio-5003-exec-4] DEBUG c.s.m.s.SubmissionServiceImplementation - [SERVICE] Executing: getTaskSubmissionsByTaskId
+2025-05-01 21:19:16.841 [http-nio-5003-exec-4] DEBUG c.s.m.s.SubmissionServiceImplementation - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 407 ms
+2025-05-01 21:21:26.272 [http-nio-5003-exec-6] DEBUG c.s.m.s.SubmissionServiceImplementation - [SERVICE] Executing: getTaskSubmissionsByTaskId
+2025-05-01 21:21:26.289 [http-nio-5003-exec-6] DEBUG c.s.m.s.SubmissionServiceImplementation - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 17 ms
+2025-05-01 21:22:05.452 [http-nio-5003-exec-2] DEBUG c.s.m.s.SubmissionServiceImplementation - [SERVICE] Executing: getTaskSubmissionsByTaskId
+2025-05-01 21:22:05.467 [http-nio-5003-exec-2] DEBUG c.s.m.s.SubmissionServiceImplementation - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 16 ms
+2025-05-01 21:22:11.507 [http-nio-5003-exec-3] DEBUG c.s.m.s.SubmissionServiceImplementation - [SERVICE] Executing: getTaskSubmissionsByTaskId
+2025-05-01 21:22:11.516 [http-nio-5003-exec-3] DEBUG c.s.m.s.SubmissionServiceImplementation - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 9 ms
+2025-05-01 21:23:38.911 [http-nio-5003-exec-2] DEBUG c.s.m.s.SubmissionServiceImplementation - [SERVICE] Executing: getTaskSubmissionsByTaskId
+2025-05-01 21:23:38.922 [http-nio-5003-exec-2] DEBUG c.s.m.s.SubmissionServiceImplementation - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 11 ms
+2025-05-01 21:24:37.815 [http-nio-5003-exec-6] DEBUG c.s.m.s.SubmissionServiceImplementation - [SERVICE] Executing: getTaskSubmissionsByTaskId
+2025-05-01 21:24:37.827 [http-nio-5003-exec-6] DEBUG c.s.m.s.SubmissionServiceImplementation - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 12 ms
+2025-05-01 21:24:50.724 [http-nio-5003-exec-7] DEBUG c.s.m.s.SubmissionServiceImplementation - [SERVICE] Executing: submitTask
+2025-05-01 21:24:50.854 [http-nio-5003-exec-7] DEBUG c.s.m.s.SubmissionServiceImplementation - [PERFORMANCE] submitTask executed in 130 ms
+2025-05-01 21:25:07.815 [http-nio-5003-exec-4] DEBUG c.s.m.s.SubmissionServiceImplementation - [SERVICE] Executing: getTaskSubmissionsByTaskId
+2025-05-01 21:25:07.839 [http-nio-5003-exec-4] DEBUG c.s.m.s.SubmissionServiceImplementation - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 24 ms
+2025-05-01 21:25:16.365 [http-nio-5003-exec-3] DEBUG c.s.m.s.SubmissionServiceImplementation - [SERVICE] Executing: acceptDeclineSubmission
+2025-05-01 21:25:16.431 [http-nio-5003-exec-3] DEBUG c.s.m.s.SubmissionServiceImplementation - [PERFORMANCE] acceptDeclineSubmission executed in 66 ms

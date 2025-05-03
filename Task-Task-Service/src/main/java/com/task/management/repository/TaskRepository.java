@@ -1,0 +1,16 @@
+package com.task.management.repository;
+
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.task.management.model.Task;
+
+import java.util.List;
+
+
+// Long is the type of the entity’s primary key (id field in Task).
+public interface TaskRepository extends JpaRepository<Task,Long> {
+
+	// Custom Query:
+    public List<Task> findByassignedUserId(Long userId);
+}

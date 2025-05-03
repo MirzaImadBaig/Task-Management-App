@@ -1,0 +1,136 @@
+package com.taskmgment.services;
+
+import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.mockStatic;
+import static org.mockito.Mockito.when;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Optional;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.MockedStatic;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.user.management.config.JwtProvider;
+import com.user.management.exception.UserException;
+import com.user.management.model.User;
+import com.user.management.repository.UserRepository;
+import com.user.management.service.UserServiceImplementation;
+
+@ExtendWith(MockitoExtension.class)
+class UserServiceImplementationTest {
+
+	@Mock
+    private UserRepository userRepository;
+
+    @Mock
+    private JwtProvider jwtProvider;
+
+    @InjectMocks
+    private UserServiceImplementation userService;
+    
+    @BeforeEach
+    void setUp() {
+       
+        
+    }
+
+    @Test
+    void testFindUserProfileByJwt_UserExists() throws UserException {
+    	String jwt = "dummy.jwt.token";
+        String email = "test@example.com";
+        User user = new User();
+        user.setEmail(email);
+
+        // ✅ Mock the static method
+        try (MockedStatic<JwtProvider> mockedStatic = mockStatic(JwtProvider.class)) {
+            mockedStatic.when(() -> JwtProvider.getEmailFromJwtToken(jwt)).thenReturn(email);
+            when(userRepository.findByEmail(email)).thenReturn(user);
+
+            User result = userService.findUserProfileByJwt(jwt);
+
+            assertNotNull(result);
+            assertEquals(email, result.getEmail());
+        }
+    }
+
+    @Test
+    void testFindUserProfileByJwt_UserNotFound() {
+    	String jwt = "dummy.jwt.token";
+        String email = "test@example.com";
+
+        // ✅ Mock static method
+        try (MockedStatic<JwtProvider> mockedStatic = mockStatic(JwtProvider.class)) {
+            mockedStatic.when(() -> JwtProvider.getEmailFromJwtToken(jwt)).thenReturn(email);
+            when(userRepository.findByEmail(email)).thenReturn(null);
+
+            UserException exception = assertThrows(UserException.class, () -> {
+                userService.findUserProfileByJwt(jwt);
+            });
+
+            assertTrue(exception.getMessage().contains(email));
+        }
+    }
+
+    @Test
+    void testFindUserByEmail_UserExists() throws UserException {
+        String email = "john@example.com";
+        User user = new User();
+        user.setEmail(email);
+
+        when(userRepository.findByEmail(email)).thenReturn(user);
+
+        User result = userService.findUserByEmail(email);
+
+        assertEquals(email, result.getEmail());
+    }
+
+    @Test
+    void testFindUserByEmail_UserNotFound() {
+        String email = "notfound@example.com";
+
+        when(userRepository.findByEmail(email)).thenReturn(null);
+
+        assertThrows(UserException.class, () -> userService.findUserByEmail(email));
+    }
+
+    @Test
+    void testFindUserById_UserExists() throws UserException {
+        Long id = 1L;
+        User user = new User();
+        user.setId(id);
+
+        when(userRepository.findById(id)).thenReturn(Optional.of(user));
+
+        User result = userService.findUserById(id);
+
+        assertEquals(id, result.getId());
+    }
+
+    @Test
+    void testFindUserById_UserNotFound() {
+        Long id = 100L;
+
+        when(userRepository.findById(id)).thenReturn(Optional.empty());
+
+        assertThrows(UserException.class, () -> userService.findUserById(id));
+    }
+
+    @Test
+    void testFindAllUsers_ReturnsList() {
+        List<User> userList = Arrays.asList(new User(), new User());
+
+        when(userRepository.findAll()).thenReturn(userList);
+
+        List<User> result = userService.findAllUsers();
+
+        assertEquals(2, result.size());
+    }
+}
+

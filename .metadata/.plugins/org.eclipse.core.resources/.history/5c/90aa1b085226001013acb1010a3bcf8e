@@ -1,0 +1,59 @@
+package com.taskmgment.aop;
+
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Component;
+
+@Aspect
+@Component
+public class LoggingAspect {
+    private static final Logger logger = LoggerFactory.getLogger(LoggingAspect.class);
+
+    // Controller Layer Logging
+    @Before("execution(* com.[microservice-name].controller.*.*(..))")
+    public void logControllerMethodEntry(JoinPoint joinPoint) {
+        logger.info("[CONTROLLER] Entering: {} | Args: {}", 
+            joinPoint.getSignature().toShortString(), 
+            joinPoint.getArgs());
+    }
+
+    // Service Layer Logging
+    @Before("execution(* com.[microservice-name].service.*.*(..))")
+    public void logServiceMethodEntry(JoinPoint joinPoint) {
+        logger.debug("[SERVICE] Executing: {}", 
+            joinPoint.getSignature().toShortString());
+    }
+
+    // Repository Layer Logging
+    @Before("execution(* com.[microservice-name].repository.*.*(..))")
+    public void logRepositoryMethodEntry(JoinPoint joinPoint) {
+        logger.trace("[REPOSITORY] Accessing: {}", 
+            joinPoint.getSignature().toShortString());
+    }
+
+    // Method Execution Time Tracking
+    @Around("execution(* com.[microservice-name]..*(..))")
+    public Object logExecutionTime(ProceedingJoinPoint joinPoint) throws Throwable {
+        long startTime = System.currentTimeMillis();
+        Object result = joinPoint.proceed();
+        long duration = System.currentTimeMillis() - startTime;
+        logger.debug("Method {} executed in {} ms", 
+            joinPoint.getSignature().toShortString(), 
+            duration);
+        return result;
+    }
+
+    // Error Handling
+    @AfterThrowing(
+        pointcut = "execution(* com.[microservice-name]..*(..))",
+        throwing = "ex"
+    )
+    public void logExceptions(JoinPoint joinPoint, Throwable ex) {
+        logger.error("[ERROR] Method {} failed: {}", 
+            joinPoint.getSignature().toShortString(), 
+            ex.getMessage());
+    }
+}

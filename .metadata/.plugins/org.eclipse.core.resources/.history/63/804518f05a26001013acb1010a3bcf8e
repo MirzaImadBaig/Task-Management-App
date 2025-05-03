@@ -1,0 +1,40 @@
+package com.taskmgment.controller;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.http.MediaType;
+import org.springframework.test.web.servlet.MockMvc;
+
+import com.user.management.response.ApiResponse;
+
+import static org.hamcrest.Matchers.is;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+
+@SpringBootTest
+@AutoConfigureMockMvc
+public class HomeControllerTest {
+
+    @Autowired
+    private MockMvc mockMvc;
+
+    @Test
+    public void testHomeController() throws Exception {
+        mockMvc.perform(get("/")
+                        .accept(MediaType.APPLICATION_JSON))
+                .andExpect(status().isAccepted())
+                .andExpect(jsonPath("$.message", is("Welcome To Task Management Microservice Project")))
+                .andExpect(jsonPath("$.status", is(true)));
+    }
+
+    @Test
+    public void testUserHomeController() throws Exception {
+        mockMvc.perform(get("/users")
+                        .accept(MediaType.APPLICATION_JSON))
+                .andExpect(status().isAccepted())
+                .andExpect(jsonPath("$.message", is("Welcome To Task Management User Service")))
+                .andExpect(jsonPath("$.status", is(true)));
+    }
+}

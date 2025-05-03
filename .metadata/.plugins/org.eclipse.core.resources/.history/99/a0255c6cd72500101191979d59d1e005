@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<property name="LOG_PATH" value="logs" />
+
+	<appender name="CONFIG_FILE"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>logs/config.log</file>
+		<rollingPolicy
+			class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>logs/config.%d{yyyy-MM-dd}.log</fileNamePattern>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<logger name="com.taskmgment.config" level="INFO"
+		additivity="false">
+		<appender-ref ref="CONFIG_FILE" />
+	</logger>
+
+
+	<!-- Controller logs -->
+	<appender name="CONTROLLER_FILE"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOG_PATH}/controller.log</file>
+		<rollingPolicy
+			class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${LOG_PATH}/controller.%d{yyyy-MM-dd}.log
+			</fileNamePattern>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<!-- Service logs -->
+	<appender name="SERVICE_FILE"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOG_PATH}/service.log</file>
+		<rollingPolicy
+			class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${LOG_PATH}/service.%d{yyyy-MM-dd}.log
+			</fileNamePattern>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<!-- Repository logs -->
+	<appender name="REPOSITORY_FILE"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOG_PATH}/repository.log</file>
+		<rollingPolicy
+			class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${LOG_PATH}/repository.%d{yyyy-MM-dd}.log
+			</fileNamePattern>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<!-- Exception logs -->
+	<appender name="EXCEPTION_FILE"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOG_PATH}/exception.log</file>
+		<rollingPolicy
+			class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${LOG_PATH}/exception.%d{yyyy-MM-dd}.log
+			</fileNamePattern>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<!-- Global Console Log -->
+	<appender name="CONSOLE"
+		class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%cyan(%d{HH:mm:ss}) [%thread] %-5level %logger{36} - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<!-- Logger per package -->
+	<logger name="com.yourapp.controller" level="INFO"
+		additivity="false">
+		<appender-ref ref="CONTROLLER_FILE" />
+	</logger>
+
+	<logger name="com.yourapp.service" level="DEBUG"
+		additivity="false">
+		<appender-ref ref="SERVICE_FILE" />
+	</logger>
+
+	<logger name="com.yourapp.repository" level="DEBUG"
+		additivity="false">
+		<appender-ref ref="REPOSITORY_FILE" />
+	</logger>
+
+	<logger name="com.yourapp.exception" level="ERROR"
+		additivity="false">
+		<appender-ref ref="EXCEPTION_FILE" />
+	</logger>
+
+	<!-- Root logger -->
+	<root level="INFO">
+		<appender-ref ref="CONSOLE" />
+	</root>
+
+</configuration>

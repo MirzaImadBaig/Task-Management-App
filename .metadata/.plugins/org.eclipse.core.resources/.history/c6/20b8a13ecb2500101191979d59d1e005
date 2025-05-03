@@ -1,0 +1,176 @@
+package com.taskmgment.controller;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.taskmgment.dtos.UserDto;
+import com.taskmgment.model.Submission;
+import com.taskmgment.service.SubmissionService;
+import com.taskmgment.service.TaskService;
+import com.taskmgment.service.UserService;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.http.MediaType;
+import org.springframework.test.web.servlet.MockMvc;
+
+import java.util.Arrays;
+import java.util.List;
+
+import static org.mockito.ArgumentMatchers.*;
+import static org.mockito.Mockito.when;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+
+@WebMvcTest(SubmissionController.class)
+public class SubmissionControllerTest {
+
+    @Autowired
+    private MockMvc mockMvc;
+
+    @MockBean
+    private SubmissionService submissionService;
+
+    @MockBean
+    private UserService userService;
+
+    @MockBean
+    private TaskService taskService;
+
+    @Autowired
+    private ObjectMapper objectMapper;
+
+    private Submission testSubmission;
+    private List<Submission> testSubmissions;
+    private UserDto testUser;
+    private String testJwt;
+
+    @BeforeEach
+    public void setup() {
+        // Setup test data
+        testSubmission = new Submission();
+        testSubmission.setId(1L);
+        testSubmission.setTaskId(1L);
+        testSubmission.setUserId(1L);
+        testSubmission.setGithubLink("https://github.com/user/repo");
+        testSubmission.setStatus("PENDING");
+
+        Submission submission2 = new Submission();
+        submission2.setId(2L);
+        submission2.setTaskId(1L);
+        submission2.setUserId(2L);
+        submission2.setGithubLink("https://github.com/user2/repo");
+        submission2.setStatus("PENDING");
+
+        testSubmissions = Arrays.asList(testSubmission, submission2);
+
+        testUser = new UserDto();
+        testUser.setId(1L);
+        testUser.setName("Test User");
+        testUser.setEmail("test@example.com");
+
+        testJwt = "Bearer test-jwt-token";
+    }
+
+    @Test
+    public void testSubmitTask() throws Exception {
+        when(userService.getUserProfileHandler(anyString())).thenReturn(testUser);
+        when(submissionService.submitTask(anyLong(), anyString(), anyLong(), anyString()))
+                .thenReturn(testSubmission);
+
+        mockMvc.perform(post("/api/submissions")
+                        .param("task_id", "1")
+                        .param("github_link", "https://github.com/user/repo")
+                        .header("Authorization", testJwt)
+                        .contentType(MediaType.APPLICATION_JSON))
+                .andExpect(status().isCreated())
+                .andExpect(jsonPath("$.id").value(1))
+                .andExpect(jsonPath("$.taskId").value(1))
+                .andExpect(jsonPath("$.userId").value(1))
+                .andExpect(jsonPath("$.githubLink").value("https://github.com/user/repo"))
+                .andExpect(jsonPath("$.status").value("PENDING"));
+    }
+
+    @Test
+    public void testGetTaskSubmissionById() throws Exception {
+        when(submissionService.getTaskSubmissionById(1L)).thenReturn(testSubmission);
+
+        mockMvc.perform(get("/api/submissions/1"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.id").value(1))
+                .andExpect(jsonPath("$.taskId").value(1))
+                .andExpect(jsonPath("$.githubLink").value("https://github.com/user/repo"));
+    }
+
+    @Test
+    public void testGetTaskSubmissionByIdNotFound() throws Exception {
+        when(submissionService.getTaskSubmissionById(999L)).thenThrow(new Exception("Submission not found"));
+
+        mockMvc.perform(get("/api/submissions/999"))
+                .andExpect(status().isNotFound());
+    }
+
+    @Test
+    public void testGetAllTaskSubmissions() throws Exception {
+        when(submissionService.getAllTaskSubmissions()).thenReturn(testSubmissions);
+
+        mockMvc.perform(get("/api/submissions"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$[0].id").value(1))
+                .andExpect(jsonPath("$[1].id").value(2))
+                .andExpect(jsonPath("$[0].taskId").value(1))
+                .andExpect(jsonPath("$[1].taskId").value(1));
+    }
+
+    @Test
+    public void testGetTaskSubmissionsByTaskId() throws Exception {
+        when(submissionService.getTaskSubmissionsByTaskId(1L)).thenReturn(testSubmissions);
+
+        mockMvc.perform(get("/api/submissions/task/1"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$[0].id").value(1))
+                .andExpect(jsonPath("$[1].id").value(2))
+                .andExpect(jsonPath("$[0].taskId").value(1))
+                .andExpect(jsonPath("$[1].taskId").value(1));
+    }
+
+    @Test
+    public void testAcceptTaskSubmission() throws Exception {
+        Submission acceptedSubmission = new Submission();
+        acceptedSubmission.setId(1L);
+        acceptedSubmission.setTaskId(1L);
+        acceptedSubmission.setUserId(1L);
+        acceptedSubmission.setGithubLink("https://github.com/user/repo");
+        acceptedSubmission.setStatus("ACCEPTED");
+
+        when(submissionService.acceptDeclineSubmission(1L, "ACCEPTED")).thenReturn(acceptedSubmission);
+
+        mockMvc.perform(put("/api/submissions/1")
+                        .param("status", "ACCEPTED"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.id").value(1))
+                .andExpect(jsonPath("$.status").value("ACCEPTED"));
+    }
+
+    @Test
+    public void testCompleteTaskSubmission() throws Exception {
+        Submission completedSubmission = new Submission();
+        completedSubmission.setId(1L);
+        completedSubmission.setTaskId(1L);
+        completedSubmission.setUserId(1L);
+        completedSubmission.setGithubLink("https://github.com/user/repo");
+        completedSubmission.setStatus("COMPLETE");
+
+        when(submissionService.acceptDeclineSubmission(1L, "COMPLETE")).thenReturn(completedSubmission);
+        
+        mockMvc.perform(put("/api/submissions/1")
+                        .param("status", "COMPLETE"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.id").value(1))
+                .andExpect(jsonPath("$.status").value("COMPLETE"));
+
+        // Verify taskService.completeTask was called
+        Mockito.verify(taskService).completeTask(1L);
+    }
+}

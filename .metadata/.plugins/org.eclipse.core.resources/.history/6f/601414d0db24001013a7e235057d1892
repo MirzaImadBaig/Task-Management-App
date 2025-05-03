@@ -1,0 +1,137 @@
+package com.taskmgment.service;
+
+import com.taskmgment.config.JwtProvider;
+import com.taskmgment.exception.UserException;
+import com.taskmgment.model.User;
+import com.taskmgment.repository.UserRepository;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.MockedStatic;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.security.crypto.password.PasswordEncoder;
+
+import java.util.List;
+import java.util.Optional;
+
+import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.*;
+
+@ExtendWith(MockitoExtension.class)
+class UserServiceImplementationTest {
+
+    @Mock
+    private UserRepository userRepository;
+
+    @Mock
+    private PasswordEncoder passwordEncoder;
+
+    @InjectMocks
+    private UserServiceImplementation userService;
+
+    @Test
+    void testFindUserProfileByJwt_UserExists() throws UserException{
+        String jwt = "token.jwt";
+        String email = "test@example.com";
+
+        User user = new User();
+        user.setEmail(email);
+
+        try (MockedStatic<JwtProvider> jwtMock = mockStatic(JwtProvider.class)) {
+            jwtMock.when(() -> JwtProvider.getEmailFromJwtToken(jwt)).thenReturn(email);
+            when(userRepository.findByEmail(email)).thenReturn(user);
+
+            User result = userService.findUserProfileByJwt(jwt);
+
+            assertNotNull(result);
+            assertEquals(email, result.getEmail());
+        }
+    }
+
+    @Test
+    void testFindUserProfileByJwt_UserNotFound() {
+        String jwt = "token.jwt";
+        String email = "missing@example.com";
+
+        try (MockedStatic<JwtProvider> jwtMock = mockStatic(JwtProvider.class)) {
+            jwtMock.when(() -> JwtProvider.getEmailFromJwtToken(jwt)).thenReturn(email);
+            when(userRepository.findByEmail(email)).thenReturn(null);
+
+            assertThrows(UserException.class, () -> userService.findUserProfileByJwt(jwt));
+        }
+    }
+
+    @Test
+    void testFindUserByEmail_UserExists() throws UserException {
+        String email = "test@example.com";
+        User user = new User();
+        user.setEmail(email);
+
+        when(userRepository.findByEmail(email)).thenReturn(user);
+
+        User result = userService.findUserByEmail(email);
+
+        assertNotNull(result);
+        assertEquals(email, result.getEmail());
+    }
+
+    @Test
+    void testFindUserByEmail_UserNotFound() {
+        when(userRepository.findByEmail("missing@example.com")).thenReturn(null);
+
+        assertThrows(UserException.class, () -> userService.findUserByEmail("missing@example.com"));
+    }
+
+    @Test
+    void testFindUserById_UserExists() throws UserException {
+        Long userId = 1L;
+        User user = new User();
+        user.setId(userId);
+
+        when(userRepository.findById(userId)).thenReturn(Optional.of(user));
+
+        User result = userService.findUserById(userId);
+
+        assertNotNull(result);
+        assertEquals(userId, result.getId());
+    }
+
+    @Test
+    void testFindUserById_UserNotFound() {
+        when(userRepository.findById(99L)).thenReturn(Optional.empty());
+
+        assertThrows(UserException.class, () -> userService.findUserById(99L));
+    }
+
+    @Test
+    void testFindAllUsers() {
+        List<User> users = List.of(new User(), new User());
+
+        when(userRepository.findAll()).thenReturn(users);
+
+        List<User> result = userService.findAllUsers();
+
+        assertEquals(2, result.size());
+    }
+
+    @Test
+    void testUpdatePassword() {
+        User user = new User();
+        user.setPassword("oldPassword");
+
+        String newPassword = "newSecret";
+        String encoded = "encodedSecret";
+
+        when(passwordEncoder.encode(newPassword)).thenReturn(encoded);
+
+        userService.updatePassword(user, newPassword);
+
+        verify(userRepository).save(user);
+        assertEquals(encoded, user.getPassword());
+    }
+
+	public static void main(String[] args) {
+		UserServiceImplementationTest
+	}
+}
