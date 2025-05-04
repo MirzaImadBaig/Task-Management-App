@@ -1,6 +1,6 @@
 Task Management Application:
 
-A Spring Boot microservices-based task management system with Eureka Server, API Gateway, and modular services.
+A Spring Boot microservices-based task management system with Eureka Server, API Gateway, modular services, AOP loggers, and unit testing[JUnit + Mockito].
 
 📌 Features
 - **Microservices Architecture**:
