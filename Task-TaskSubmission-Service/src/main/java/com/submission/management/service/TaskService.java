@@ -10,12 +10,11 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import com.submission.management.dtos.TaskDto;
 
 @FeignClient(name = "TASK-SUBMISSION-SERVICE",url = "http://localhost:5002")
-
 public interface TaskService {
+   @GetMapping("/api/tasks/{id}")
+   public TaskDto getTaskById(@PathVariable Long id,
+                                   @RequestHeader("Authorization") String jwt);
 
-    @GetMapping("/api/tasks/{id}")
-    TaskDto getTaskById(@PathVariable Long id,
-                        @RequestHeader("Authorization") String jwt);
-
-
+   @PutMapping("/api/tasks/{id}/complete")
+   public TaskDto completeTask(@PathVariable Long id);
 }

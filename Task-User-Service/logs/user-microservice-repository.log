@@ -1,260 +1,186 @@
-2025-05-02 00:00:41.991 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:00:42.004 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 13 ms
-2025-05-02 00:02:35.111 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@example.com]
-2025-05-02 00:02:35.116 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 00:03:14.273 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@example.com]
-2025-05-02 00:03:14.286 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 13 ms
-2025-05-02 00:03:37.408 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:03:37.423 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 15 ms
-2025-05-02 00:03:37.464 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:03:37.472 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 8 ms
-2025-05-02 00:11:51.163 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin5@gmail.com]
-2025-05-02 00:11:51.166 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
-2025-05-02 00:11:51.597 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin5@gmail.com]
-2025-05-02 00:11:51.606 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 9 ms
-2025-05-02 00:11:51.727 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin5@gmail.com]
-2025-05-02 00:11:51.734 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 7 ms
-2025-05-02 00:12:47.505 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin5@gmail.com]
-2025-05-02 00:12:47.509 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 00:12:47.647 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin5@gmail.com]
-2025-05-02 00:12:47.654 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 7 ms
-2025-05-02 00:12:47.752 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin5@gmail.com]
-2025-05-02 00:12:47.757 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 6 ms
-2025-05-02 00:12:47.796 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin5@gmail.com]
-2025-05-02 00:12:47.799 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
-2025-05-02 00:13:48.248 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin6@gmail.com]
-2025-05-02 00:13:48.251 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 00:13:48.434 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin6@gmail.com]
-2025-05-02 00:13:48.440 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 6 ms
-2025-05-02 00:13:48.476 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin6@gmail.com]
-2025-05-02 00:13:48.480 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 00:16:22.027 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@example.com]
-2025-05-02 00:16:22.033 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 6 ms
-2025-05-02 00:16:22.148 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@example.com]
-2025-05-02 00:16:22.151 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
-2025-05-02 00:16:22.245 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@example.com]
-2025-05-02 00:16:22.252 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 7 ms
-2025-05-02 00:16:22.296 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@example.com]
-2025-05-02 00:16:22.302 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 6 ms
-2025-05-02 00:16:34.307 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:16:34.313 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 6 ms
-2025-05-02 00:16:34.439 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:16:34.443 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 00:18:11.809 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:18:11.814 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 00:18:11.914 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:18:11.919 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 00:18:54.035 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:18:54.041 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 6 ms
-2025-05-02 00:19:12.344 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin6@gmail.com]
-2025-05-02 00:19:12.347 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
-2025-05-02 00:19:12.449 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin6@gmail.com]
-2025-05-02 00:19:12.453 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 00:19:50.986 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin5@gmail.com]
-2025-05-02 00:19:50.989 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
-2025-05-02 00:19:51.093 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin5@gmail.com]
-2025-05-02 00:19:51.098 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 00:19:51.186 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin5@gmail.com]
-2025-05-02 00:19:51.194 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 8 ms
-2025-05-02 00:19:51.229 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin5@gmail.com]
-2025-05-02 00:19:51.233 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 00:20:19.818 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:19.822 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 00:20:23.368 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:23.371 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
-2025-05-02 00:20:24.233 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:24.237 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 00:20:24.767 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:24.772 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 00:20:24.990 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:24.996 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 6 ms
-2025-05-02 00:20:25.162 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:25.165 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
-2025-05-02 00:20:25.332 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:25.336 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 00:20:25.500 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:25.504 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 00:20:25.681 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:25.685 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 00:20:25.913 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:25.917 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 00:20:26.525 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:26.529 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 00:20:26.673 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:26.676 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
-2025-05-02 00:20:26.867 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:26.870 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
-2025-05-02 00:20:27.425 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:27.429 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 00:20:27.593 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:27.597 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 00:20:27.774 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:27.781 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 7 ms
-2025-05-02 00:20:28.379 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:28.383 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 00:20:28.541 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:28.546 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 00:20:28.809 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:28.814 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 00:20:28.983 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:28.986 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
-2025-05-02 00:20:31.131 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:31.134 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
-2025-05-02 00:20:35.893 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:35.897 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 00:20:36.385 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:36.387 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 2 ms
-2025-05-02 00:20:36.898 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:36.902 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 00:20:37.077 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:37.081 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 00:20:37.232 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:37.236 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 00:20:37.389 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:37.392 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
-2025-05-02 00:20:39.166 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:39.171 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 00:20:39.342 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:39.347 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 00:20:39.516 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:39.520 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 00:20:39.725 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:20:39.730 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 00:21:16.184 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@gmail.com]
-2025-05-02 00:21:16.189 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 00:21:37.327 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@example.com]
-2025-05-02 00:21:37.332 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 00:21:37.431 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@example.com]
-2025-05-02 00:21:37.436 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 00:21:37.474 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@example.com]
-2025-05-02 00:21:37.480 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 6 ms
-2025-05-02 00:21:37.509 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [admin2@example.com]
-2025-05-02 00:21:37.513 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 00:25:01.259 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:25:01.263 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 00:25:01.362 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:25:01.367 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 00:27:37.432 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:27:37.441 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 9 ms
-2025-05-02 00:28:19.485 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:28:19.488 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
-2025-05-02 00:28:19.605 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:28:19.607 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 2 ms
-2025-05-02 00:28:43.851 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:28:43.856 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 00:33:49.042 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:33:49.046 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 00:33:49.065 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:33:49.069 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 00:33:51.035 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:33:51.041 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 6 ms
-2025-05-02 00:33:51.058 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:33:51.062 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 00:33:56.151 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:33:56.156 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 00:33:56.179 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:33:56.184 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 00:33:56.533 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:33:56.540 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 7 ms
-2025-05-02 00:33:56.577 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:33:56.587 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 10 ms
-2025-05-02 00:34:29.621 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:34:29.626 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 00:37:13.999 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:37:14.004 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 00:37:14.026 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:37:14.031 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 00:37:14.784 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:37:14.789 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 00:37:14.807 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:37:14.813 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 6 ms
-2025-05-02 00:51:40.225 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:51:40.231 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 6 ms
-2025-05-02 00:51:40.249 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 00:51:40.255 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 7 ms
-2025-05-02 01:57:34.404 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 01:57:34.587 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 186 ms
-2025-05-02 01:57:34.646 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 01:57:34.650 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 14:01:41.130 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 14:01:41.424 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 294 ms
-2025-05-02 14:01:41.484 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 14:01:41.489 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 14:03:46.848 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 14:03:46.855 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 7 ms
-2025-05-02 14:03:50.284 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 14:03:50.291 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 7 ms
-2025-05-02 14:03:50.314 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 14:03:50.320 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 6 ms
-2025-05-02 14:19:23.185 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 14:19:23.196 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 11 ms
-2025-05-02 14:19:23.221 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 14:19:23.232 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 11 ms
-2025-05-02 14:59:21.085 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [imadmirza007@gmail.com]
-2025-05-02 14:59:21.096 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 11 ms
-2025-05-02 17:23:09.653 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
-2025-05-02 17:23:09.662 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 9 ms
-2025-05-02 17:26:53.772 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
-2025-05-02 17:26:53.777 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 17:31:33.171 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
-2025-05-02 17:31:33.177 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 6 ms
-2025-05-02 17:40:55.884 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin1@example.com]
-2025-05-02 17:40:55.893 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 9 ms
-2025-05-02 17:42:58.680 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin1@example.com]
-2025-05-02 17:42:58.686 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 6 ms
-2025-05-02 17:43:17.686 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin1@example.com]
-2025-05-02 17:43:17.694 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 8 ms
-2025-05-02 17:44:46.677 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin1@example.com]
-2025-05-02 17:44:46.684 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 7 ms
-2025-05-02 17:45:27.376 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
-2025-05-02 17:45:27.382 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 6 ms
-2025-05-02 17:45:45.837 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
-2025-05-02 17:45:45.844 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 7 ms
-2025-05-02 17:55:32.029 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
-2025-05-02 17:55:32.049 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 20 ms
-2025-05-02 17:55:45.637 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
-2025-05-02 17:55:45.644 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 7 ms
-2025-05-02 18:14:45.685 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
-2025-05-02 18:14:45.693 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 8 ms
-2025-05-02 18:22:56.111 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
-2025-05-02 18:22:56.115 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 18:37:55.067 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
-2025-05-02 18:37:55.071 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 18:41:58.532 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
-2025-05-02 18:41:58.535 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
-2025-05-02 18:42:13.584 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
-2025-05-02 18:42:13.588 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 18:42:35.871 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
-2025-05-02 18:42:35.873 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 2 ms
-2025-05-02 18:42:56.841 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
-2025-05-02 18:42:56.845 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 18:43:08.830 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
-2025-05-02 18:43:08.834 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 18:46:44.759 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
-2025-05-02 18:46:44.762 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
-2025-05-02 18:48:29.205 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
-2025-05-02 18:48:29.208 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
-2025-05-02 18:48:45.711 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
-2025-05-02 18:48:45.713 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 2 ms
-2025-05-02 18:50:40.820 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
-2025-05-02 18:50:40.823 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
-2025-05-02 18:50:51.952 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
-2025-05-02 18:50:51.957 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 19:04:41.383 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
-2025-05-02 19:04:41.388 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
-2025-05-02 19:05:30.198 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
-2025-05-02 19:05:30.202 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 19:07:28.429 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
-2025-05-02 19:07:28.433 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 19:10:25.369 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
-2025-05-02 19:10:25.372 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
-2025-05-02 19:11:41.575 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
-2025-05-02 19:11:41.578 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
-2025-05-02 19:25:13.204 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
-2025-05-02 19:25:13.207 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
-2025-05-02 22:01:25.367 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
-2025-05-02 22:01:25.577 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 210 ms
-2025-05-02 22:05:19.254 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
-2025-05-02 22:05:19.258 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
-2025-05-02 22:07:31.360 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
-2025-05-02 22:07:31.363 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:15:32.034 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:15:32.251 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 217 ms
+2025-05-03 14:15:32.405 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:15:32.408 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:15:32.807 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:15:32.810 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:15:33.070 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:15:33.073 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:15:46.712 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:15:46.717 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
+2025-05-03 14:15:48.463 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:15:48.468 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
+2025-05-03 14:15:49.549 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:15:49.555 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 6 ms
+2025-05-03 14:16:13.653 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:16:13.656 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:16:13.759 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:16:13.762 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:24:39.382 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:24:39.386 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
+2025-05-03 14:24:39.398 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:24:39.403 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
+2025-05-03 14:29:47.030 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:29:47.034 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
+2025-05-03 14:29:49.500 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:29:49.505 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
+2025-05-03 14:29:49.525 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:29:49.530 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 6 ms
+2025-05-03 14:31:05.012 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:31:05.016 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
+2025-05-03 14:31:08.179 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:31:08.183 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
+2025-05-03 14:31:08.197 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:31:08.202 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
+2025-05-03 14:31:20.008 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:31:20.011 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:31:30.007 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:31:30.010 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:32:02.414 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:32:02.419 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
+2025-05-03 14:32:02.432 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:32:02.435 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:33:32.795 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:33:32.801 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
+2025-05-03 14:34:31.020 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:34:31.024 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
+2025-05-03 14:34:43.786 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:34:43.795 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 9 ms
+2025-05-03 14:36:13.483 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:36:13.486 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:36:17.826 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:36:17.830 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
+2025-05-03 14:36:17.845 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:36:17.848 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:37:09.821 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:37:09.824 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:37:58.284 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:37:58.287 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:37:58.412 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:37:58.417 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
+2025-05-03 14:37:58.559 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:37:58.564 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
+2025-05-03 14:37:58.609 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:37:58.612 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:38:31.607 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:38:31.610 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:38:39.046 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:38:39.051 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
+2025-05-03 14:38:40.118 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:38:40.123 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
+2025-05-03 14:38:42.791 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:38:42.795 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
+2025-05-03 14:38:57.128 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:38:57.131 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:38:57.230 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:38:57.233 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:44:15.910 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:44:15.915 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
+2025-05-03 14:44:15.930 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:44:15.934 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
+2025-05-03 14:44:21.945 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:44:21.949 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
+2025-05-03 14:44:21.960 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:44:21.963 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:46:02.560 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:46:02.563 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:46:08.109 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:46:08.112 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:46:54.466 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:46:54.479 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 13 ms
+2025-05-03 14:46:54.727 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:46:54.734 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 7 ms
+2025-05-03 14:46:54.852 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:46:54.861 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 9 ms
+2025-05-03 14:46:54.905 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:46:54.914 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 9 ms
+2025-05-03 14:47:11.053 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:47:11.059 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 6 ms
+2025-05-03 14:47:14.886 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:47:14.895 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 9 ms
+2025-05-03 14:47:17.901 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:47:17.908 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 7 ms
+2025-05-03 14:47:20.071 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:47:20.079 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 9 ms
+2025-05-03 14:47:41.911 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:47:41.914 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:47:42.038 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:47:42.040 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 2 ms
+2025-05-03 14:48:00.125 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:48:00.128 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:48:01.265 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:48:01.268 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:48:01.450 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:48:01.452 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 2 ms
+2025-05-03 14:48:01.609 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:48:01.613 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
+2025-05-03 14:48:01.777 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:48:01.781 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
+2025-05-03 14:48:01.944 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:48:01.949 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
+2025-05-03 14:48:20.062 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:48:20.066 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
+2025-05-03 14:48:20.182 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:48:20.185 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:48:20.330 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:48:20.336 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 6 ms
+2025-05-03 14:48:20.417 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:48:20.425 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 8 ms
+2025-05-03 14:48:41.632 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:48:41.640 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 8 ms
+2025-05-03 14:48:46.325 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:48:46.330 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
+2025-05-03 14:48:46.884 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:48:46.889 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
+2025-05-03 14:48:54.613 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:48:54.618 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
+2025-05-03 14:48:54.736 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:48:54.739 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:49:49.606 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:49:49.612 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 6 ms
+2025-05-03 14:49:49.631 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:49:49.637 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 6 ms
+2025-05-03 14:58:14.980 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:58:14.983 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:58:15.008 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:58:15.011 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:58:18.783 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:58:18.786 [http-nio-5001-exec-5] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:58:31.175 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:58:31.179 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
+2025-05-03 14:58:31.300 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:58:31.302 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 2 ms
+2025-05-03 14:58:31.436 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:58:31.440 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
+2025-05-03 14:58:31.465 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:58:31.468 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 14:58:44.020 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 14:58:44.027 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 7 ms
+2025-05-03 14:58:53.628 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:58:53.632 [http-nio-5001-exec-3] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
+2025-05-03 14:58:53.750 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 14:58:53.754 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
+2025-05-03 15:03:33.286 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 15:03:33.289 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 15:03:42.212 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 15:03:42.215 [http-nio-5001-exec-1] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 15:03:42.347 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 15:03:42.350 [http-nio-5001-exec-2] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 3 ms
+2025-05-03 15:03:42.454 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 15:03:42.459 [http-nio-5001-exec-4] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
+2025-05-03 15:03:42.487 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 15:03:42.492 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 5 ms
+2025-05-03 15:03:50.228 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testuser1@example.com]
+2025-05-03 15:03:50.232 [http-nio-5001-exec-7] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
+2025-05-03 15:03:58.939 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 15:03:58.943 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
+2025-05-03 15:03:59.063 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 15:03:59.067 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
+2025-05-03 15:05:54.077 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 15:05:54.083 [http-nio-5001-exec-6] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 6 ms
+2025-05-03 15:05:54.104 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 15:05:54.108 [http-nio-5001-exec-8] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 4 ms
+2025-05-03 15:05:59.407 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 15:05:59.413 [http-nio-5001-exec-9] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 6 ms
+2025-05-03 15:05:59.451 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method: findByEmail - Args: [testadmin2@example.com]
+2025-05-03 15:05:59.459 [http-nio-5001-exec-10] DEBUG c.u.m.repository.UserRepository - Method findByEmail executed in 8 ms

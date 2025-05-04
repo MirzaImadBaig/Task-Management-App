@@ -1,388 +1,386 @@
-2025-05-02 00:00:41.982 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
-2025-05-02 00:00:42.004 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 22 ms
-2025-05-02 00:02:35.101 [http-nio-5001-exec-3] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@example.com]
-2025-05-02 00:02:35.120 [http-nio-5001-exec-3] DEBUG c.u.m.s.CustomeUserServiceImplementation - Method loadUserByUsername executed in 19 ms
-2025-05-02 00:03:14.272 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjQzNTUsImV4cCI6MTc0NjIxMDc1NSwiZW1haWwiOiJhZG1pbjJAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IiJ9.Kh-uDhIzdG2tr8THEc9DpwdISLKkjX4xhdOruSdFAdBVDf8UufZreDZy4cOix324]
-2025-05-02 00:03:14.286 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 14 ms
-2025-05-02 00:03:37.401 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
-2025-05-02 00:03:37.424 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 23 ms
-2025-05-02 00:03:37.457 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjI0MDksImV4cCI6MTc0NjIwODgwOSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.k_65q9XDxpwAQrf1Rkt1xXAP4c3WCATBadYdwq2cXAxnqFu8heFFShVYUlfuMaFX]
-2025-05-02 00:03:37.473 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 16 ms
-2025-05-02 00:03:38.243 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:03:38.266 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 23 ms
-2025-05-02 00:03:38.300 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:03:38.319 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 19 ms
-2025-05-02 00:03:38.349 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:03:38.359 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
-2025-05-02 00:03:38.376 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:03:38.388 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 12 ms
-2025-05-02 00:11:51.535 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:11:51.552 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 17 ms
-2025-05-02 00:11:51.584 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:11:51.590 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjQ5MTEsImV4cCI6MTc0NjIxMTMxMSwiZW1haWwiOiJhZG1pbjVAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.r4gnxnRB4UqNOmYmYxty2tdUrdXBnW_iHJBI70BBzrth5OSitF6d-fSmSpRCv6P4]
-2025-05-02 00:11:51.598 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 14 ms
-2025-05-02 00:11:51.607 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 16 ms
-2025-05-02 00:11:51.651 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:11:51.662 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 11 ms
-2025-05-02 00:11:51.696 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:11:51.708 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 12 ms
-2025-05-02 00:11:51.722 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjQ5MTEsImV4cCI6MTc0NjIxMTMxMSwiZW1haWwiOiJhZG1pbjVAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.r4gnxnRB4UqNOmYmYxty2tdUrdXBnW_iHJBI70BBzrth5OSitF6d-fSmSpRCv6P4]
-2025-05-02 00:11:51.734 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 12 ms
-2025-05-02 00:12:47.505 [http-nio-5001-exec-1] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin5@gmail.com]
-2025-05-02 00:12:47.509 [http-nio-5001-exec-1] DEBUG c.u.m.s.CustomeUserServiceImplementation - Method loadUserByUsername executed in 5 ms
-2025-05-02 00:12:47.642 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjQ5NjcsImV4cCI6MTc0NjIxMTM2NywiZW1haWwiOiJhZG1pbjVAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.NKg1SnL4kf06Udef3YYnmG0jVaSVZWCO7B4cyEUTzO6ESzVvoxNmxW2yXih5EUVa]
-2025-05-02 00:12:47.654 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 12 ms
-2025-05-02 00:12:47.745 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjQ5NjcsImV4cCI6MTc0NjIxMTM2NywiZW1haWwiOiJhZG1pbjVAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.NKg1SnL4kf06Udef3YYnmG0jVaSVZWCO7B4cyEUTzO6ESzVvoxNmxW2yXih5EUVa]
-2025-05-02 00:12:47.757 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 12 ms
-2025-05-02 00:12:47.793 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjQ5NjcsImV4cCI6MTc0NjIxMTM2NywiZW1haWwiOiJhZG1pbjVAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.NKg1SnL4kf06Udef3YYnmG0jVaSVZWCO7B4cyEUTzO6ESzVvoxNmxW2yXih5EUVa]
-2025-05-02 00:12:47.799 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 6 ms
-2025-05-02 00:13:48.426 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjUwMjgsImV4cCI6MTc0NjIxMTQyOCwiZW1haWwiOiJhZG1pbjZAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.71he5jsyOnlAMtHvnvH1Di_NBLW9UbkFt7LiLuMqFN31WVlCa2vv0f_nptlcIJ39]
-2025-05-02 00:13:48.440 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 14 ms
-2025-05-02 00:13:48.474 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjUwMjgsImV4cCI6MTc0NjIxMTQyOCwiZW1haWwiOiJhZG1pbjZAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.71he5jsyOnlAMtHvnvH1Di_NBLW9UbkFt7LiLuMqFN31WVlCa2vv0f_nptlcIJ39]
-2025-05-02 00:13:48.480 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 6 ms
-2025-05-02 00:16:22.027 [http-nio-5001-exec-2] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@example.com]
-2025-05-02 00:16:22.033 [http-nio-5001-exec-2] DEBUG c.u.m.s.CustomeUserServiceImplementation - Method loadUserByUsername executed in 6 ms
-2025-05-02 00:16:22.145 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjUxODIsImV4cCI6MTc0NjIxMTU4MiwiZW1haWwiOiJhZG1pbjJAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IiJ9.P7ILSkElKD5SbWWySt36zkBH-5cMEEOL4Ce_rmJWWwyQjVjondvs2fkgiQvUVpFk]
-2025-05-02 00:16:22.151 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 6 ms
-2025-05-02 00:16:22.240 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjUxODIsImV4cCI6MTc0NjIxMTU4MiwiZW1haWwiOiJhZG1pbjJAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IiJ9.P7ILSkElKD5SbWWySt36zkBH-5cMEEOL4Ce_rmJWWwyQjVjondvs2fkgiQvUVpFk]
-2025-05-02 00:16:22.252 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 12 ms
-2025-05-02 00:16:22.294 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjUxODIsImV4cCI6MTc0NjIxMTU4MiwiZW1haWwiOiJhZG1pbjJAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IiJ9.P7ILSkElKD5SbWWySt36zkBH-5cMEEOL4Ce_rmJWWwyQjVjondvs2fkgiQvUVpFk]
-2025-05-02 00:16:22.302 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 8 ms
-2025-05-02 00:16:34.307 [http-nio-5001-exec-6] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [imadmirza007@gmail.com]
-2025-05-02 00:16:34.313 [http-nio-5001-exec-6] DEBUG c.u.m.s.CustomeUserServiceImplementation - Method loadUserByUsername executed in 6 ms
-2025-05-02 00:16:34.435 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjUxOTQsImV4cCI6MTc0NjIxMTU5NCwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.yaOWxyl9gXNMfU2QsDLF_bChimW5w38vr1wLhKc-CM7tAI1Ic_SERTS_KP_i_eqf]
-2025-05-02 00:16:34.443 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 8 ms
-2025-05-02 00:16:34.643 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:16:34.655 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 12 ms
-2025-05-02 00:16:34.672 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:16:34.686 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 14 ms
-2025-05-02 00:16:34.717 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:16:34.730 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 13 ms
-2025-05-02 00:16:34.742 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:16:34.750 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
-2025-05-02 00:18:11.809 [http-nio-5001-exec-6] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [imadmirza007@gmail.com]
-2025-05-02 00:18:11.814 [http-nio-5001-exec-6] DEBUG c.u.m.s.CustomeUserServiceImplementation - Method loadUserByUsername executed in 5 ms
-2025-05-02 00:18:11.911 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjUyOTEsImV4cCI6MTc0NjIxMTY5MSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.tjCluMOrUqIguVevfDSzUWiHtq53sRGKh-dzSJg38ImHIea-YPM23_jbIrz2msQj]
-2025-05-02 00:18:11.919 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 8 ms
-2025-05-02 00:18:12.070 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:18:12.082 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 12 ms
-2025-05-02 00:18:12.113 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:18:12.129 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 16 ms
-2025-05-02 00:18:12.148 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:18:12.158 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
-2025-05-02 00:18:12.171 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:18:12.181 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
-2025-05-02 00:18:54.032 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjUyOTEsImV4cCI6MTc0NjIxMTY5MSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.tjCluMOrUqIguVevfDSzUWiHtq53sRGKh-dzSJg38ImHIea-YPM23_jbIrz2msQj]
-2025-05-02 00:18:54.041 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 9 ms
-2025-05-02 00:19:12.344 [http-nio-5001-exec-3] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin6@gmail.com]
-2025-05-02 00:19:12.347 [http-nio-5001-exec-3] DEBUG c.u.m.s.CustomeUserServiceImplementation - Method loadUserByUsername executed in 3 ms
-2025-05-02 00:19:12.448 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjUzNTIsImV4cCI6MTc0NjIxMTc1MiwiZW1haWwiOiJhZG1pbjZAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.rs1QiQOc2o37tG29yo3h4l8nyFlpRuE_hjn_vFyhyGyTBqslIyhnnHjsrGPPm4f8]
-2025-05-02 00:19:12.453 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 5 ms
-2025-05-02 00:19:12.503 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:19:12.511 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
-2025-05-02 00:19:12.537 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:19:12.550 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 13 ms
-2025-05-02 00:19:12.566 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:19:12.577 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 11 ms
-2025-05-02 00:19:12.593 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:19:12.600 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 7 ms
-2025-05-02 00:19:50.986 [http-nio-5001-exec-9] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin5@gmail.com]
-2025-05-02 00:19:50.989 [http-nio-5001-exec-9] DEBUG c.u.m.s.CustomeUserServiceImplementation - Method loadUserByUsername executed in 3 ms
-2025-05-02 00:19:51.090 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjUzOTEsImV4cCI6MTc0NjIxMTc5MSwiZW1haWwiOiJhZG1pbjVAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.lTNw4teoSHY2VpTYAGk9H2Zi_eFb2zFYgcahYI8zPZJvQ18PAX2sV6wSTLE4aWUZ]
-2025-05-02 00:19:51.098 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 8 ms
-2025-05-02 00:19:51.147 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:19:51.158 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 11 ms
-2025-05-02 00:19:51.181 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:19:51.182 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjUzOTEsImV4cCI6MTc0NjIxMTc5MSwiZW1haWwiOiJhZG1pbjVAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.lTNw4teoSHY2VpTYAGk9H2Zi_eFb2zFYgcahYI8zPZJvQ18PAX2sV6wSTLE4aWUZ]
-2025-05-02 00:19:51.192 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 11 ms
-2025-05-02 00:19:51.194 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 12 ms
-2025-05-02 00:19:51.218 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:19:51.227 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
-2025-05-02 00:19:51.227 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjUzOTEsImV4cCI6MTc0NjIxMTc5MSwiZW1haWwiOiJhZG1pbjVAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.lTNw4teoSHY2VpTYAGk9H2Zi_eFb2zFYgcahYI8zPZJvQ18PAX2sV6wSTLE4aWUZ]
-2025-05-02 00:19:51.233 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 6 ms
-2025-05-02 00:19:51.240 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:19:51.246 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 6 ms
-2025-05-02 00:20:19.818 [http-nio-5001-exec-7] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:23.368 [http-nio-5001-exec-8] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:24.233 [http-nio-5001-exec-9] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:24.767 [http-nio-5001-exec-1] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:24.990 [http-nio-5001-exec-10] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:25.162 [http-nio-5001-exec-2] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:25.332 [http-nio-5001-exec-3] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:25.500 [http-nio-5001-exec-4] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:25.681 [http-nio-5001-exec-5] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:25.912 [http-nio-5001-exec-6] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:26.524 [http-nio-5001-exec-7] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:26.671 [http-nio-5001-exec-8] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:26.867 [http-nio-5001-exec-9] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:27.424 [http-nio-5001-exec-1] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:27.593 [http-nio-5001-exec-10] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:27.773 [http-nio-5001-exec-2] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:28.379 [http-nio-5001-exec-3] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:28.541 [http-nio-5001-exec-4] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:28.809 [http-nio-5001-exec-5] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:28.983 [http-nio-5001-exec-6] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:31.131 [http-nio-5001-exec-7] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:35.893 [http-nio-5001-exec-8] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:36.385 [http-nio-5001-exec-9] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:36.898 [http-nio-5001-exec-1] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:37.077 [http-nio-5001-exec-10] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:37.231 [http-nio-5001-exec-2] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:37.389 [http-nio-5001-exec-3] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:39.166 [http-nio-5001-exec-4] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:39.342 [http-nio-5001-exec-5] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:39.516 [http-nio-5001-exec-6] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:20:39.724 [http-nio-5001-exec-7] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:21:16.184 [http-nio-5001-exec-9] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@gmail.com]
-2025-05-02 00:21:37.327 [http-nio-5001-exec-2] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [admin2@example.com]
-2025-05-02 00:21:37.332 [http-nio-5001-exec-2] DEBUG c.u.m.s.CustomeUserServiceImplementation - Method loadUserByUsername executed in 5 ms
-2025-05-02 00:21:37.428 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU0OTcsImV4cCI6MTc0NjIxMTg5NywiZW1haWwiOiJhZG1pbjJAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IiJ9.tArZJyHD4ir5WV2kN0DOHc4Fbk4w8jmr50DpCliSLMM_nhrcNzkVFiv_2bHZy9pr]
-2025-05-02 00:21:37.436 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 8 ms
-2025-05-02 00:21:37.471 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU0OTcsImV4cCI6MTc0NjIxMTg5NywiZW1haWwiOiJhZG1pbjJAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IiJ9.tArZJyHD4ir5WV2kN0DOHc4Fbk4w8jmr50DpCliSLMM_nhrcNzkVFiv_2bHZy9pr]
-2025-05-02 00:21:37.480 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 9 ms
-2025-05-02 00:21:37.503 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU0OTcsImV4cCI6MTc0NjIxMTg5NywiZW1haWwiOiJhZG1pbjJAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IiJ9.tArZJyHD4ir5WV2kN0DOHc4Fbk4w8jmr50DpCliSLMM_nhrcNzkVFiv_2bHZy9pr]
-2025-05-02 00:21:37.513 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 10 ms
-2025-05-02 00:25:01.259 [http-nio-5001-exec-8] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [imadmirza007@gmail.com]
-2025-05-02 00:25:01.263 [http-nio-5001-exec-8] DEBUG c.u.m.s.CustomeUserServiceImplementation - Method loadUserByUsername executed in 4 ms
-2025-05-02 00:25:01.359 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU3MDEsImV4cCI6MTc0NjIxMjEwMSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.milVEVO7rtIiQWgmP-BeD_KvqJGu61WRhd-DcxDOhx1zvUc2XIsaQ3-cuqU4fA-Q]
-2025-05-02 00:25:01.367 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 8 ms
-2025-05-02 00:25:01.462 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:25:01.472 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
-2025-05-02 00:25:01.494 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:25:01.503 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
-2025-05-02 00:25:01.518 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:25:01.526 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
-2025-05-02 00:25:01.534 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:25:01.540 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 6 ms
-2025-05-02 00:27:37.430 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU3MDEsImV4cCI6MTc0NjIxMjEwMSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.milVEVO7rtIiQWgmP-BeD_KvqJGu61WRhd-DcxDOhx1zvUc2XIsaQ3-cuqU4fA-Q]
-2025-05-02 00:27:37.442 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 12 ms
-2025-05-02 00:28:19.485 [http-nio-5001-exec-6] INFO  c.u.m.s.CustomeUserServiceImplementation - Method: loadUserByUsername - Args: [imadmirza007@gmail.com]
-2025-05-02 00:28:19.488 [http-nio-5001-exec-6] DEBUG c.u.m.s.CustomeUserServiceImplementation - Method loadUserByUsername executed in 3 ms
-2025-05-02 00:28:19.602 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU4OTksImV4cCI6MTc0NjIxMjI5OSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LEpNeb74uQLKKaMwHc2hpSbRoqib-pr3XXUPgM8r4fe0mKCJNvV2dTO_QHNynMBs]
-2025-05-02 00:28:19.608 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 6 ms
-2025-05-02 00:28:19.797 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:28:19.808 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 11 ms
-2025-05-02 00:28:19.831 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:28:19.843 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 12 ms
-2025-05-02 00:28:19.878 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:28:19.888 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 11 ms
-2025-05-02 00:28:19.909 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:28:19.915 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 7 ms
-2025-05-02 00:28:43.849 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU4OTksImV4cCI6MTc0NjIxMjI5OSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LEpNeb74uQLKKaMwHc2hpSbRoqib-pr3XXUPgM8r4fe0mKCJNvV2dTO_QHNynMBs]
-2025-05-02 00:28:43.856 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 7 ms
-2025-05-02 00:33:49.039 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU3MDEsImV4cCI6MTc0NjIxMjEwMSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.milVEVO7rtIiQWgmP-BeD_KvqJGu61WRhd-DcxDOhx1zvUc2XIsaQ3-cuqU4fA-Q]
-2025-05-02 00:33:49.047 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 8 ms
-2025-05-02 00:33:49.063 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU3MDEsImV4cCI6MTc0NjIxMjEwMSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.milVEVO7rtIiQWgmP-BeD_KvqJGu61WRhd-DcxDOhx1zvUc2XIsaQ3-cuqU4fA-Q]
-2025-05-02 00:33:49.069 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 6 ms
-2025-05-02 00:33:49.376 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:33:49.387 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 11 ms
-2025-05-02 00:33:49.409 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:33:49.417 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
-2025-05-02 00:33:49.436 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:33:49.477 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 41 ms
-2025-05-02 00:33:49.504 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:33:49.585 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 81 ms
-2025-05-02 00:33:51.031 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU4OTksImV4cCI6MTc0NjIxMjI5OSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LEpNeb74uQLKKaMwHc2hpSbRoqib-pr3XXUPgM8r4fe0mKCJNvV2dTO_QHNynMBs]
-2025-05-02 00:33:51.041 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 10 ms
-2025-05-02 00:33:51.053 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU4OTksImV4cCI6MTc0NjIxMjI5OSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LEpNeb74uQLKKaMwHc2hpSbRoqib-pr3XXUPgM8r4fe0mKCJNvV2dTO_QHNynMBs]
-2025-05-02 00:33:51.062 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 9 ms
-2025-05-02 00:33:52.310 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:33:52.322 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 12 ms
-2025-05-02 00:33:52.352 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:33:52.363 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 11 ms
-2025-05-02 00:33:52.387 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:33:52.400 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 13 ms
-2025-05-02 00:33:52.420 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:33:52.429 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
-2025-05-02 00:33:56.147 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU4OTksImV4cCI6MTc0NjIxMjI5OSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LEpNeb74uQLKKaMwHc2hpSbRoqib-pr3XXUPgM8r4fe0mKCJNvV2dTO_QHNynMBs]
-2025-05-02 00:33:56.156 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 9 ms
-2025-05-02 00:33:56.172 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU4OTksImV4cCI6MTc0NjIxMjI5OSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LEpNeb74uQLKKaMwHc2hpSbRoqib-pr3XXUPgM8r4fe0mKCJNvV2dTO_QHNynMBs]
-2025-05-02 00:33:56.184 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 12 ms
-2025-05-02 00:33:56.528 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU4OTksImV4cCI6MTc0NjIxMjI5OSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LEpNeb74uQLKKaMwHc2hpSbRoqib-pr3XXUPgM8r4fe0mKCJNvV2dTO_QHNynMBs]
-2025-05-02 00:33:56.540 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 12 ms
-2025-05-02 00:33:56.569 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU4OTksImV4cCI6MTc0NjIxMjI5OSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LEpNeb74uQLKKaMwHc2hpSbRoqib-pr3XXUPgM8r4fe0mKCJNvV2dTO_QHNynMBs]
-2025-05-02 00:33:56.570 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:33:56.583 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 13 ms
-2025-05-02 00:33:56.587 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 18 ms
-2025-05-02 00:33:56.605 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:33:56.618 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 13 ms
-2025-05-02 00:33:56.638 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:33:56.653 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 15 ms
-2025-05-02 00:33:56.672 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:33:56.683 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 11 ms
-2025-05-02 00:33:57.893 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:33:57.904 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 11 ms
-2025-05-02 00:33:57.925 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:33:57.935 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
-2025-05-02 00:33:57.952 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:33:57.966 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 14 ms
-2025-05-02 00:33:57.983 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:33:57.994 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 11 ms
-2025-05-02 00:34:29.618 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU4OTksImV4cCI6MTc0NjIxMjI5OSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LEpNeb74uQLKKaMwHc2hpSbRoqib-pr3XXUPgM8r4fe0mKCJNvV2dTO_QHNynMBs]
-2025-05-02 00:34:29.626 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 8 ms
-2025-05-02 00:37:13.997 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU3MDEsImV4cCI6MTc0NjIxMjEwMSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.milVEVO7rtIiQWgmP-BeD_KvqJGu61WRhd-DcxDOhx1zvUc2XIsaQ3-cuqU4fA-Q]
-2025-05-02 00:37:14.006 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 10 ms
-2025-05-02 00:37:14.023 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU3MDEsImV4cCI6MTc0NjIxMjEwMSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.milVEVO7rtIiQWgmP-BeD_KvqJGu61WRhd-DcxDOhx1zvUc2XIsaQ3-cuqU4fA-Q]
-2025-05-02 00:37:14.031 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 8 ms
-2025-05-02 00:37:14.357 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:37:14.367 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
-2025-05-02 00:37:14.385 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:37:14.395 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
-2025-05-02 00:37:14.424 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:37:14.437 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 13 ms
-2025-05-02 00:37:14.459 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:37:14.468 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
-2025-05-02 00:37:14.780 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU4OTksImV4cCI6MTc0NjIxMjI5OSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LEpNeb74uQLKKaMwHc2hpSbRoqib-pr3XXUPgM8r4fe0mKCJNvV2dTO_QHNynMBs]
-2025-05-02 00:37:14.790 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 10 ms
-2025-05-02 00:37:14.804 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU4OTksImV4cCI6MTc0NjIxMjI5OSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LEpNeb74uQLKKaMwHc2hpSbRoqib-pr3XXUPgM8r4fe0mKCJNvV2dTO_QHNynMBs]
-2025-05-02 00:37:14.813 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 9 ms
-2025-05-02 00:37:15.744 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:37:15.766 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 22 ms
-2025-05-02 00:37:15.796 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:37:15.831 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 35 ms
-2025-05-02 00:37:15.856 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:37:15.866 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
-2025-05-02 00:37:15.875 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:37:15.885 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
-2025-05-02 00:51:40.221 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU4OTksImV4cCI6MTc0NjIxMjI5OSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LEpNeb74uQLKKaMwHc2hpSbRoqib-pr3XXUPgM8r4fe0mKCJNvV2dTO_QHNynMBs]
-2025-05-02 00:51:40.232 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 11 ms
-2025-05-02 00:51:40.244 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU4OTksImV4cCI6MTc0NjIxMjI5OSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LEpNeb74uQLKKaMwHc2hpSbRoqib-pr3XXUPgM8r4fe0mKCJNvV2dTO_QHNynMBs]
-2025-05-02 00:51:40.256 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 12 ms
-2025-05-02 00:51:40.755 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:51:40.766 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 11 ms
-2025-05-02 00:51:40.793 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:51:40.812 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 19 ms
-2025-05-02 00:51:40.833 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:51:40.849 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 16 ms
-2025-05-02 00:51:40.861 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 00:51:40.871 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
-2025-05-02 01:57:34.393 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU4OTksImV4cCI6MTc0NjIxMjI5OSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LEpNeb74uQLKKaMwHc2hpSbRoqib-pr3XXUPgM8r4fe0mKCJNvV2dTO_QHNynMBs]
-2025-05-02 01:57:34.587 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 195 ms
-2025-05-02 01:57:34.641 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU4OTksImV4cCI6MTc0NjIxMjI5OSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LEpNeb74uQLKKaMwHc2hpSbRoqib-pr3XXUPgM8r4fe0mKCJNvV2dTO_QHNynMBs]
-2025-05-02 01:57:34.650 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 9 ms
-2025-05-02 01:57:35.221 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 01:57:35.246 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 25 ms
-2025-05-02 01:57:35.275 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 01:57:35.288 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 13 ms
-2025-05-02 01:57:35.361 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 01:57:35.368 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 7 ms
-2025-05-02 01:57:35.392 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 01:57:35.399 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 7 ms
-2025-05-02 14:01:41.123 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU4OTksImV4cCI6MTc0NjIxMjI5OSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LEpNeb74uQLKKaMwHc2hpSbRoqib-pr3XXUPgM8r4fe0mKCJNvV2dTO_QHNynMBs]
-2025-05-02 14:01:41.424 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 301 ms
-2025-05-02 14:01:41.480 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU4OTksImV4cCI6MTc0NjIxMjI5OSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LEpNeb74uQLKKaMwHc2hpSbRoqib-pr3XXUPgM8r4fe0mKCJNvV2dTO_QHNynMBs]
-2025-05-02 14:01:41.489 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 9 ms
-2025-05-02 14:01:42.221 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 14:01:42.279 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 58 ms
-2025-05-02 14:01:42.306 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 14:01:42.319 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 13 ms
-2025-05-02 14:01:42.342 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 14:01:42.352 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
-2025-05-02 14:01:42.375 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 14:01:42.385 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
-2025-05-02 14:02:34.011 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 14:02:34.023 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 12 ms
-2025-05-02 14:02:34.044 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 14:02:34.052 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
-2025-05-02 14:02:38.070 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 14:02:38.083 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 13 ms
-2025-05-02 14:02:38.099 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 14:02:38.107 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
-2025-05-02 14:03:46.843 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU4OTksImV4cCI6MTc0NjIxMjI5OSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LEpNeb74uQLKKaMwHc2hpSbRoqib-pr3XXUPgM8r4fe0mKCJNvV2dTO_QHNynMBs]
-2025-05-02 14:03:46.855 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 12 ms
-2025-05-02 14:03:50.280 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU4OTksImV4cCI6MTc0NjIxMjI5OSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LEpNeb74uQLKKaMwHc2hpSbRoqib-pr3XXUPgM8r4fe0mKCJNvV2dTO_QHNynMBs]
-2025-05-02 14:03:50.291 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 11 ms
-2025-05-02 14:03:50.309 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU4OTksImV4cCI6MTc0NjIxMjI5OSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LEpNeb74uQLKKaMwHc2hpSbRoqib-pr3XXUPgM8r4fe0mKCJNvV2dTO_QHNynMBs]
-2025-05-02 14:03:50.320 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 11 ms
-2025-05-02 14:03:50.653 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 14:03:50.668 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 15 ms
-2025-05-02 14:03:50.696 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 14:03:50.706 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
-2025-05-02 14:06:48.201 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 14:06:48.216 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 15 ms
-2025-05-02 14:06:48.241 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 14:06:48.252 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 11 ms
-2025-05-02 14:06:56.154 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 14:06:56.166 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 12 ms
-2025-05-02 14:06:56.188 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 14:06:56.196 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
-2025-05-02 14:07:07.242 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 14:07:07.259 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 17 ms
-2025-05-02 14:07:07.278 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 14:07:07.290 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 12 ms
-2025-05-02 14:19:23.182 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU4OTksImV4cCI6MTc0NjIxMjI5OSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LEpNeb74uQLKKaMwHc2hpSbRoqib-pr3XXUPgM8r4fe0mKCJNvV2dTO_QHNynMBs]
-2025-05-02 14:19:23.196 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 14 ms
-2025-05-02 14:19:23.215 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU4OTksImV4cCI6MTc0NjIxMjI5OSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LEpNeb74uQLKKaMwHc2hpSbRoqib-pr3XXUPgM8r4fe0mKCJNvV2dTO_QHNynMBs]
-2025-05-02 14:19:23.232 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 17 ms
-2025-05-02 14:19:23.688 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 14:19:23.699 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 11 ms
-2025-05-02 14:19:23.718 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 14:19:23.732 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 14 ms
-2025-05-02 14:59:21.083 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxMjU4OTksImV4cCI6MTc0NjIxMjI5OSwiZW1haWwiOiJpbWFkbWlyemEwMDdAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOiIifQ.LEpNeb74uQLKKaMwHc2hpSbRoqib-pr3XXUPgM8r4fe0mKCJNvV2dTO_QHNynMBs]
-2025-05-02 14:59:21.096 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 13 ms
-2025-05-02 17:26:53.770 [http-nio-5001-exec-4] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testuser1@example.com]
-2025-05-02 17:26:53.782 [http-nio-5001-exec-4] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 12 ms
-2025-05-02 17:31:33.167 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxODcwMTMsImV4cCI6MTc0NjI3MzQxMywiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.GnLR3XTJa2NH_0NGD81V8iyaANOS9t9K8zmjhFwhVdcsy1xl54V7fj9F9YvwyCdR]
-2025-05-02 17:31:33.177 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 10 ms
-2025-05-02 17:33:27.061 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findUserById - Args: [452]
-2025-05-02 17:33:27.092 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findUserById executed in 31 ms
-2025-05-02 17:34:25.981 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 17:34:25.989 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
-2025-05-02 17:42:58.679 [http-nio-5001-exec-4] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testadmin1@example.com]
-2025-05-02 17:42:58.687 [http-nio-5001-exec-4] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 10 ms
-2025-05-02 17:43:17.686 [http-nio-5001-exec-6] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testadmin1@example.com]
-2025-05-02 17:43:17.694 [http-nio-5001-exec-6] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 8 ms
-2025-05-02 17:45:45.837 [http-nio-5001-exec-9] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testadmin2@example.com]
-2025-05-02 17:45:45.844 [http-nio-5001-exec-9] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 7 ms
-2025-05-02 17:55:45.637 [http-nio-5001-exec-2] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testadmin2@example.com]
-2025-05-02 17:55:45.645 [http-nio-5001-exec-2] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 8 ms
-2025-05-02 18:14:45.684 [http-nio-5001-exec-3] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testadmin2@example.com]
-2025-05-02 18:14:45.693 [http-nio-5001-exec-3] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 9 ms
-2025-05-02 18:15:02.650 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 18:15:02.659 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
-2025-05-02 18:17:51.041 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findUserById - Args: [552]
-2025-05-02 18:17:51.047 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findUserById executed in 6 ms
-2025-05-02 18:22:56.111 [http-nio-5001-exec-10] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testadmin2@example.com]
-2025-05-02 18:22:56.115 [http-nio-5001-exec-10] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 4 ms
-2025-05-02 18:37:55.067 [http-nio-5001-exec-1] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testuser1@example.com]
-2025-05-02 18:37:55.072 [http-nio-5001-exec-1] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 5 ms
-2025-05-02 18:41:58.531 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxOTAzNzYsImV4cCI6MTc0NjI3Njc3NiwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.aP7gp7wdH_ADBX_-XD5upy0CWvsoU8jvd9PGdSGO-VdC8VBI5DibSDdsNyzyQ597]
-2025-05-02 18:41:58.536 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 5 ms
-2025-05-02 18:42:13.584 [http-nio-5001-exec-4] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testadmin2@example.com]
-2025-05-02 18:42:13.588 [http-nio-5001-exec-4] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 4 ms
-2025-05-02 18:42:35.869 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxOTE1MzMsImV4cCI6MTc0NjI3NzkzMywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.MHQcHNEdcR-LHjH8xaKZLQ9JbAmG40TJV35DJffbLspCrPluSIfgzcEWHyfbi71W]
-2025-05-02 18:42:35.874 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 5 ms
-2025-05-02 18:42:56.841 [http-nio-5001-exec-6] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testadmin2@example.com]
-2025-05-02 18:42:56.845 [http-nio-5001-exec-6] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 4 ms
-2025-05-02 18:43:08.829 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxOTE1MzMsImV4cCI6MTc0NjI3NzkzMywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.MHQcHNEdcR-LHjH8xaKZLQ9JbAmG40TJV35DJffbLspCrPluSIfgzcEWHyfbi71W]
-2025-05-02 18:43:08.834 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 5 ms
-2025-05-02 18:46:44.758 [http-nio-5001-exec-9] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testadmin2@example.com]
-2025-05-02 18:46:44.762 [http-nio-5001-exec-9] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 4 ms
-2025-05-02 18:47:36.289 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
-2025-05-02 18:47:36.295 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 6 ms
-2025-05-02 18:48:29.203 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxOTE1MzMsImV4cCI6MTc0NjI3NzkzMywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.MHQcHNEdcR-LHjH8xaKZLQ9JbAmG40TJV35DJffbLspCrPluSIfgzcEWHyfbi71W]
-2025-05-02 18:48:29.208 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 5 ms
-2025-05-02 18:48:45.709 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxOTE4MDQsImV4cCI6MTc0NjI3ODIwNCwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.ncAzwjwI_IP-8T0Iet8qmdTu7CuNXdG87D1aVoiCZ35s7tcCpTpWuYdtZO3LUNSf]
-2025-05-02 18:48:45.713 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 4 ms
-2025-05-02 18:50:40.820 [http-nio-5001-exec-7] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testadmin2@example.com]
-2025-05-02 18:50:40.823 [http-nio-5001-exec-7] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 3 ms
-2025-05-02 18:50:51.949 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxOTIwNDAsImV4cCI6MTc0NjI3ODQ0MCwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.5ak5gVtyHMEzLlqLdwXsPbvBu9i9HQYugKdsO1ES3_oHPBr0a7i3mmleK-RKF0Bh]
-2025-05-02 18:50:51.957 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 8 ms
-2025-05-02 19:04:41.382 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxOTIwNDAsImV4cCI6MTc0NjI3ODQ0MCwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.5ak5gVtyHMEzLlqLdwXsPbvBu9i9HQYugKdsO1ES3_oHPBr0a7i3mmleK-RKF0Bh]
-2025-05-02 19:04:41.388 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 6 ms
-2025-05-02 19:05:30.196 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxOTIwNDAsImV4cCI6MTc0NjI3ODQ0MCwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.5ak5gVtyHMEzLlqLdwXsPbvBu9i9HQYugKdsO1ES3_oHPBr0a7i3mmleK-RKF0Bh]
-2025-05-02 19:05:30.202 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 6 ms
-2025-05-02 19:07:28.428 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxOTIwNDAsImV4cCI6MTc0NjI3ODQ0MCwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.5ak5gVtyHMEzLlqLdwXsPbvBu9i9HQYugKdsO1ES3_oHPBr0a7i3mmleK-RKF0Bh]
-2025-05-02 19:07:28.433 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 5 ms
-2025-05-02 19:10:25.369 [http-nio-5001-exec-6] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testuser1@example.com]
-2025-05-02 19:10:25.373 [http-nio-5001-exec-6] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 4 ms
-2025-05-02 19:11:41.574 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYxOTIwNDAsImV4cCI6MTc0NjI3ODQ0MCwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.5ak5gVtyHMEzLlqLdwXsPbvBu9i9HQYugKdsO1ES3_oHPBr0a7i3mmleK-RKF0Bh]
-2025-05-02 19:11:41.578 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 4 ms
-2025-05-02 19:25:13.204 [http-nio-5001-exec-9] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testuser1@example.com]
-2025-05-02 19:25:13.207 [http-nio-5001-exec-9] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 3 ms
-2025-05-02 22:01:25.366 [http-nio-5001-exec-1] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testuser1@example.com]
-2025-05-02 22:01:25.580 [http-nio-5001-exec-1] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 214 ms
-2025-05-02 22:05:19.254 [http-nio-5001-exec-3] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testuser1@example.com]
-2025-05-02 22:05:19.258 [http-nio-5001-exec-3] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 4 ms
-2025-05-02 22:07:31.358 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyMDM3MTksImV4cCI6MTc0NjI5MDExOSwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.pzH5DfxpTEVVBVF87HbFbCIL-4bKctzfiSZB1j2Org_EFGF_B-fHrMpS6HOEJqKY]
-2025-05-02 22:07:31.363 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 5 ms
+2025-05-03 14:15:32.030 [http-nio-5001-exec-3] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testuser1@example.com]
+2025-05-03 14:15:32.254 [http-nio-5001-exec-3] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 225 ms
+2025-05-03 14:15:32.403 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5MzIsImV4cCI6MTc0NjM0ODMzMiwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.0nq8-qbnc6DzOI3HsAnb5P1223sQWvOsiXvHPqZIuOUsAqpEWbaa8iQfEMa-_WLr]
+2025-05-03 14:15:32.408 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 5 ms
+2025-05-03 14:15:32.804 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5MzIsImV4cCI6MTc0NjM0ODMzMiwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.0nq8-qbnc6DzOI3HsAnb5P1223sQWvOsiXvHPqZIuOUsAqpEWbaa8iQfEMa-_WLr]
+2025-05-03 14:15:32.810 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 6 ms
+2025-05-03 14:15:33.068 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5MzIsImV4cCI6MTc0NjM0ODMzMiwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.0nq8-qbnc6DzOI3HsAnb5P1223sQWvOsiXvHPqZIuOUsAqpEWbaa8iQfEMa-_WLr]
+2025-05-03 14:15:33.073 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 5 ms
+2025-05-03 14:15:46.709 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5MzIsImV4cCI6MTc0NjM0ODMzMiwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.0nq8-qbnc6DzOI3HsAnb5P1223sQWvOsiXvHPqZIuOUsAqpEWbaa8iQfEMa-_WLr]
+2025-05-03 14:15:46.718 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 9 ms
+2025-05-03 14:15:48.462 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5MzIsImV4cCI6MTc0NjM0ODMzMiwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.0nq8-qbnc6DzOI3HsAnb5P1223sQWvOsiXvHPqZIuOUsAqpEWbaa8iQfEMa-_WLr]
+2025-05-03 14:15:48.468 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 6 ms
+2025-05-03 14:15:49.546 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5MzIsImV4cCI6MTc0NjM0ODMzMiwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.0nq8-qbnc6DzOI3HsAnb5P1223sQWvOsiXvHPqZIuOUsAqpEWbaa8iQfEMa-_WLr]
+2025-05-03 14:15:49.555 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 9 ms
+2025-05-03 14:16:13.653 [http-nio-5001-exec-4] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testadmin2@example.com]
+2025-05-03 14:16:13.656 [http-nio-5001-exec-4] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 3 ms
+2025-05-03 14:16:13.757 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5NzMsImV4cCI6MTc0NjM0ODM3MywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Zxww-3ne5F_iJ_A5d3TqLPWtzaOAf0UsKIAFhIno2LNiLfbIzDyrI3xjIwiga_zn]
+2025-05-03 14:16:13.762 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 5 ms
+2025-05-03 14:16:13.856 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:16:13.911 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 55 ms
+2025-05-03 14:16:13.929 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:16:13.937 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
+2025-05-03 14:16:14.029 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:16:14.036 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 7 ms
+2025-05-03 14:16:14.051 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:16:14.059 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
+2025-05-03 14:16:14.080 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:16:14.088 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
+2025-05-03 14:16:14.107 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:16:14.116 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
+2025-05-03 14:24:39.379 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5NzMsImV4cCI6MTc0NjM0ODM3MywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Zxww-3ne5F_iJ_A5d3TqLPWtzaOAf0UsKIAFhIno2LNiLfbIzDyrI3xjIwiga_zn]
+2025-05-03 14:24:39.386 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 7 ms
+2025-05-03 14:24:39.397 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5NzMsImV4cCI6MTc0NjM0ODM3MywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Zxww-3ne5F_iJ_A5d3TqLPWtzaOAf0UsKIAFhIno2LNiLfbIzDyrI3xjIwiga_zn]
+2025-05-03 14:24:39.403 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 6 ms
+2025-05-03 14:24:39.804 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:24:39.812 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
+2025-05-03 14:24:39.830 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:24:39.838 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
+2025-05-03 14:24:39.858 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:24:39.868 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
+2025-05-03 14:24:39.886 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:24:39.893 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 7 ms
+2025-05-03 14:24:39.904 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:24:39.910 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 6 ms
+2025-05-03 14:24:39.920 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:24:39.925 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 5 ms
+2025-05-03 14:29:47.028 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5NzMsImV4cCI6MTc0NjM0ODM3MywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Zxww-3ne5F_iJ_A5d3TqLPWtzaOAf0UsKIAFhIno2LNiLfbIzDyrI3xjIwiga_zn]
+2025-05-03 14:29:47.034 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 6 ms
+2025-05-03 14:29:49.497 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5NzMsImV4cCI6MTc0NjM0ODM3MywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Zxww-3ne5F_iJ_A5d3TqLPWtzaOAf0UsKIAFhIno2LNiLfbIzDyrI3xjIwiga_zn]
+2025-05-03 14:29:49.505 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 8 ms
+2025-05-03 14:29:49.521 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5NzMsImV4cCI6MTc0NjM0ODM3MywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Zxww-3ne5F_iJ_A5d3TqLPWtzaOAf0UsKIAFhIno2LNiLfbIzDyrI3xjIwiga_zn]
+2025-05-03 14:29:49.530 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 9 ms
+2025-05-03 14:29:49.780 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:29:49.789 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
+2025-05-03 14:29:49.810 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:29:49.822 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 12 ms
+2025-05-03 14:29:49.841 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:29:49.851 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
+2025-05-03 14:29:49.870 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:29:49.877 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 7 ms
+2025-05-03 14:29:49.889 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:29:49.896 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 7 ms
+2025-05-03 14:29:49.907 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:29:49.916 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
+2025-05-03 14:31:05.011 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5NzMsImV4cCI6MTc0NjM0ODM3MywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Zxww-3ne5F_iJ_A5d3TqLPWtzaOAf0UsKIAFhIno2LNiLfbIzDyrI3xjIwiga_zn]
+2025-05-03 14:31:05.016 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 5 ms
+2025-05-03 14:31:08.174 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5NzMsImV4cCI6MTc0NjM0ODM3MywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Zxww-3ne5F_iJ_A5d3TqLPWtzaOAf0UsKIAFhIno2LNiLfbIzDyrI3xjIwiga_zn]
+2025-05-03 14:31:08.183 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 9 ms
+2025-05-03 14:31:08.195 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5NzMsImV4cCI6MTc0NjM0ODM3MywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Zxww-3ne5F_iJ_A5d3TqLPWtzaOAf0UsKIAFhIno2LNiLfbIzDyrI3xjIwiga_zn]
+2025-05-03 14:31:08.202 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 7 ms
+2025-05-03 14:31:08.424 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:31:08.434 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
+2025-05-03 14:31:08.453 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:31:08.464 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 11 ms
+2025-05-03 14:31:08.484 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:31:08.493 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
+2025-05-03 14:31:08.506 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:31:08.511 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 5 ms
+2025-05-03 14:31:08.522 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:31:08.527 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 5 ms
+2025-05-03 14:31:08.539 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:31:08.544 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 5 ms
+2025-05-03 14:31:20.006 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5NzMsImV4cCI6MTc0NjM0ODM3MywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Zxww-3ne5F_iJ_A5d3TqLPWtzaOAf0UsKIAFhIno2LNiLfbIzDyrI3xjIwiga_zn]
+2025-05-03 14:31:20.011 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 5 ms
+2025-05-03 14:31:30.004 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5NzMsImV4cCI6MTc0NjM0ODM3MywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Zxww-3ne5F_iJ_A5d3TqLPWtzaOAf0UsKIAFhIno2LNiLfbIzDyrI3xjIwiga_zn]
+2025-05-03 14:31:30.010 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 6 ms
+2025-05-03 14:32:02.413 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5NzMsImV4cCI6MTc0NjM0ODM3MywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Zxww-3ne5F_iJ_A5d3TqLPWtzaOAf0UsKIAFhIno2LNiLfbIzDyrI3xjIwiga_zn]
+2025-05-03 14:32:02.419 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 6 ms
+2025-05-03 14:32:02.428 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5NzMsImV4cCI6MTc0NjM0ODM3MywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Zxww-3ne5F_iJ_A5d3TqLPWtzaOAf0UsKIAFhIno2LNiLfbIzDyrI3xjIwiga_zn]
+2025-05-03 14:32:02.435 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 7 ms
+2025-05-03 14:32:02.625 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:32:02.635 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
+2025-05-03 14:32:02.651 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:32:02.659 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
+2025-05-03 14:32:02.679 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:32:02.687 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
+2025-05-03 14:32:02.698 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:32:02.702 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 4 ms
+2025-05-03 14:33:32.791 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5NzMsImV4cCI6MTc0NjM0ODM3MywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Zxww-3ne5F_iJ_A5d3TqLPWtzaOAf0UsKIAFhIno2LNiLfbIzDyrI3xjIwiga_zn]
+2025-05-03 14:33:32.801 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 10 ms
+2025-05-03 14:34:22.486 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:34:22.496 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
+2025-05-03 14:34:22.511 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:34:22.520 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
+2025-05-03 14:34:22.532 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:34:22.540 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
+2025-05-03 14:34:22.553 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:34:22.559 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 6 ms
+2025-05-03 14:34:25.585 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:34:25.593 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
+2025-05-03 14:34:25.606 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:34:25.613 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 7 ms
+2025-05-03 14:34:25.626 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:34:25.632 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 6 ms
+2025-05-03 14:34:25.644 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:34:25.650 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 6 ms
+2025-05-03 14:34:26.920 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:34:26.929 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
+2025-05-03 14:34:26.945 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:34:26.953 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
+2025-05-03 14:34:26.966 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:34:26.972 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 6 ms
+2025-05-03 14:34:26.981 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:34:26.987 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 6 ms
+2025-05-03 14:34:31.017 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5NzMsImV4cCI6MTc0NjM0ODM3MywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Zxww-3ne5F_iJ_A5d3TqLPWtzaOAf0UsKIAFhIno2LNiLfbIzDyrI3xjIwiga_zn]
+2025-05-03 14:34:31.024 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 7 ms
+2025-05-03 14:34:43.785 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5NzMsImV4cCI6MTc0NjM0ODM3MywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Zxww-3ne5F_iJ_A5d3TqLPWtzaOAf0UsKIAFhIno2LNiLfbIzDyrI3xjIwiga_zn]
+2025-05-03 14:34:43.796 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 11 ms
+2025-05-03 14:34:51.739 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:34:51.747 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
+2025-05-03 14:34:51.758 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:34:51.766 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
+2025-05-03 14:34:51.777 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:34:51.785 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
+2025-05-03 14:34:51.797 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:34:51.802 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 5 ms
+2025-05-03 14:36:13.481 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5NzMsImV4cCI6MTc0NjM0ODM3MywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Zxww-3ne5F_iJ_A5d3TqLPWtzaOAf0UsKIAFhIno2LNiLfbIzDyrI3xjIwiga_zn]
+2025-05-03 14:36:13.486 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 5 ms
+2025-05-03 14:36:17.823 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5NzMsImV4cCI6MTc0NjM0ODM3MywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Zxww-3ne5F_iJ_A5d3TqLPWtzaOAf0UsKIAFhIno2LNiLfbIzDyrI3xjIwiga_zn]
+2025-05-03 14:36:17.830 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 7 ms
+2025-05-03 14:36:17.843 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5NzMsImV4cCI6MTc0NjM0ODM3MywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Zxww-3ne5F_iJ_A5d3TqLPWtzaOAf0UsKIAFhIno2LNiLfbIzDyrI3xjIwiga_zn]
+2025-05-03 14:36:17.848 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 5 ms
+2025-05-03 14:36:18.065 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:36:18.073 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
+2025-05-03 14:36:18.088 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:36:18.097 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
+2025-05-03 14:36:18.110 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:36:18.119 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
+2025-05-03 14:36:18.130 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:36:18.137 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 7 ms
+2025-05-03 14:36:20.569 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:36:20.576 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 7 ms
+2025-05-03 14:36:20.587 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:36:20.596 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
+2025-05-03 14:36:20.606 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:36:20.616 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
+2025-05-03 14:36:20.626 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:36:20.632 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 6 ms
+2025-05-03 14:37:09.819 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjE5NzMsImV4cCI6MTc0NjM0ODM3MywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Zxww-3ne5F_iJ_A5d3TqLPWtzaOAf0UsKIAFhIno2LNiLfbIzDyrI3xjIwiga_zn]
+2025-05-03 14:37:09.824 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 5 ms
+2025-05-03 14:37:21.228 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:37:21.237 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
+2025-05-03 14:37:21.252 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:37:21.261 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
+2025-05-03 14:37:21.271 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:37:21.278 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 7 ms
+2025-05-03 14:37:21.286 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:37:21.291 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 5 ms
+2025-05-03 14:37:58.284 [http-nio-5001-exec-9] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testuser1@example.com]
+2025-05-03 14:37:58.287 [http-nio-5001-exec-9] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 3 ms
+2025-05-03 14:37:58.409 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjMyNzgsImV4cCI6MTc0NjM0OTY3OCwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.Szg8ebSeKL3r_4siVk4AxNbxcLyyPFo3YShEl_N1JeaDEp3kkVgP4I0m8O6t-olr]
+2025-05-03 14:37:58.417 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 8 ms
+2025-05-03 14:37:58.555 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjMyNzgsImV4cCI6MTc0NjM0OTY3OCwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.Szg8ebSeKL3r_4siVk4AxNbxcLyyPFo3YShEl_N1JeaDEp3kkVgP4I0m8O6t-olr]
+2025-05-03 14:37:58.564 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 9 ms
+2025-05-03 14:37:58.608 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjMyNzgsImV4cCI6MTc0NjM0OTY3OCwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.Szg8ebSeKL3r_4siVk4AxNbxcLyyPFo3YShEl_N1JeaDEp3kkVgP4I0m8O6t-olr]
+2025-05-03 14:37:58.614 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 6 ms
+2025-05-03 14:38:31.605 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjMyNzgsImV4cCI6MTc0NjM0OTY3OCwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.Szg8ebSeKL3r_4siVk4AxNbxcLyyPFo3YShEl_N1JeaDEp3kkVgP4I0m8O6t-olr]
+2025-05-03 14:38:31.610 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 5 ms
+2025-05-03 14:38:39.041 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjMyNzgsImV4cCI6MTc0NjM0OTY3OCwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.Szg8ebSeKL3r_4siVk4AxNbxcLyyPFo3YShEl_N1JeaDEp3kkVgP4I0m8O6t-olr]
+2025-05-03 14:38:39.051 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 10 ms
+2025-05-03 14:38:40.114 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjMyNzgsImV4cCI6MTc0NjM0OTY3OCwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.Szg8ebSeKL3r_4siVk4AxNbxcLyyPFo3YShEl_N1JeaDEp3kkVgP4I0m8O6t-olr]
+2025-05-03 14:38:40.123 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 9 ms
+2025-05-03 14:38:42.789 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjMyNzgsImV4cCI6MTc0NjM0OTY3OCwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.Szg8ebSeKL3r_4siVk4AxNbxcLyyPFo3YShEl_N1JeaDEp3kkVgP4I0m8O6t-olr]
+2025-05-03 14:38:42.796 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 7 ms
+2025-05-03 14:38:57.128 [http-nio-5001-exec-5] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testadmin2@example.com]
+2025-05-03 14:38:57.131 [http-nio-5001-exec-5] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 3 ms
+2025-05-03 14:38:57.229 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjMzMzcsImV4cCI6MTc0NjM0OTczNywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.yOVivqlOHpSlr4nJRBScvvvqfgW1mPz9I3yzI5f1Wn4P7_aspl8WkxdUPHoZPI4i]
+2025-05-03 14:38:57.233 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 4 ms
+2025-05-03 14:38:59.771 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:38:59.780 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
+2025-05-03 14:38:59.791 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:38:59.801 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
+2025-05-03 14:38:59.812 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:38:59.817 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 5 ms
+2025-05-03 14:38:59.828 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:38:59.832 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 4 ms
+2025-05-03 14:39:04.126 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:39:04.133 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 7 ms
+2025-05-03 14:39:04.143 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:39:04.151 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
+2025-05-03 14:39:04.161 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:39:04.165 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 4 ms
+2025-05-03 14:39:04.174 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:39:04.181 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 7 ms
+2025-05-03 14:44:15.907 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjMzMzcsImV4cCI6MTc0NjM0OTczNywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.yOVivqlOHpSlr4nJRBScvvvqfgW1mPz9I3yzI5f1Wn4P7_aspl8WkxdUPHoZPI4i]
+2025-05-03 14:44:15.915 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 8 ms
+2025-05-03 14:44:15.927 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjMzMzcsImV4cCI6MTc0NjM0OTczNywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.yOVivqlOHpSlr4nJRBScvvvqfgW1mPz9I3yzI5f1Wn4P7_aspl8WkxdUPHoZPI4i]
+2025-05-03 14:44:15.934 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 7 ms
+2025-05-03 14:44:16.649 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:44:16.661 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 12 ms
+2025-05-03 14:44:16.678 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:44:16.687 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
+2025-05-03 14:44:16.701 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:44:16.711 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
+2025-05-03 14:44:16.725 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:44:16.733 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
+2025-05-03 14:44:21.943 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjMzMzcsImV4cCI6MTc0NjM0OTczNywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.yOVivqlOHpSlr4nJRBScvvvqfgW1mPz9I3yzI5f1Wn4P7_aspl8WkxdUPHoZPI4i]
+2025-05-03 14:44:21.949 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 6 ms
+2025-05-03 14:44:21.959 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjMzMzcsImV4cCI6MTc0NjM0OTczNywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.yOVivqlOHpSlr4nJRBScvvvqfgW1mPz9I3yzI5f1Wn4P7_aspl8WkxdUPHoZPI4i]
+2025-05-03 14:44:21.963 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 4 ms
+2025-05-03 14:44:22.247 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:44:22.254 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 7 ms
+2025-05-03 14:44:22.269 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:44:22.276 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 7 ms
+2025-05-03 14:44:22.290 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:44:22.296 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 6 ms
+2025-05-03 14:44:22.310 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:44:22.321 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 11 ms
+2025-05-03 14:46:02.558 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjMzMzcsImV4cCI6MTc0NjM0OTczNywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.yOVivqlOHpSlr4nJRBScvvvqfgW1mPz9I3yzI5f1Wn4P7_aspl8WkxdUPHoZPI4i]
+2025-05-03 14:46:02.564 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 6 ms
+2025-05-03 14:46:02.683 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:46:02.690 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 7 ms
+2025-05-03 14:46:02.702 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:46:02.711 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
+2025-05-03 14:46:08.108 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjMzMzcsImV4cCI6MTc0NjM0OTczNywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.yOVivqlOHpSlr4nJRBScvvvqfgW1mPz9I3yzI5f1Wn4P7_aspl8WkxdUPHoZPI4i]
+2025-05-03 14:46:08.112 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 4 ms
+2025-05-03 14:46:45.854 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:46:45.863 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
+2025-05-03 14:46:45.873 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:46:45.880 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 7 ms
+2025-05-03 14:46:54.466 [http-nio-5001-exec-7] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testuser1@example.com]
+2025-05-03 14:46:54.479 [http-nio-5001-exec-7] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 13 ms
+2025-05-03 14:46:54.725 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM4MTQsImV4cCI6MTc0NjM1MDIxNCwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.G_8Lf5iu1y1cRVfsvc5huLboJqwTHk2GxT32iU3qRvjiJKJ3XhIqRZT_wlXWI0CF]
+2025-05-03 14:46:54.734 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 9 ms
+2025-05-03 14:46:54.849 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM4MTQsImV4cCI6MTc0NjM1MDIxNCwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.G_8Lf5iu1y1cRVfsvc5huLboJqwTHk2GxT32iU3qRvjiJKJ3XhIqRZT_wlXWI0CF]
+2025-05-03 14:46:54.861 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 12 ms
+2025-05-03 14:46:54.898 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM4MTQsImV4cCI6MTc0NjM1MDIxNCwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.G_8Lf5iu1y1cRVfsvc5huLboJqwTHk2GxT32iU3qRvjiJKJ3XhIqRZT_wlXWI0CF]
+2025-05-03 14:46:54.914 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 16 ms
+2025-05-03 14:47:11.049 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM4MTQsImV4cCI6MTc0NjM1MDIxNCwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.G_8Lf5iu1y1cRVfsvc5huLboJqwTHk2GxT32iU3qRvjiJKJ3XhIqRZT_wlXWI0CF]
+2025-05-03 14:47:11.059 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 10 ms
+2025-05-03 14:47:14.882 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM4MTQsImV4cCI6MTc0NjM1MDIxNCwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.G_8Lf5iu1y1cRVfsvc5huLboJqwTHk2GxT32iU3qRvjiJKJ3XhIqRZT_wlXWI0CF]
+2025-05-03 14:47:14.895 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 13 ms
+2025-05-03 14:47:17.896 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM4MTQsImV4cCI6MTc0NjM1MDIxNCwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.G_8Lf5iu1y1cRVfsvc5huLboJqwTHk2GxT32iU3qRvjiJKJ3XhIqRZT_wlXWI0CF]
+2025-05-03 14:47:17.908 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 12 ms
+2025-05-03 14:47:20.064 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM4MTQsImV4cCI6MTc0NjM1MDIxNCwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.G_8Lf5iu1y1cRVfsvc5huLboJqwTHk2GxT32iU3qRvjiJKJ3XhIqRZT_wlXWI0CF]
+2025-05-03 14:47:20.080 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 16 ms
+2025-05-03 14:47:41.911 [http-nio-5001-exec-9] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testadmin2@example.com]
+2025-05-03 14:47:41.914 [http-nio-5001-exec-9] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 3 ms
+2025-05-03 14:47:42.036 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM4NjEsImV4cCI6MTc0NjM1MDI2MSwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.T9nSqmTNmuSNzkBups1SmHW0a1oeqejeKFFlzB4MdwBtL1F9RjZqNws-Kq1QRjau]
+2025-05-03 14:47:42.040 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 4 ms
+2025-05-03 14:47:42.130 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:47:42.142 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 12 ms
+2025-05-03 14:47:42.162 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:47:42.177 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 15 ms
+2025-05-03 14:48:00.123 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM4NjEsImV4cCI6MTc0NjM1MDI2MSwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.T9nSqmTNmuSNzkBups1SmHW0a1oeqejeKFFlzB4MdwBtL1F9RjZqNws-Kq1QRjau]
+2025-05-03 14:48:00.128 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 5 ms
+2025-05-03 14:48:01.263 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM4NjEsImV4cCI6MTc0NjM1MDI2MSwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.T9nSqmTNmuSNzkBups1SmHW0a1oeqejeKFFlzB4MdwBtL1F9RjZqNws-Kq1QRjau]
+2025-05-03 14:48:01.268 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 5 ms
+2025-05-03 14:48:01.449 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM4NjEsImV4cCI6MTc0NjM1MDI2MSwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.T9nSqmTNmuSNzkBups1SmHW0a1oeqejeKFFlzB4MdwBtL1F9RjZqNws-Kq1QRjau]
+2025-05-03 14:48:01.453 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 4 ms
+2025-05-03 14:48:01.606 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM4NjEsImV4cCI6MTc0NjM1MDI2MSwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.T9nSqmTNmuSNzkBups1SmHW0a1oeqejeKFFlzB4MdwBtL1F9RjZqNws-Kq1QRjau]
+2025-05-03 14:48:01.613 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 7 ms
+2025-05-03 14:48:01.775 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM4NjEsImV4cCI6MTc0NjM1MDI2MSwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.T9nSqmTNmuSNzkBups1SmHW0a1oeqejeKFFlzB4MdwBtL1F9RjZqNws-Kq1QRjau]
+2025-05-03 14:48:01.781 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 6 ms
+2025-05-03 14:48:01.938 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM4NjEsImV4cCI6MTc0NjM1MDI2MSwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.T9nSqmTNmuSNzkBups1SmHW0a1oeqejeKFFlzB4MdwBtL1F9RjZqNws-Kq1QRjau]
+2025-05-03 14:48:01.949 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 11 ms
+2025-05-03 14:48:05.143 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:48:05.152 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
+2025-05-03 14:48:05.166 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:48:05.174 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
+2025-05-03 14:48:20.062 [http-nio-5001-exec-2] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testuser1@example.com]
+2025-05-03 14:48:20.066 [http-nio-5001-exec-2] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 4 ms
+2025-05-03 14:48:20.180 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM5MDAsImV4cCI6MTc0NjM1MDMwMCwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.I6xhMVxk3zNANZMx7A3lONBZxOloNACZv5SVbNqKuPcFp6fOaAzv15R1bT01OHZ9]
+2025-05-03 14:48:20.194 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 14 ms
+2025-05-03 14:48:20.328 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM5MDAsImV4cCI6MTc0NjM1MDMwMCwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.I6xhMVxk3zNANZMx7A3lONBZxOloNACZv5SVbNqKuPcFp6fOaAzv15R1bT01OHZ9]
+2025-05-03 14:48:20.336 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 8 ms
+2025-05-03 14:48:20.408 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM5MDAsImV4cCI6MTc0NjM1MDMwMCwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.I6xhMVxk3zNANZMx7A3lONBZxOloNACZv5SVbNqKuPcFp6fOaAzv15R1bT01OHZ9]
+2025-05-03 14:48:20.425 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 17 ms
+2025-05-03 14:48:41.627 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM5MDAsImV4cCI6MTc0NjM1MDMwMCwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.I6xhMVxk3zNANZMx7A3lONBZxOloNACZv5SVbNqKuPcFp6fOaAzv15R1bT01OHZ9]
+2025-05-03 14:48:41.641 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 14 ms
+2025-05-03 14:48:46.322 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM5MDAsImV4cCI6MTc0NjM1MDMwMCwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.I6xhMVxk3zNANZMx7A3lONBZxOloNACZv5SVbNqKuPcFp6fOaAzv15R1bT01OHZ9]
+2025-05-03 14:48:46.330 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 8 ms
+2025-05-03 14:48:46.880 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM5MDAsImV4cCI6MTc0NjM1MDMwMCwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.I6xhMVxk3zNANZMx7A3lONBZxOloNACZv5SVbNqKuPcFp6fOaAzv15R1bT01OHZ9]
+2025-05-03 14:48:46.889 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 9 ms
+2025-05-03 14:48:54.613 [http-nio-5001-exec-3] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testadmin2@example.com]
+2025-05-03 14:48:54.618 [http-nio-5001-exec-3] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 5 ms
+2025-05-03 14:48:54.735 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM5MzQsImV4cCI6MTc0NjM1MDMzNCwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Pzar4V5ZQgZoZjSCWjbTv9mQDo10sBC8n1t1bj6KoQoXAzAjcBYw_x2ucKL6t0RZ]
+2025-05-03 14:48:54.739 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 4 ms
+2025-05-03 14:48:54.844 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:48:54.859 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 15 ms
+2025-05-03 14:48:54.883 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:48:54.894 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 11 ms
+2025-05-03 14:49:49.601 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM5MzQsImV4cCI6MTc0NjM1MDMzNCwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Pzar4V5ZQgZoZjSCWjbTv9mQDo10sBC8n1t1bj6KoQoXAzAjcBYw_x2ucKL6t0RZ]
+2025-05-03 14:49:49.612 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 11 ms
+2025-05-03 14:49:49.626 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM5MzQsImV4cCI6MTc0NjM1MDMzNCwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Pzar4V5ZQgZoZjSCWjbTv9mQDo10sBC8n1t1bj6KoQoXAzAjcBYw_x2ucKL6t0RZ]
+2025-05-03 14:49:49.637 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 11 ms
+2025-05-03 14:49:50.173 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:49:50.182 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
+2025-05-03 14:49:50.199 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:49:50.211 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 12 ms
+2025-05-03 14:50:14.924 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:50:14.933 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
+2025-05-03 14:50:14.945 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:50:14.953 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
+2025-05-03 14:50:16.643 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:50:16.652 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
+2025-05-03 14:50:16.666 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:50:16.673 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 7 ms
+2025-05-03 14:55:27.494 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:55:27.504 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
+2025-05-03 14:55:27.519 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:55:27.527 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 8 ms
+2025-05-03 14:58:14.977 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM5MzQsImV4cCI6MTc0NjM1MDMzNCwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Pzar4V5ZQgZoZjSCWjbTv9mQDo10sBC8n1t1bj6KoQoXAzAjcBYw_x2ucKL6t0RZ]
+2025-05-03 14:58:14.984 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 7 ms
+2025-05-03 14:58:15.004 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM5MzQsImV4cCI6MTc0NjM1MDMzNCwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Pzar4V5ZQgZoZjSCWjbTv9mQDo10sBC8n1t1bj6KoQoXAzAjcBYw_x2ucKL6t0RZ]
+2025-05-03 14:58:15.011 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 7 ms
+2025-05-03 14:58:15.468 [http-nio-5001-exec-3] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:58:15.480 [http-nio-5001-exec-3] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 12 ms
+2025-05-03 14:58:15.496 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:58:15.506 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
+2025-05-03 14:58:18.779 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjM5MzQsImV4cCI6MTc0NjM1MDMzNCwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.Pzar4V5ZQgZoZjSCWjbTv9mQDo10sBC8n1t1bj6KoQoXAzAjcBYw_x2ucKL6t0RZ]
+2025-05-03 14:58:18.786 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 7 ms
+2025-05-03 14:58:31.175 [http-nio-5001-exec-6] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testuser1@example.com]
+2025-05-03 14:58:31.179 [http-nio-5001-exec-6] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 4 ms
+2025-05-03 14:58:31.297 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjQ1MTEsImV4cCI6MTc0NjM1MDkxMSwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.lZDqVrBnIRxtNeiHS5SA7Yol3Q4fYpt0-JuQE2s8YHf0I-Sb5pmWbUNpn9BocKKc]
+2025-05-03 14:58:31.303 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 6 ms
+2025-05-03 14:58:31.434 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjQ1MTEsImV4cCI6MTc0NjM1MDkxMSwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.lZDqVrBnIRxtNeiHS5SA7Yol3Q4fYpt0-JuQE2s8YHf0I-Sb5pmWbUNpn9BocKKc]
+2025-05-03 14:58:31.441 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 7 ms
+2025-05-03 14:58:31.461 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjQ1MTEsImV4cCI6MTc0NjM1MDkxMSwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.lZDqVrBnIRxtNeiHS5SA7Yol3Q4fYpt0-JuQE2s8YHf0I-Sb5pmWbUNpn9BocKKc]
+2025-05-03 14:58:31.468 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 7 ms
+2025-05-03 14:58:44.016 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjQ1MTEsImV4cCI6MTc0NjM1MDkxMSwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.lZDqVrBnIRxtNeiHS5SA7Yol3Q4fYpt0-JuQE2s8YHf0I-Sb5pmWbUNpn9BocKKc]
+2025-05-03 14:58:44.027 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 11 ms
+2025-05-03 14:58:53.628 [http-nio-5001-exec-3] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testadmin2@example.com]
+2025-05-03 14:58:53.632 [http-nio-5001-exec-3] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 4 ms
+2025-05-03 14:58:53.749 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjQ1MzMsImV4cCI6MTc0NjM1MDkzMywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.e9r-jmZMabFp68kilZkGfSJg_hb-PQx5ZlaWUNCFBZ0u3JGADpWAN7Yb0uDjWg9f]
+2025-05-03 14:58:53.754 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 5 ms
+2025-05-03 14:58:53.899 [http-nio-5001-exec-5] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:58:53.910 [http-nio-5001-exec-5] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 11 ms
+2025-05-03 14:58:53.927 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 14:58:53.939 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 12 ms
+2025-05-03 15:03:33.282 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjQ1MzMsImV4cCI6MTc0NjM1MDkzMywiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.e9r-jmZMabFp68kilZkGfSJg_hb-PQx5ZlaWUNCFBZ0u3JGADpWAN7Yb0uDjWg9f]
+2025-05-03 15:03:33.289 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 7 ms
+2025-05-03 15:03:42.212 [http-nio-5001-exec-1] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testuser1@example.com]
+2025-05-03 15:03:42.215 [http-nio-5001-exec-1] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 3 ms
+2025-05-03 15:03:42.344 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjQ4MjIsImV4cCI6MTc0NjM1MTIyMiwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.JRB7ePCxRcY1RKQ8UgzwhdVS_7s5rnXRuVs0OXrSAz16ZZYp4PYD9LSBQr6jEgQv]
+2025-05-03 15:03:42.350 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 6 ms
+2025-05-03 15:03:42.450 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjQ4MjIsImV4cCI6MTc0NjM1MTIyMiwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.JRB7ePCxRcY1RKQ8UgzwhdVS_7s5rnXRuVs0OXrSAz16ZZYp4PYD9LSBQr6jEgQv]
+2025-05-03 15:03:42.459 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 9 ms
+2025-05-03 15:03:42.483 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjQ4MjIsImV4cCI6MTc0NjM1MTIyMiwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.JRB7ePCxRcY1RKQ8UgzwhdVS_7s5rnXRuVs0OXrSAz16ZZYp4PYD9LSBQr6jEgQv]
+2025-05-03 15:03:42.492 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 9 ms
+2025-05-03 15:03:50.223 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjQ4MjIsImV4cCI6MTc0NjM1MTIyMiwiZW1haWwiOiJ0ZXN0dXNlcjFAZXhhbXBsZS5jb20iLCJhdXRob3JpdGllcyI6IlJPTEVfQ1VTVE9NRVIifQ.JRB7ePCxRcY1RKQ8UgzwhdVS_7s5rnXRuVs0OXrSAz16ZZYp4PYD9LSBQr6jEgQv]
+2025-05-03 15:03:50.232 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 9 ms
+2025-05-03 15:03:58.939 [http-nio-5001-exec-8] INFO  c.u.m.s.CustomerUserServiceImplementation - Method: loadUserByUsername - Args: [testadmin2@example.com]
+2025-05-03 15:03:58.943 [http-nio-5001-exec-8] DEBUG c.u.m.s.CustomerUserServiceImplementation - Method loadUserByUsername executed in 4 ms
+2025-05-03 15:03:59.062 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjQ4MzksImV4cCI6MTc0NjM1MTIzOSwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.nywA6rYZcG0fKN0zL19nBfFfJ7ungNZuiSTmvzbMJCpBsu_jII1EgAzeKBLXPOYZ]
+2025-05-03 15:03:59.067 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 5 ms
+2025-05-03 15:03:59.196 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 15:03:59.206 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
+2025-05-03 15:03:59.220 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 15:03:59.229 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
+2025-05-03 15:05:54.061 [http-nio-5001-exec-4] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 15:05:54.070 [http-nio-5001-exec-4] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 9 ms
+2025-05-03 15:05:54.071 [http-nio-5001-exec-6] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjQ4MzksImV4cCI6MTc0NjM1MTIzOSwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.nywA6rYZcG0fKN0zL19nBfFfJ7ungNZuiSTmvzbMJCpBsu_jII1EgAzeKBLXPOYZ]
+2025-05-03 15:05:54.083 [http-nio-5001-exec-6] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 12 ms
+2025-05-03 15:05:54.089 [http-nio-5001-exec-7] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 15:05:54.099 [http-nio-5001-exec-7] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
+2025-05-03 15:05:54.100 [http-nio-5001-exec-8] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjQ4MzksImV4cCI6MTc0NjM1MTIzOSwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.nywA6rYZcG0fKN0zL19nBfFfJ7ungNZuiSTmvzbMJCpBsu_jII1EgAzeKBLXPOYZ]
+2025-05-03 15:05:54.108 [http-nio-5001-exec-8] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 8 ms
+2025-05-03 15:05:59.404 [http-nio-5001-exec-9] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjQ4MzksImV4cCI6MTc0NjM1MTIzOSwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.nywA6rYZcG0fKN0zL19nBfFfJ7ungNZuiSTmvzbMJCpBsu_jII1EgAzeKBLXPOYZ]
+2025-05-03 15:05:59.413 [http-nio-5001-exec-9] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 9 ms
+2025-05-03 15:05:59.444 [http-nio-5001-exec-10] INFO  c.u.m.s.UserServiceImplementation - Method: findUserProfileByJwt - Args: [Bearer eyJhbGciOiJIUzM4NCJ9.eyJpYXQiOjE3NDYyNjQ4MzksImV4cCI6MTc0NjM1MTIzOSwiZW1haWwiOiJ0ZXN0YWRtaW4yQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOiJST0xFX0FETUlOIn0.nywA6rYZcG0fKN0zL19nBfFfJ7ungNZuiSTmvzbMJCpBsu_jII1EgAzeKBLXPOYZ]
+2025-05-03 15:05:59.460 [http-nio-5001-exec-10] DEBUG c.u.m.s.UserServiceImplementation - Method findUserProfileByJwt executed in 16 ms
+2025-05-03 15:05:59.879 [http-nio-5001-exec-1] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 15:05:59.889 [http-nio-5001-exec-1] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 10 ms
+2025-05-03 15:05:59.909 [http-nio-5001-exec-2] INFO  c.u.m.s.UserServiceImplementation - Method: findAllUsers - Args: []
+2025-05-03 15:05:59.920 [http-nio-5001-exec-2] DEBUG c.u.m.s.UserServiceImplementation - Method findAllUsers executed in 11 ms

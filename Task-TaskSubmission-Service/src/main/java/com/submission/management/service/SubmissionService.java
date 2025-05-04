@@ -15,4 +15,5 @@ public interface SubmissionService {
 
     List<Submission> getTaskSubmissionsByTaskId(Long taskId);
 
+    Submission acceptDeclineSubmission(Long id,String status) throws Exception;
 }

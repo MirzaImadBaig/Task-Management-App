@@ -104,4 +104,21 @@ public class SubmissionControllerTest {
                 .andExpect(jsonPath("$[0].taskId").value(1));
     }
 
+    @Test
+    public void testAcceptOrDeclineTaskSubmission() throws Exception {
+        Submission submission = new Submission();
+        submission.setId(1L);
+        submission.setStatus("COMPLETE");
+        submission.setTaskId(5L);
+
+        Mockito.when(submissionService.acceptDeclineSubmission(1L, "COMPLETE"))
+               .thenReturn(submission);
+
+        mockMvc.perform(put("/api/submissions/1")
+                .param("status", "COMPLETE"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.status").value("COMPLETE"));
+
+        Mockito.verify(taskService).completeTask(5L);
+    }
 }

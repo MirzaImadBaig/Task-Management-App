@@ -1,22 +1,19 @@
 package com.submission.management.controller;
 
-import com.submission.management.dtos.SubmissionRequest;
-import com.submission.management.dtos.UserDto;
-import com.submission.management.model.Submission;
-import com.submission.management.service.SubmissionService;
-import com.submission.management.service.TaskService;
-import com.submission.management.service.UserService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import com.submission.management.dtos.UserDto;
+import com.submission.management.model.Submission;
+import com.submission.management.service.SubmissionService;
+import com.submission.management.service.TaskService;
+import com.submission.management.service.UserService;
+
 import java.util.List;
 
-/**
- * Handles endpoints related to task submissions.
- */
 @RestController
 @RequestMapping("/api/submissions")
 public class SubmissionController {
@@ -30,54 +27,53 @@ public class SubmissionController {
     @Autowired
     private TaskService taskService;
 
-    /**
-     * Submit a task with GitHub link and taskId.
-     */
     @PostMapping()
     public ResponseEntity<Submission> submitTask(
-            @RequestBody SubmissionRequest submissionRequest,
+            @RequestParam Long task_id,
+            @RequestParam String github_link,
             @RequestHeader("Authorization") String jwt) throws Exception {
 
-        UserDto user = userService.getUserProfileHandler(jwt);
-        Submission submission = submissionService.submitTask(
-            submissionRequest.getTask_id(),
-            submissionRequest.getGithub_link(),
-            user.getId(),
-            jwt
-        );
+            UserDto user=userService.getUserProfileHandler(jwt);
+            Submission submission = submissionService.submitTask(task_id, github_link, user.getId(), jwt);
+            System.out.println("submission - "+submission);
+            return new ResponseEntity<>(submission, HttpStatus.CREATED);
 
-        return new ResponseEntity<>(submission, HttpStatus.CREATED);
     }
 
-    /**
-     * Get a specific submission by its ID.
-     */
     @GetMapping("/{submissionId}")
-    public ResponseEntity<?> getTaskSubmissionById(@PathVariable Long submissionId) {
+    public ResponseEntity<Submission> getTaskSubmissionById(@PathVariable Long submissionId) {
         try {
             Submission submission = submissionService.getTaskSubmissionById(submissionId);
             return new ResponseEntity<>(submission, HttpStatus.OK);
         } catch (Exception e) {
-            return new ResponseEntity<>("Submission not found", HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
 
-    /**
-     * Get all submissions.
-     */
-    @GetMapping
+    @GetMapping()
     public ResponseEntity<List<Submission>> getAllTaskSubmissions() {
         List<Submission> submissions = submissionService.getAllTaskSubmissions();
         return new ResponseEntity<>(submissions, HttpStatus.OK);
     }
 
-    /**
-     * Get all submissions for a specific task.
-     */
     @GetMapping("/task/{taskId}")
     public ResponseEntity<List<Submission>> getTaskSubmissionsByTaskId(@PathVariable Long taskId) {
         List<Submission> submissions = submissionService.getTaskSubmissionsByTaskId(taskId);
         return new ResponseEntity<>(submissions, HttpStatus.OK);
+    }
+
+
+    @PutMapping("/{id}")
+    public ResponseEntity<Submission> acceptOrDeclineTaskSubmission(
+            @PathVariable Long id,
+            @RequestParam("status")String status) throws Exception {
+        Submission submission = submissionService.acceptDeclineSubmission(id,status);
+
+        if(submission.getStatus().equals("COMPLETE")){
+            taskService.completeTask(submission.getTaskId());
+        }
+
+        return new ResponseEntity<>(submission, HttpStatus.OK);
     }
 
 }

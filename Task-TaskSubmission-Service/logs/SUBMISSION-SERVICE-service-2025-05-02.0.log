@@ -1,0 +1,24 @@
+2025-05-02 00:18:24.141 [http-nio-5003-exec-9] DEBUG c.s.m.s.SubmissionServiceImplementation - [SERVICE] Executing: getTaskSubmissionsByTaskId
+2025-05-02 00:18:24.516 [http-nio-5003-exec-9] DEBUG c.s.m.s.SubmissionServiceImplementation - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 375 ms
+2025-05-02 00:18:24.525 [http-nio-5003-exec-10] DEBUG c.s.m.s.SubmissionServiceImplementation - [SERVICE] Executing: getTaskSubmissionsByTaskId
+2025-05-02 00:18:24.529 [http-nio-5003-exec-10] DEBUG c.s.m.s.SubmissionServiceImplementation - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 4 ms
+2025-05-02 14:02:48.560 [http-nio-5003-exec-7] DEBUG c.s.m.s.SubmissionServiceImplementation - [SERVICE] Executing: getTaskSubmissionsByTaskId
+2025-05-02 14:02:48.809 [http-nio-5003-exec-7] DEBUG c.s.m.s.SubmissionServiceImplementation - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 249 ms
+2025-05-02 14:02:53.105 [http-nio-5003-exec-1] DEBUG c.s.m.s.SubmissionServiceImplementation - [SERVICE] Executing: getTaskSubmissionsByTaskId
+2025-05-02 14:02:53.113 [http-nio-5003-exec-1] DEBUG c.s.m.s.SubmissionServiceImplementation - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 8 ms
+2025-05-02 14:02:59.026 [http-nio-5003-exec-4] DEBUG c.s.m.s.SubmissionServiceImplementation - [SERVICE] Executing: getTaskSubmissionsByTaskId
+2025-05-02 14:02:59.062 [http-nio-5003-exec-4] DEBUG c.s.m.s.SubmissionServiceImplementation - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 36 ms
+2025-05-02 14:07:09.525 [http-nio-5003-exec-4] DEBUG c.s.m.s.SubmissionServiceImplementation - [SERVICE] Executing: getTaskSubmissionsByTaskId
+2025-05-02 14:07:09.534 [http-nio-5003-exec-4] DEBUG c.s.m.s.SubmissionServiceImplementation - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 9 ms
+2025-05-02 14:07:20.754 [http-nio-5003-exec-5] DEBUG c.s.m.s.SubmissionServiceImplementation - [SERVICE] Executing: getTaskSubmissionsByTaskId
+2025-05-02 14:07:20.761 [http-nio-5003-exec-5] DEBUG c.s.m.s.SubmissionServiceImplementation - [PERFORMANCE] getTaskSubmissionsByTaskId executed in 7 ms
+2025-05-02 22:07:31.372 [http-nio-5003-exec-3] DEBUG c.s.m.s.SubmissionServiceImplementation - [SERVICE] Executing: submitTask
+2025-05-02 22:07:31.759 [http-nio-5003-exec-3] DEBUG c.s.m.s.SubmissionServiceImplementation - [PERFORMANCE] submitTask executed in 387 ms
+2025-05-02 22:14:13.020 [http-nio-5003-exec-4] DEBUG c.s.m.s.SubmissionServiceImplementation - [SERVICE] Executing: getTaskSubmissionById
+2025-05-02 22:14:13.054 [http-nio-5003-exec-4] DEBUG c.s.m.s.SubmissionServiceImplementation - [PERFORMANCE] getTaskSubmissionById executed in 34 ms
+2025-05-02 22:15:16.044 [http-nio-5003-exec-7] DEBUG c.s.m.s.SubmissionServiceImplementation - [SERVICE] Executing: getAllTaskSubmissions
+2025-05-02 22:15:16.113 [http-nio-5003-exec-7] DEBUG c.s.m.s.SubmissionServiceImplementation - [PERFORMANCE] getAllTaskSubmissions executed in 69 ms
+2025-05-02 22:16:02.717 [http-nio-5003-exec-5] DEBUG c.s.m.s.SubmissionServiceImplementation - [SERVICE] Executing: acceptDeclineSubmission
+2025-05-02 22:16:02.756 [http-nio-5003-exec-5] ERROR c.s.m.s.SubmissionServiceImplementation - [ERROR] Method acceptDeclineSubmission failed: [400] during [PUT] to [http://localhost:5002/api/tasks/1/complete] [TaskService#completeTask(Long)]: [{"timestamp":"2025-05-02T16:46:02.744+00:00","status":400,"error":"Bad Request","trace":"org.springframework.web.bind.MissingRequestHeaderException: Required request header 'Authorization' for method ... (5522 bytes)]
+2025-05-02 22:16:51.736 [http-nio-5003-exec-6] DEBUG c.s.m.s.SubmissionServiceImplementation - [SERVICE] Executing: acceptDeclineSubmission
+2025-05-02 22:16:51.749 [http-nio-5003-exec-6] ERROR c.s.m.s.SubmissionServiceImplementation - [ERROR] Method acceptDeclineSubmission failed: [400] during [PUT] to [http://localhost:5002/api/tasks/1/complete] [TaskService#completeTask(Long)]: [{"timestamp":"2025-05-02T16:46:51.747+00:00","status":400,"error":"Bad Request","trace":"org.springframework.web.bind.MissingRequestHeaderException: Required request header 'Authorization' for method ... (5522 bytes)]

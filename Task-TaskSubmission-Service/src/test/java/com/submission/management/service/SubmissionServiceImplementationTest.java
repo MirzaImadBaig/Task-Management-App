@@ -107,4 +107,18 @@ public class SubmissionServiceImplementationTest {
         assertEquals(1, result.size());
     }
 
+    @Test
+    public void testAcceptDeclineSubmission() throws Exception {
+        Submission submission = new Submission();
+        submission.setId(1L);
+        submission.setTaskId(10L);
+
+        when(submissionRepository.findById(1L)).thenReturn(Optional.of(submission));
+        when(submissionRepository.save(any(Submission.class))).thenReturn(submission);
+
+        Submission result = submissionService.acceptDeclineSubmission(1L, "COMPLETE");
+
+        assertEquals("COMPLETE", result.getStatus());
+        verify(taskService).completeTask(10L);
+    }
 }

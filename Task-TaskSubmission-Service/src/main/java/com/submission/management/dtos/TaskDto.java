@@ -1,91 +1,96 @@
 package com.submission.management.dtos;
 
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+
 import java.time.LocalDateTime;
 
-/**
- * DTO class for transferring Task data between layers.
- * This class is not persisted in the database.
- */
 public class TaskDto {
     private Long id;
+
     private String title;
+
     private String description;
+
     private String image;
-    private String status;  // Could be enum, currently handled as String
+
+    private String status;
+
     private LocalDateTime createdAt;
+
     private LocalDateTime deadline;
 
-    // Default constructor
-    public TaskDto() {
-        // No-args constructor
-    }
+	public Long getId() {
+		return id;
+	}
 
-    // All-args constructor
-    public TaskDto(Long id, String title, String description, String image, String status,
-                   LocalDateTime createdAt, LocalDateTime deadline) {
-        this.id = id;
-        this.title = title;
-        this.description = description;
-        this.image = image;
-        this.status = status;
-        this.createdAt = createdAt;
-        this.deadline = deadline;
-    }
+	public void setId(Long id) {
+		this.id = id;
+	}
 
-    // Getters and Setters
-    public Long getId() {
-        return id;
-    }
+	public String getTitle() {
+		return title;
+	}
 
-    public void setId(Long id) {
-        this.id = id;
-    }
+	public void setTitle(String title) {
+		this.title = title;
+	}
 
-    public String getTitle() {
-        return title;
-    }
+	public String getDescription() {
+		return description;
+	}
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
+	public void setDescription(String description) {
+		this.description = description;
+	}
 
-    public String getDescription() {
-        return description;
-    }
+	public String getImage() {
+		return image;
+	}
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
+	public void setImage(String image) {
+		this.image = image;
+	}
 
-    public String getImage() {
-        return image;
-    }
+	public String getStatus() {
+		return status;
+	}
 
-    public void setImage(String image) {
-        this.image = image;
-    }
+	public void setStatus(String status) {
+		this.status = status;
+	}
 
-    public String getStatus() {
-        return status;
-    }
+	public LocalDateTime getCreatedAt() {
+		return createdAt;
+	}
 
-    public void setStatus(String status) {
-        this.status = status;
-    }
+	public void setCreatedAt(LocalDateTime createdAt) {
+		this.createdAt = createdAt;
+	}
 
-    public LocalDateTime getCreatedAt() {
-        return createdAt;
-    }
+	public LocalDateTime getDeadline() {
+		return deadline;
+	}
 
-    public void setCreatedAt(LocalDateTime createdAt) {
-        this.createdAt = createdAt;
-    }
+	public void setDeadline(LocalDateTime deadline) {
+		this.deadline = deadline;
+	}
 
-    public LocalDateTime getDeadline() {
-        return deadline;
-    }
+	public TaskDto() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 
-    public void setDeadline(LocalDateTime deadline) {
-        this.deadline = deadline;
-    }
+	public TaskDto(Long id, String title, String description, String image, String status, LocalDateTime createdAt,
+			LocalDateTime deadline) {
+		super();
+		this.id = id;
+		this.title = title;
+		this.description = description;
+		this.image = image;
+		this.status = status;
+		this.createdAt = createdAt;
+		this.deadline = deadline;
+	}
+    
 }

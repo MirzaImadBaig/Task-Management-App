@@ -1,6 +1,8 @@
 package com.submission.management.service;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.config.Task;
 import org.springframework.stereotype.Service;
 
 import com.submission.management.dtos.TaskDto;
@@ -10,32 +12,18 @@ import com.submission.management.repository.SubmissionRepository;
 import java.time.LocalDateTime;
 import java.util.List;
 
-/**
- * Service implementation for handling submissions.
- */
 @Service
-public class SubmissionServiceImplementation implements SubmissionService {
+public class SubmissionServiceImplementation implements SubmissionService{
 
     @Autowired
     private SubmissionRepository submissionRepository;
 
     @Autowired
     private TaskService taskService;
-
-    /**
-     * Submits a task if the task is found by the given taskId and jwt token.
-     * 
-     * @param taskId The ID of the task to be submitted.
-     * @param githubLink The GitHub link of the submission.
-     * @param userId The ID of the submitting user.
-     * @param jwt The JWT token of the user.
-     * @return Saved Submission object.
-     * @throws Exception if task not found.
-     */
     @Override
     public Submission submitTask(Long taskId, String githubLink, Long userId, String jwt) throws Exception {
-        TaskDto task = taskService.getTaskById(taskId, jwt);
 
+        TaskDto task = taskService.getTaskById(taskId,jwt);
         if (task != null) {
             Submission submission = new Submission();
             submission.setTaskId(taskId);
@@ -44,43 +32,31 @@ public class SubmissionServiceImplementation implements SubmissionService {
             submission.setSubmissionTime(LocalDateTime.now());
             return submissionRepository.save(submission);
         }
-
-        // Task does not exist
         throw new Exception("Task not found with id: " + taskId);
     }
 
-    /**
-     * Fetches a submission by its ID.
-     *
-     * @param submissionId The ID of the submission.
-     * @return The Submission object.
-     * @throws Exception if submission not found.
-     */
     @Override
     public Submission getTaskSubmissionById(Long submissionId) throws Exception {
         return submissionRepository.findById(submissionId)
                 .orElseThrow(() -> new Exception("Task submission not found with id: " + submissionId));
     }
 
-    /**
-     * Returns all submissions in the system.
-     *
-     * @return List of all submissions.
-     */
     @Override
     public List<Submission> getAllTaskSubmissions() {
         return submissionRepository.findAll();
     }
 
-    /**
-     * Fetches all submissions made for a specific task.
-     *
-     * @param taskId The ID of the task.
-     * @return List of submissions for the given task.
-     */
     @Override
     public List<Submission> getTaskSubmissionsByTaskId(Long taskId) {
         return submissionRepository.findByTaskId(taskId);
     }
 
+    @Override
+    public Submission acceptDeclineSubmission(Long id,String status) throws Exception {
+        Submission submission=getTaskSubmissionById(id);
+        submission.setStatus(status);
+        taskService.completeTask(submission.getTaskId());
+        return submissionRepository.save(submission);
+
+    }
 }

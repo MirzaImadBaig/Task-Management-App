@@ -1277,3 +1277,832 @@ Caused by: org.hibernate.HibernateException: Unable to determine Dialect without
 	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
 	... 33 common frames omitted
+2025-05-03 11:37:25.539 [restartedMain] INFO  c.u.m.TaskUserServiceApplication - Starting TaskUserServiceApplication using Java 21.0.6 with PID 25068 (C:\Task Management App New\Task-User-Service\target\classes started by mirza in C:\Task Management App New\Task-User-Service)
+2025-05-03 11:37:25.540 [restartedMain] INFO  c.u.m.TaskUserServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-03 11:37:25.604 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-03 11:37:25.604 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-03 11:37:26.559 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-03 11:37:26.721 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 153 ms. Found 1 JPA repository interface.
+2025-05-03 11:37:27.072 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=8fb871ce-f9db-353e-a6db-c4f64760f6df
+2025-05-03 11:37:28.034 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5001 (http)
+2025-05-03 11:37:28.050 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5001"]
+2025-05-03 11:37:28.051 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-03 11:37:28.051 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-03 11:37:28.123 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-03 11:37:28.124 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2520 ms
+2025-05-03 11:37:28.415 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-03 11:37:28.475 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-05-03 11:37:28.510 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-05-03 11:37:28.843 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-03 11:37:28.880 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-03 11:37:29.233 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c18697b
+2025-05-03 11:37:29.236 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-03 11:37:30.235 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-03 11:37:30.290 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-03 11:37:30.890 [restartedMain] INFO  c.user.management.config.AppConfig - Initializing BCryptPasswordEncoder...
+2025-05-03 11:37:30.986 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-03 11:37:31.123 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customerUserServiceImplementation
+2025-05-03 11:37:31.196 [restartedMain] INFO  c.user.management.config.AppConfig - Initializing SecurityFilterChain...
+2025-05-03 11:37:31.593 [restartedMain] INFO  c.user.management.config.AppConfig - Setting up CORS configuration...
+2025-05-03 11:37:31.593 [restartedMain] INFO  c.user.management.config.AppConfig - SecurityFilterChain successfully configured.
+2025-05-03 11:37:32.337 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-05-03 11:37:32.487 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-05-03 11:37:32.572 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-05-03 11:37:32.629 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-05-03 11:37:32.656 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-05-03 11:37:32.661 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 11:37:32.671 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-05-03 11:37:32.671 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-05-03 11:37:32.671 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-05-03 11:37:32.671 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-05-03 11:37:32.671 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-05-03 11:37:32.671 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-05-03 11:37:32.671 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-05-03 11:37:33.026 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-05-03 11:37:33.029 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-05-03 11:37:33.032 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-05-03 11:37:33.035 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1746252453033 with initial instances count: 3
+2025-05-03 11:37:33.050 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application USER-SERVICE with eureka with status UP
+2025-05-03 11:37:33.051 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1746252453051, current=UP, previous=STARTING]
+2025-05-03 11:37:33.053 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5001"]
+2025-05-03 11:37:33.053 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-SERVICE/Mirza_Imad_B.mshome.net:USER-SERVICE:5001: registering service...
+2025-05-03 11:37:33.086 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5001 (http) with context path '/'
+2025-05-03 11:37:33.088 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 5001
+2025-05-03 11:37:33.114 [restartedMain] INFO  c.u.m.TaskUserServiceApplication - Started TaskUserServiceApplication in 8.301 seconds (process running for 9.226)
+2025-05-03 11:37:33.126 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-SERVICE/Mirza_Imad_B.mshome.net:USER-SERVICE:5001 - registration status: 204
+2025-05-03 11:42:32.683 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 11:47:32.697 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 11:52:32.712 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 11:57:32.719 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 12:02:32.730 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 12:07:32.742 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 12:12:32.750 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 12:17:32.751 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 12:22:32.764 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 12:27:32.779 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 12:32:32.783 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 12:37:32.785 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 12:42:32.799 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 12:47:32.807 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 12:52:32.820 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 12:57:32.823 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 13:02:32.824 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 13:07:32.826 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 13:12:32.832 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 13:17:32.845 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 13:22:32.855 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 13:27:32.864 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 13:32:32.866 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 13:37:32.873 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 13:42:32.887 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 13:47:32.889 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 13:52:32.898 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 13:57:32.915 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 14:02:32.922 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 14:07:32.925 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 14:12:32.935 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 14:14:12.000 [http-nio-5001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-03 14:14:12.001 [http-nio-5001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-03 14:14:12.012 [http-nio-5001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2025-05-03 14:14:12.051 [http-nio-5001-exec-1] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:14:12.107 [http-nio-5001-exec-1] ERROR c.u.m.config.JwtTokenValidator - Token validation failed: JWT expired at 2025-05-02T18:58:19Z. Current time: 2025-05-03T08:44:12Z, a difference of 49553105 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-05-03 14:14:12.108 [http-nio-5001-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.authentication.BadCredentialsException: Invalid token...
+	at com.user.management.config.JwtTokenValidator.doFilterInternal(JwtTokenValidator.java:65)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-05-03 14:14:12.207 [http-nio-5001-exec-2] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:14:12.210 [http-nio-5001-exec-2] ERROR c.u.m.config.JwtTokenValidator - Token validation failed: JWT expired at 2025-05-02T18:58:19Z. Current time: 2025-05-03T08:44:12Z, a difference of 49553210 milliseconds.  Allowed clock skew: 0 milliseconds.
+2025-05-03 14:14:12.210 [http-nio-5001-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.authentication.BadCredentialsException: Invalid token...
+	at com.user.management.config.JwtTokenValidator.doFilterInternal(JwtTokenValidator.java:65)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-05-03 14:15:32.005 [http-nio-5001-exec-3] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:15:32.329 [http-nio-5001-exec-3] INFO  c.user.management.config.JwtProvider - Generating JWT token for user: testuser1@example.com
+2025-05-03 14:15:32.391 [http-nio-5001-exec-4] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:15:32.394 [http-nio-5001-exec-4] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:15:32.404 [http-nio-5001-exec-4] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:15:32.789 [http-nio-5001-exec-5] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:15:32.790 [http-nio-5001-exec-5] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:15:32.804 [http-nio-5001-exec-5] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:15:33.064 [http-nio-5001-exec-6] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:15:33.066 [http-nio-5001-exec-6] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:15:33.068 [http-nio-5001-exec-6] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:15:33.135 [http-nio-5001-exec-7] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:15:33.138 [http-nio-5001-exec-7] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:15:33.197 [http-nio-5001-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-05-03 14:15:33.204 [http-nio-5001-exec-8] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:15:33.207 [http-nio-5001-exec-8] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:15:33.209 [http-nio-5001-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-05-03 14:15:46.705 [http-nio-5001-exec-9] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:15:46.708 [http-nio-5001-exec-9] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:15:46.709 [http-nio-5001-exec-9] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:15:48.457 [http-nio-5001-exec-10] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:15:48.460 [http-nio-5001-exec-10] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:15:48.462 [http-nio-5001-exec-10] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:15:49.542 [http-nio-5001-exec-1] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:15:49.544 [http-nio-5001-exec-1] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:15:49.546 [http-nio-5001-exec-1] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:15:49.632 [http-nio-5001-exec-2] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:15:49.637 [http-nio-5001-exec-2] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:15:49.641 [http-nio-5001-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-05-03 14:15:49.652 [http-nio-5001-exec-3] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:15:49.657 [http-nio-5001-exec-3] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:15:49.660 [http-nio-5001-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-05-03 14:16:13.651 [http-nio-5001-exec-4] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:16:13.723 [http-nio-5001-exec-4] INFO  c.user.management.config.JwtProvider - Generating JWT token for user: testadmin2@example.com
+2025-05-03 14:16:13.754 [http-nio-5001-exec-5] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:16:13.756 [http-nio-5001-exec-5] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:16:13.757 [http-nio-5001-exec-5] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:16:13.848 [http-nio-5001-exec-6] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:16:13.852 [http-nio-5001-exec-6] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:16:13.921 [http-nio-5001-exec-7] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:16:13.926 [http-nio-5001-exec-7] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:16:14.024 [http-nio-5001-exec-8] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:16:14.027 [http-nio-5001-exec-8] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:16:14.045 [http-nio-5001-exec-9] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:16:14.049 [http-nio-5001-exec-9] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:16:14.070 [http-nio-5001-exec-10] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:16:14.075 [http-nio-5001-exec-10] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:16:14.099 [http-nio-5001-exec-1] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:16:14.104 [http-nio-5001-exec-1] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:17:32.948 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 14:22:32.962 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 14:24:39.375 [http-nio-5001-exec-4] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:24:39.378 [http-nio-5001-exec-4] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:24:39.380 [http-nio-5001-exec-4] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:24:39.394 [http-nio-5001-exec-5] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:24:39.397 [http-nio-5001-exec-5] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:24:39.397 [http-nio-5001-exec-5] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:24:39.798 [http-nio-5001-exec-6] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:24:39.803 [http-nio-5001-exec-6] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:24:39.823 [http-nio-5001-exec-7] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:24:39.827 [http-nio-5001-exec-7] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:24:39.851 [http-nio-5001-exec-8] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:24:39.857 [http-nio-5001-exec-8] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:24:39.880 [http-nio-5001-exec-9] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:24:39.884 [http-nio-5001-exec-9] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:24:39.901 [http-nio-5001-exec-10] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:24:39.903 [http-nio-5001-exec-10] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:24:39.917 [http-nio-5001-exec-1] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:24:39.920 [http-nio-5001-exec-1] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:27:32.977 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 14:29:47.024 [http-nio-5001-exec-3] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:29:47.026 [http-nio-5001-exec-3] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:29:47.028 [http-nio-5001-exec-3] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:29:49.493 [http-nio-5001-exec-4] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:29:49.496 [http-nio-5001-exec-4] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:29:49.497 [http-nio-5001-exec-4] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:29:49.517 [http-nio-5001-exec-5] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:29:49.520 [http-nio-5001-exec-5] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:29:49.521 [http-nio-5001-exec-5] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:29:49.772 [http-nio-5001-exec-6] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:29:49.776 [http-nio-5001-exec-6] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:29:49.802 [http-nio-5001-exec-7] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:29:49.808 [http-nio-5001-exec-7] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:29:49.832 [http-nio-5001-exec-8] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:29:49.838 [http-nio-5001-exec-8] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:29:49.863 [http-nio-5001-exec-9] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:29:49.868 [http-nio-5001-exec-9] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:29:49.886 [http-nio-5001-exec-10] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:29:49.888 [http-nio-5001-exec-10] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:29:49.902 [http-nio-5001-exec-1] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:29:49.905 [http-nio-5001-exec-1] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:31:05.008 [http-nio-5001-exec-3] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:31:05.010 [http-nio-5001-exec-3] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:31:05.011 [http-nio-5001-exec-3] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:31:08.170 [http-nio-5001-exec-4] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:31:08.173 [http-nio-5001-exec-4] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:31:08.175 [http-nio-5001-exec-4] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:31:08.192 [http-nio-5001-exec-5] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:31:08.194 [http-nio-5001-exec-5] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:31:08.195 [http-nio-5001-exec-5] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:31:08.417 [http-nio-5001-exec-6] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:31:08.422 [http-nio-5001-exec-6] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:31:08.447 [http-nio-5001-exec-7] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:31:08.451 [http-nio-5001-exec-7] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:31:08.478 [http-nio-5001-exec-8] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:31:08.482 [http-nio-5001-exec-8] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:31:08.500 [http-nio-5001-exec-9] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:31:08.504 [http-nio-5001-exec-9] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:31:08.517 [http-nio-5001-exec-10] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:31:08.521 [http-nio-5001-exec-10] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:31:08.534 [http-nio-5001-exec-1] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:31:08.537 [http-nio-5001-exec-1] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:31:20.002 [http-nio-5001-exec-2] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:31:20.004 [http-nio-5001-exec-2] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:31:20.006 [http-nio-5001-exec-2] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:31:30.001 [http-nio-5001-exec-3] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:31:30.003 [http-nio-5001-exec-3] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:31:30.004 [http-nio-5001-exec-3] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:32:02.409 [http-nio-5001-exec-4] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:32:02.412 [http-nio-5001-exec-4] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:32:02.413 [http-nio-5001-exec-4] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:32:02.424 [http-nio-5001-exec-5] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:32:02.427 [http-nio-5001-exec-5] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:32:02.430 [http-nio-5001-exec-5] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:32:02.618 [http-nio-5001-exec-6] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:32:02.622 [http-nio-5001-exec-6] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:32:02.646 [http-nio-5001-exec-7] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:32:02.650 [http-nio-5001-exec-7] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:32:02.672 [http-nio-5001-exec-8] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:32:02.677 [http-nio-5001-exec-8] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:32:02.695 [http-nio-5001-exec-9] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:32:02.698 [http-nio-5001-exec-9] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:32:32.986 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 14:33:32.787 [http-nio-5001-exec-1] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:33:32.790 [http-nio-5001-exec-1] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:33:32.791 [http-nio-5001-exec-1] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:34:22.479 [http-nio-5001-exec-2] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:34:22.484 [http-nio-5001-exec-2] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:34:22.504 [http-nio-5001-exec-3] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:34:22.509 [http-nio-5001-exec-3] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:34:22.527 [http-nio-5001-exec-4] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:34:22.530 [http-nio-5001-exec-4] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:34:22.549 [http-nio-5001-exec-5] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:34:22.551 [http-nio-5001-exec-5] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:34:25.581 [http-nio-5001-exec-6] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:34:25.583 [http-nio-5001-exec-6] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:34:25.600 [http-nio-5001-exec-7] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:34:25.604 [http-nio-5001-exec-7] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:34:25.621 [http-nio-5001-exec-8] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:34:25.625 [http-nio-5001-exec-8] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:34:25.640 [http-nio-5001-exec-9] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:34:25.643 [http-nio-5001-exec-9] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:34:26.915 [http-nio-5001-exec-10] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:34:26.918 [http-nio-5001-exec-10] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:34:26.939 [http-nio-5001-exec-1] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:34:26.944 [http-nio-5001-exec-1] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:34:26.960 [http-nio-5001-exec-2] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:34:26.964 [http-nio-5001-exec-2] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:34:26.977 [http-nio-5001-exec-3] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:34:26.979 [http-nio-5001-exec-3] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:34:31.015 [http-nio-5001-exec-4] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:34:31.017 [http-nio-5001-exec-4] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:34:31.017 [http-nio-5001-exec-4] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:34:43.783 [http-nio-5001-exec-5] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:34:43.785 [http-nio-5001-exec-5] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:34:43.785 [http-nio-5001-exec-5] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:34:51.733 [http-nio-5001-exec-6] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:34:51.737 [http-nio-5001-exec-6] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:34:51.754 [http-nio-5001-exec-7] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:34:51.756 [http-nio-5001-exec-7] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:34:51.773 [http-nio-5001-exec-8] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:34:51.776 [http-nio-5001-exec-8] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:34:51.792 [http-nio-5001-exec-9] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:34:51.795 [http-nio-5001-exec-9] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:36:13.478 [http-nio-5001-exec-2] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:36:13.480 [http-nio-5001-exec-2] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:36:13.481 [http-nio-5001-exec-2] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:36:17.820 [http-nio-5001-exec-3] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:36:17.823 [http-nio-5001-exec-3] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:36:17.823 [http-nio-5001-exec-3] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:36:17.839 [http-nio-5001-exec-4] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:36:17.842 [http-nio-5001-exec-4] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:36:17.843 [http-nio-5001-exec-4] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:36:18.059 [http-nio-5001-exec-5] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:36:18.063 [http-nio-5001-exec-5] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:36:18.080 [http-nio-5001-exec-6] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:36:18.085 [http-nio-5001-exec-6] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:36:18.104 [http-nio-5001-exec-7] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:36:18.108 [http-nio-5001-exec-7] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:36:18.126 [http-nio-5001-exec-8] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:36:18.129 [http-nio-5001-exec-8] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:36:20.563 [http-nio-5001-exec-9] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:36:20.568 [http-nio-5001-exec-9] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:36:20.582 [http-nio-5001-exec-10] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:36:20.586 [http-nio-5001-exec-10] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:36:20.601 [http-nio-5001-exec-1] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:36:20.604 [http-nio-5001-exec-1] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:36:20.622 [http-nio-5001-exec-2] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:36:20.625 [http-nio-5001-exec-2] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:37:09.815 [http-nio-5001-exec-3] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:37:09.818 [http-nio-5001-exec-3] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:37:09.819 [http-nio-5001-exec-3] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:37:21.222 [http-nio-5001-exec-5] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:37:21.226 [http-nio-5001-exec-5] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:37:21.245 [http-nio-5001-exec-6] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:37:21.250 [http-nio-5001-exec-6] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:37:21.268 [http-nio-5001-exec-7] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:37:21.270 [http-nio-5001-exec-7] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:37:21.283 [http-nio-5001-exec-8] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:37:21.285 [http-nio-5001-exec-8] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:37:32.992 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 14:37:58.282 [http-nio-5001-exec-9] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:37:58.368 [http-nio-5001-exec-9] INFO  c.user.management.config.JwtProvider - Generating JWT token for user: testuser1@example.com
+2025-05-03 14:37:58.404 [http-nio-5001-exec-10] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:37:58.408 [http-nio-5001-exec-10] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:37:58.409 [http-nio-5001-exec-10] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:37:58.531 [http-nio-5001-exec-1] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:37:58.534 [http-nio-5001-exec-1] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:37:58.536 [http-nio-5001-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-05-03 14:37:58.543 [http-nio-5001-exec-2] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:37:58.548 [http-nio-5001-exec-2] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:37:58.550 [http-nio-5001-exec-3] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:37:58.551 [http-nio-5001-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-05-03 14:37:58.554 [http-nio-5001-exec-3] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:37:58.555 [http-nio-5001-exec-3] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:37:58.561 [http-nio-5001-exec-4] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:37:58.566 [http-nio-5001-exec-4] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:37:58.570 [http-nio-5001-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-05-03 14:37:58.576 [http-nio-5001-exec-5] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:37:58.582 [http-nio-5001-exec-5] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:37:58.585 [http-nio-5001-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-05-03 14:37:58.603 [http-nio-5001-exec-6] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:37:58.607 [http-nio-5001-exec-6] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:37:58.608 [http-nio-5001-exec-6] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:38:31.601 [http-nio-5001-exec-7] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:38:31.603 [http-nio-5001-exec-7] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:38:31.605 [http-nio-5001-exec-7] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:38:39.039 [http-nio-5001-exec-8] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:38:39.041 [http-nio-5001-exec-8] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:38:39.041 [http-nio-5001-exec-8] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:38:40.110 [http-nio-5001-exec-9] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:38:40.112 [http-nio-5001-exec-9] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:38:40.114 [http-nio-5001-exec-9] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:38:40.220 [http-nio-5001-exec-10] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:38:40.223 [http-nio-5001-exec-10] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:38:40.226 [http-nio-5001-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-05-03 14:38:40.230 [http-nio-5001-exec-1] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:38:40.235 [http-nio-5001-exec-1] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:38:40.238 [http-nio-5001-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-05-03 14:38:40.243 [http-nio-5001-exec-2] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:38:40.246 [http-nio-5001-exec-2] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:38:40.249 [http-nio-5001-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-05-03 14:38:40.252 [http-nio-5001-exec-3] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:38:40.255 [http-nio-5001-exec-3] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:38:40.258 [http-nio-5001-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-05-03 14:38:42.785 [http-nio-5001-exec-4] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:38:42.788 [http-nio-5001-exec-4] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:38:42.789 [http-nio-5001-exec-4] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:38:57.127 [http-nio-5001-exec-5] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:38:57.197 [http-nio-5001-exec-5] INFO  c.user.management.config.JwtProvider - Generating JWT token for user: testadmin2@example.com
+2025-05-03 14:38:57.225 [http-nio-5001-exec-6] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:38:57.228 [http-nio-5001-exec-6] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:38:57.229 [http-nio-5001-exec-6] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:38:59.764 [http-nio-5001-exec-7] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:38:59.769 [http-nio-5001-exec-7] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:38:59.786 [http-nio-5001-exec-8] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:38:59.790 [http-nio-5001-exec-8] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:38:59.808 [http-nio-5001-exec-9] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:38:59.811 [http-nio-5001-exec-9] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:38:59.824 [http-nio-5001-exec-10] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:38:59.826 [http-nio-5001-exec-10] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:39:04.120 [http-nio-5001-exec-1] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:39:04.123 [http-nio-5001-exec-1] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:39:04.139 [http-nio-5001-exec-2] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:39:04.142 [http-nio-5001-exec-2] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:39:04.157 [http-nio-5001-exec-3] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:39:04.160 [http-nio-5001-exec-3] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:39:04.171 [http-nio-5001-exec-4] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:39:04.173 [http-nio-5001-exec-4] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:42:33.002 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 14:44:15.900 [http-nio-5001-exec-8] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:44:15.905 [http-nio-5001-exec-8] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:44:15.907 [http-nio-5001-exec-8] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:44:15.922 [http-nio-5001-exec-9] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:44:15.926 [http-nio-5001-exec-9] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:44:15.927 [http-nio-5001-exec-9] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:44:16.640 [http-nio-5001-exec-10] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:44:16.647 [http-nio-5001-exec-10] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:44:16.670 [http-nio-5001-exec-1] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:44:16.675 [http-nio-5001-exec-1] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:44:16.695 [http-nio-5001-exec-2] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:44:16.698 [http-nio-5001-exec-2] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:44:16.720 [http-nio-5001-exec-3] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:44:16.723 [http-nio-5001-exec-3] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:44:21.938 [http-nio-5001-exec-4] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:44:21.940 [http-nio-5001-exec-4] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:44:21.943 [http-nio-5001-exec-4] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:44:21.955 [http-nio-5001-exec-5] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:44:21.958 [http-nio-5001-exec-5] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:44:21.959 [http-nio-5001-exec-5] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:44:22.239 [http-nio-5001-exec-6] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:44:22.244 [http-nio-5001-exec-6] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:44:22.262 [http-nio-5001-exec-7] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:44:22.266 [http-nio-5001-exec-7] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:44:22.285 [http-nio-5001-exec-8] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:44:22.288 [http-nio-5001-exec-8] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:44:22.304 [http-nio-5001-exec-9] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:44:22.307 [http-nio-5001-exec-9] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:46:02.555 [http-nio-5001-exec-1] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:46:02.557 [http-nio-5001-exec-1] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:46:02.558 [http-nio-5001-exec-1] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:46:02.678 [http-nio-5001-exec-2] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:46:02.681 [http-nio-5001-exec-2] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:46:02.697 [http-nio-5001-exec-3] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:46:02.700 [http-nio-5001-exec-3] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:46:08.105 [http-nio-5001-exec-4] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:46:08.106 [http-nio-5001-exec-4] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:46:08.108 [http-nio-5001-exec-4] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:46:45.848 [http-nio-5001-exec-5] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:46:45.853 [http-nio-5001-exec-5] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:46:45.868 [http-nio-5001-exec-6] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:46:45.872 [http-nio-5001-exec-6] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:46:54.465 [http-nio-5001-exec-7] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:46:54.685 [http-nio-5001-exec-7] INFO  c.user.management.config.JwtProvider - Generating JWT token for user: testuser1@example.com
+2025-05-03 14:46:54.721 [http-nio-5001-exec-8] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:46:54.724 [http-nio-5001-exec-8] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:46:54.725 [http-nio-5001-exec-8] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:46:54.831 [http-nio-5001-exec-9] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:46:54.838 [http-nio-5001-exec-9] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:46:54.843 [http-nio-5001-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-05-03 14:46:54.846 [http-nio-5001-exec-10] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:46:54.848 [http-nio-5001-exec-10] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:46:54.849 [http-nio-5001-exec-10] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:46:54.852 [http-nio-5001-exec-1] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:46:54.859 [http-nio-5001-exec-1] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:46:54.864 [http-nio-5001-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-05-03 14:46:54.887 [http-nio-5001-exec-2] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:46:54.894 [http-nio-5001-exec-2] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:46:54.898 [http-nio-5001-exec-2] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:47:11.046 [http-nio-5001-exec-3] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:47:11.048 [http-nio-5001-exec-3] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:47:11.049 [http-nio-5001-exec-3] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:47:14.877 [http-nio-5001-exec-4] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:47:14.880 [http-nio-5001-exec-4] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:47:14.882 [http-nio-5001-exec-4] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:47:17.892 [http-nio-5001-exec-5] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:47:17.895 [http-nio-5001-exec-5] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:47:17.898 [http-nio-5001-exec-5] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:47:17.990 [http-nio-5001-exec-6] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:47:17.996 [http-nio-5001-exec-6] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:47:18.000 [http-nio-5001-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-05-03 14:47:18.007 [http-nio-5001-exec-7] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:47:18.011 [http-nio-5001-exec-7] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:47:18.016 [http-nio-5001-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-05-03 14:47:20.057 [http-nio-5001-exec-8] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:47:20.061 [http-nio-5001-exec-8] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:47:20.065 [http-nio-5001-exec-8] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:47:33.004 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 14:47:41.910 [http-nio-5001-exec-9] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:47:41.994 [http-nio-5001-exec-9] INFO  c.user.management.config.JwtProvider - Generating JWT token for user: testadmin2@example.com
+2025-05-03 14:47:42.032 [http-nio-5001-exec-10] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:47:42.036 [http-nio-5001-exec-10] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:47:42.036 [http-nio-5001-exec-10] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:47:42.121 [http-nio-5001-exec-1] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:47:42.127 [http-nio-5001-exec-1] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:47:42.151 [http-nio-5001-exec-2] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:47:42.157 [http-nio-5001-exec-2] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:48:00.120 [http-nio-5001-exec-3] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:48:00.122 [http-nio-5001-exec-3] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:48:00.123 [http-nio-5001-exec-3] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:48:01.261 [http-nio-5001-exec-4] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:48:01.263 [http-nio-5001-exec-4] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:48:01.263 [http-nio-5001-exec-4] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:48:01.447 [http-nio-5001-exec-5] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:48:01.449 [http-nio-5001-exec-5] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:48:01.449 [http-nio-5001-exec-5] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:48:01.604 [http-nio-5001-exec-6] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:48:01.605 [http-nio-5001-exec-6] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:48:01.606 [http-nio-5001-exec-6] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:48:01.772 [http-nio-5001-exec-7] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:48:01.774 [http-nio-5001-exec-7] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:48:01.775 [http-nio-5001-exec-7] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:48:01.933 [http-nio-5001-exec-8] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:48:01.936 [http-nio-5001-exec-8] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:48:01.938 [http-nio-5001-exec-8] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:48:05.137 [http-nio-5001-exec-9] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:48:05.141 [http-nio-5001-exec-9] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:48:05.159 [http-nio-5001-exec-10] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:48:05.165 [http-nio-5001-exec-10] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:48:20.060 [http-nio-5001-exec-2] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:48:20.147 [http-nio-5001-exec-2] INFO  c.user.management.config.JwtProvider - Generating JWT token for user: testuser1@example.com
+2025-05-03 14:48:20.176 [http-nio-5001-exec-3] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:48:20.179 [http-nio-5001-exec-3] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:48:20.180 [http-nio-5001-exec-3] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:48:20.317 [http-nio-5001-exec-4] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:48:20.322 [http-nio-5001-exec-4] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:48:20.322 [http-nio-5001-exec-5] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:48:20.324 [http-nio-5001-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-05-03 14:48:20.327 [http-nio-5001-exec-5] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:48:20.328 [http-nio-5001-exec-5] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:48:20.346 [http-nio-5001-exec-6] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:48:20.352 [http-nio-5001-exec-6] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:48:20.355 [http-nio-5001-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-05-03 14:48:20.401 [http-nio-5001-exec-7] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:48:20.406 [http-nio-5001-exec-7] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:48:20.409 [http-nio-5001-exec-7] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:48:41.619 [http-nio-5001-exec-8] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:48:41.624 [http-nio-5001-exec-8] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:48:41.627 [http-nio-5001-exec-8] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:48:46.315 [http-nio-5001-exec-9] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:48:46.321 [http-nio-5001-exec-9] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:48:46.322 [http-nio-5001-exec-9] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:48:46.876 [http-nio-5001-exec-10] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:48:46.879 [http-nio-5001-exec-10] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:48:46.880 [http-nio-5001-exec-10] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:48:46.976 [http-nio-5001-exec-1] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:48:46.981 [http-nio-5001-exec-1] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:48:46.983 [http-nio-5001-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-05-03 14:48:46.988 [http-nio-5001-exec-2] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:48:46.992 [http-nio-5001-exec-2] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:48:46.997 [http-nio-5001-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-05-03 14:48:54.612 [http-nio-5001-exec-3] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:48:54.699 [http-nio-5001-exec-3] INFO  c.user.management.config.JwtProvider - Generating JWT token for user: testadmin2@example.com
+2025-05-03 14:48:54.731 [http-nio-5001-exec-4] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:48:54.733 [http-nio-5001-exec-4] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:48:54.735 [http-nio-5001-exec-4] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:48:54.837 [http-nio-5001-exec-5] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:48:54.842 [http-nio-5001-exec-5] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:48:54.875 [http-nio-5001-exec-6] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:48:54.880 [http-nio-5001-exec-6] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:49:49.590 [http-nio-5001-exec-9] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:49:49.598 [http-nio-5001-exec-9] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:49:49.601 [http-nio-5001-exec-9] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:49:49.622 [http-nio-5001-exec-10] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:49:49.625 [http-nio-5001-exec-10] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:49:49.628 [http-nio-5001-exec-10] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:49:50.164 [http-nio-5001-exec-1] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:49:50.171 [http-nio-5001-exec-1] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:49:50.190 [http-nio-5001-exec-2] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:49:50.196 [http-nio-5001-exec-2] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:50:14.917 [http-nio-5001-exec-3] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:50:14.922 [http-nio-5001-exec-3] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:50:14.940 [http-nio-5001-exec-4] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:50:14.943 [http-nio-5001-exec-4] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:50:16.638 [http-nio-5001-exec-5] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:50:16.642 [http-nio-5001-exec-5] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:50:16.661 [http-nio-5001-exec-6] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:50:16.664 [http-nio-5001-exec-6] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:52:33.005 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 14:55:27.487 [http-nio-5001-exec-8] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:55:27.492 [http-nio-5001-exec-8] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:55:27.512 [http-nio-5001-exec-9] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:55:27.517 [http-nio-5001-exec-9] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:57:33.006 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 14:58:14.972 [http-nio-5001-exec-1] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:58:14.976 [http-nio-5001-exec-1] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:58:14.977 [http-nio-5001-exec-1] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:58:14.989 [http-nio-5001-exec-2] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:58:15.002 [http-nio-5001-exec-2] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:58:15.004 [http-nio-5001-exec-2] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:58:15.458 [http-nio-5001-exec-3] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:58:15.464 [http-nio-5001-exec-3] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:58:15.490 [http-nio-5001-exec-4] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:58:15.495 [http-nio-5001-exec-4] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:58:18.776 [http-nio-5001-exec-5] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:58:18.778 [http-nio-5001-exec-5] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:58:18.779 [http-nio-5001-exec-5] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:58:31.174 [http-nio-5001-exec-6] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:58:31.265 [http-nio-5001-exec-6] INFO  c.user.management.config.JwtProvider - Generating JWT token for user: testuser1@example.com
+2025-05-03 14:58:31.295 [http-nio-5001-exec-7] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:58:31.296 [http-nio-5001-exec-7] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:58:31.297 [http-nio-5001-exec-7] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:58:31.425 [http-nio-5001-exec-8] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:58:31.428 [http-nio-5001-exec-9] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:58:31.428 [http-nio-5001-exec-8] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:58:31.431 [http-nio-5001-exec-9] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:58:31.432 [http-nio-5001-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-05-03 14:58:31.434 [http-nio-5001-exec-9] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:58:31.449 [http-nio-5001-exec-10] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:58:31.452 [http-nio-5001-exec-10] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:58:31.455 [http-nio-5001-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-05-03 14:58:31.457 [http-nio-5001-exec-1] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:58:31.461 [http-nio-5001-exec-1] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:58:31.463 [http-nio-5001-exec-1] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:58:44.012 [http-nio-5001-exec-2] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 14:58:44.015 [http-nio-5001-exec-2] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 14:58:44.016 [http-nio-5001-exec-2] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:58:53.625 [http-nio-5001-exec-3] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:58:53.713 [http-nio-5001-exec-3] INFO  c.user.management.config.JwtProvider - Generating JWT token for user: testadmin2@example.com
+2025-05-03 14:58:53.744 [http-nio-5001-exec-4] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:58:53.747 [http-nio-5001-exec-4] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:58:53.749 [http-nio-5001-exec-4] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 14:58:53.896 [http-nio-5001-exec-5] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:58:53.898 [http-nio-5001-exec-5] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 14:58:53.919 [http-nio-5001-exec-6] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 14:58:53.924 [http-nio-5001-exec-6] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 15:02:33.008 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 15:03:33.280 [http-nio-5001-exec-10] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 15:03:33.282 [http-nio-5001-exec-10] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 15:03:33.282 [http-nio-5001-exec-10] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 15:03:42.209 [http-nio-5001-exec-1] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 15:03:42.301 [http-nio-5001-exec-1] INFO  c.user.management.config.JwtProvider - Generating JWT token for user: testuser1@example.com
+2025-05-03 15:03:42.332 [http-nio-5001-exec-2] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 15:03:42.344 [http-nio-5001-exec-2] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 15:03:42.344 [http-nio-5001-exec-2] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 15:03:42.435 [http-nio-5001-exec-3] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 15:03:42.441 [http-nio-5001-exec-3] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 15:03:42.444 [http-nio-5001-exec-4] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 15:03:42.444 [http-nio-5001-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-05-03 15:03:42.449 [http-nio-5001-exec-4] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 15:03:42.450 [http-nio-5001-exec-5] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 15:03:42.450 [http-nio-5001-exec-4] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 15:03:42.453 [http-nio-5001-exec-5] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 15:03:42.456 [http-nio-5001-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-05-03 15:03:42.476 [http-nio-5001-exec-6] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 15:03:42.482 [http-nio-5001-exec-6] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 15:03:42.483 [http-nio-5001-exec-6] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 15:03:50.217 [http-nio-5001-exec-7] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 127.0.0.1
+2025-05-03 15:03:50.223 [http-nio-5001-exec-7] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testuser1@example.com
+2025-05-03 15:03:50.223 [http-nio-5001-exec-7] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 15:03:58.937 [http-nio-5001-exec-8] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 15:03:59.024 [http-nio-5001-exec-8] INFO  c.user.management.config.JwtProvider - Generating JWT token for user: testadmin2@example.com
+2025-05-03 15:03:59.058 [http-nio-5001-exec-9] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 15:03:59.061 [http-nio-5001-exec-9] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 15:03:59.062 [http-nio-5001-exec-9] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 15:03:59.189 [http-nio-5001-exec-10] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 15:03:59.193 [http-nio-5001-exec-10] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 15:03:59.215 [http-nio-5001-exec-1] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 15:03:59.218 [http-nio-5001-exec-1] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 15:05:54.054 [http-nio-5001-exec-4] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 15:05:54.054 [http-nio-5001-exec-6] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 15:05:54.058 [http-nio-5001-exec-4] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 15:05:54.070 [http-nio-5001-exec-6] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 15:05:54.072 [http-nio-5001-exec-6] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 15:05:54.079 [http-nio-5001-exec-7] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 15:05:54.085 [http-nio-5001-exec-7] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 15:05:54.090 [http-nio-5001-exec-8] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 15:05:54.098 [http-nio-5001-exec-8] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 15:05:54.100 [http-nio-5001-exec-8] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 15:05:59.398 [http-nio-5001-exec-9] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 15:05:59.403 [http-nio-5001-exec-9] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 15:05:59.405 [http-nio-5001-exec-9] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 15:05:59.422 [http-nio-5001-exec-10] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 15:05:59.431 [http-nio-5001-exec-10] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 15:05:59.444 [http-nio-5001-exec-10] INFO  c.user.management.config.JwtProvider - Extracting email from JWT token
+2025-05-03 15:05:59.871 [http-nio-5001-exec-1] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 15:05:59.875 [http-nio-5001-exec-1] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 15:05:59.897 [http-nio-5001-exec-2] INFO  c.user.management.config.AppConfig - CORS configuration applied for request from: 172.17.176.1
+2025-05-03 15:05:59.904 [http-nio-5001-exec-2] INFO  c.u.m.config.JwtTokenValidator - JWT Token validated for user: testadmin2@example.com
+2025-05-03 15:07:33.009 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 15:12:33.012 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 15:17:33.012 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 15:22:33.022 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 15:27:33.034 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 15:32:33.048 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 15:37:33.056 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 15:42:33.060 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 15:47:33.073 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 15:52:33.077 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 15:57:33.091 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 16:02:33.100 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 16:07:33.110 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 16:12:33.122 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 16:17:33.135 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 16:22:33.136 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 16:27:33.142 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 16:32:33.145 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 16:37:33.158 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 16:42:33.167 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 16:47:33.170 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 16:52:33.174 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 16:57:33.180 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 17:02:33.195 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 17:07:33.206 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 17:12:33.211 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 17:17:33.213 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 17:22:33.227 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 17:27:33.230 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 18:50:13.630 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m39s605ms196µs900ns).
+2025-05-03 18:54:42.715 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 18:59:42.726 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 19:04:42.729 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 19:09:42.744 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 19:14:42.755 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 19:19:42.766 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 19:24:42.777 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 19:29:42.780 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 19:34:42.783 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 19:39:42.786 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 19:44:42.791 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 19:49:42.795 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 19:54:42.800 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 19:59:42.807 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 20:04:42.812 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 20:09:42.813 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 20:14:42.827 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 20:19:42.836 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 20:24:42.837 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 20:29:42.851 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 20:34:42.860 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 20:39:42.870 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 20:44:42.872 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 20:49:42.886 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 20:54:42.890 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 20:59:42.890 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 21:04:42.898 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 21:09:42.900 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 21:14:42.904 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 21:19:42.909 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 21:24:42.919 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 21:29:42.928 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-05-03 21:34:42.934 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
